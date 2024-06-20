@@ -1,20 +1,41 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import HomeScreen from './components/HomeScreen';
+import WordDetailScreen from './components/WordDetailScreen';
+import About from './components/About';
+import { StatusBar } from 'react-native';
 
-export default function App() {
+const Stack = createNativeStackNavigator();
+
+const App = () => {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    
+    <NavigationContainer>
+      <StatusBar backgroundColor="transparent" translucent={true} />
+      <Stack.Navigator screenOptions={{
+          headerStyle: {
+            backgroundColor: 'purple', // Customize header background color
+          },
+          headerTitleStyle: {
+            fontWeight: 'bold', // Customize header title style
+          },
+          headerTintColor: 'white', // Customize header text color
+        }} >
+        <Stack.Screen name="Artionary" component={HomeScreen} />
+        <Stack.Screen name="WordDetail" component={WordDetailScreen} 
+        options={{
+          headerShown: true, // Show header
+          headerTitle: '', // No title for the WordDetails screen
+        }}/>
+        <Stack.Screen name="About" component={About} 
+        options={{
+          headerShown: true, // Show header
+          headerTitle: 'About App', // No title for the WordDetails screen
+        }}/>
+      </Stack.Navigator>
+    </NavigationContainer>
   );
-}
+};
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default App;
