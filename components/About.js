@@ -4,7 +4,7 @@ import React from 'react'
 const About = ({ navigation }) => {
   return (
     <View style={styles.container}>
-      <Text>About</Text>
+      <Text>Name of App: Artionary</Text>
     </View>
   )
 }
