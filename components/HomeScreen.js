@@ -8,16 +8,32 @@ import words from '../words.json';
 
 
 const HomeScreen = ({ navigation }) => {
-  
-  
+  const [sortedData, setSortedData] = useState([]);
+  const [searchTerm, setSearchTerm] = useState('');
 
-    const [searchQuery, setSearchQuery] = useState('');
-    
-  const handleSearch = words.filter(word =>{
-    return word.word.includes(searchQuery);
-  });
+  useEffect(() => {
+    const sortedData = words.sort((a, b) => {
+      const wordA = a.word;
+          const wordB = b.word;
+          if (wordA < wordB) return -1;
+          if (wordA > wordB) return 1;
+          return 0;
+    });
+    setSortedData(sortedData);
+  }, []);
+
+  const handleSearch = (text) => {
+    setSearchTerm(text);
+    if (text) {
+      const filtered = words.filter(item =>
+        item.word.toLowerCase().includes(text.toLowerCase())
+      );
+      setSortedData(filtered);
+    } else {
+      setSortedData(words); // Reset filter when search text is empty
+    } };
   const handleClearSearch = () => {
-    setSearchQuery(''); // Clear the search input
+    setSearchTerm(''); setSortedData(words); // Clear the search input
   };
   return (
     <View style={{flex: 1}}>
@@ -35,17 +51,20 @@ const HomeScreen = ({ navigation }) => {
       clearButtonMode='always'
       autoCorrect={false} 
       style={styles.search_bar}
-      value={searchQuery}
-      onChangeText={setSearchQuery}
+      value={searchTerm}
+      onChangeText={handleSearch}
       />
       
-        {setSearchQuery && ( // Show the clear button only if there's search text
+        {setSearchTerm && ( // Show the clear button only if there's search text
           <TouchableOpacity style={styles.clearButton} onPress={handleClearSearch}>
             <FontAwesome5 name="times-circle" size={20} color="#999" />
           </TouchableOpacity>
         )}
     </View>
-      <FlatList showsVerticalScrollIndicator={true} nestedScrollEnabled={true} data={handleSearch} renderItem={({ item }) => ( 
+      <FlatList showsVerticalScrollIndicator={true} 
+      nestedScrollEnabled={true} 
+      data={sortedData} 
+      renderItem={({ item }) => ( 
         <TouchableOpacity onPress={() => navigation.navigate('WordDetail', item)} style={{
           borderWidth: 1, 
           borderColor: 'rgba(128, 128, 128, 0.1)',
