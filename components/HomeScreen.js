@@ -12,9 +12,13 @@ const HomeScreen = ({ navigation }) => {
   
 
     const [searchQuery, setSearchQuery] = useState('');
+    
   const handleSearch = words.filter(word =>{
     return word.word.includes(searchQuery);
   });
+  const handleClearSearch = () => {
+    setSearchQuery(''); // Clear the search input
+  };
   return (
     <View style={{flex: 1}}>
       <TouchableOpacity
@@ -26,7 +30,7 @@ const HomeScreen = ({ navigation }) => {
     
     <View  style={styles.search_view}> 
     
-      
+    <View style={styles.searchBar}>
       <TextInput placeholder='Type the word to search' 
       clearButtonMode='always'
       autoCorrect={false} 
@@ -34,6 +38,13 @@ const HomeScreen = ({ navigation }) => {
       value={searchQuery}
       onChangeText={setSearchQuery}
       />
+      
+        {setSearchQuery && ( // Show the clear button only if there's search text
+          <TouchableOpacity style={styles.clearButton} onPress={handleClearSearch}>
+            <FontAwesome5 name="times-circle" size={20} color="#999" />
+          </TouchableOpacity>
+        )}
+    </View>
       <FlatList showsVerticalScrollIndicator={true} nestedScrollEnabled={true} data={handleSearch} renderItem={({ item }) => ( 
         <TouchableOpacity onPress={() => navigation.navigate('WordDetail', item)} style={{
           borderWidth: 1, 
@@ -62,6 +73,7 @@ const styles = StyleSheet.create({
     marginTop: 10,
     marginBottom: 60
   },
+  
   search_bar: {paddingHorizontal: 20, 
     paddingVertical: 10, 
     borderBottomColor: 'black', 
@@ -86,5 +98,11 @@ const styles = StyleSheet.create({
       color: 'white',
       textAlign: 'center',
       fontSize: 16,
+    },
+    
+    clearButton: {
+      position: 'absolute',
+      padding: 10,
+      right: 10,
     }
 })
