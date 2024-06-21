@@ -23,15 +23,16 @@ const HomeScreen = ({ navigation }) => {
   }, []);
 
   const handleSearch = (text) => {
+    const filteredData = words.filter((item) => {
+      const itemName = item.word.toLowerCase();
+      const searchText = text.toLowerCase();
+      return itemName.includes(searchText);
+    });
+    setSortedData(filteredData);
     setSearchTerm(text);
-    if (text) {
-      const filtered = words.filter(item =>
-        item.word.toLowerCase().includes(text.toLowerCase())
-      );
-      setSortedData(filtered);
-    } else {
-      setSortedData(words); // Reset filter when search text is empty
-    } };
+  };
+
+
   const handleClearSearch = () => {
     setSearchTerm(''); setSortedData(words); // Clear the search input
   };
