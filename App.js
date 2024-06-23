@@ -10,29 +10,29 @@ const Stack = createNativeStackNavigator();
 
 const App = () => {
   return (
-    
+
     <NavigationContainer>
       <StatusBar backgroundColor="transparent" translucent={true} />
       <Stack.Navigator screenOptions={{
-          headerStyle: {
-            backgroundColor: 'purple', // Customize header background color
-          },
-          headerTitleStyle: {
-            fontWeight: 'bold', // Customize header title style
-          },
-          headerTintColor: 'white', // Customize header text color
-        }} >
+        headerStyle: {
+          backgroundColor: 'purple', // Customize header background color
+        },
+        headerTitleStyle: {
+          fontWeight: 'bold', // Customize header title style
+        },
+        headerTintColor: 'white', // Customize header text color
+      }} >
         <Stack.Screen name="Artionary" component={HomeScreen} />
-        <Stack.Screen name="WordDetail" component={WordDetailScreen} 
-        options={{
-          headerShown: true, // Show header
-          headerTitle: '', // No title for the WordDetails screen
-        }}/>
-        <Stack.Screen name="About" component={About} 
-        options={{
-          headerShown: true, // Show header
-          headerTitle: 'About App', // No title for the WordDetails screen
-        }}/>
+        <Stack.Screen name="WordDetail" component={WordDetailScreen}
+          options={{
+            headerShown: true, // Show header
+            headerTitle: '', // No title for the WordDetails screen
+          }} />
+        <Stack.Screen name="About" component={About}
+          options={{
+            headerShown: true, // Show header
+            headerTitle: 'About App', // No title for the WordDetails screen
+          }} />
       </Stack.Navigator>
     </NavigationContainer>
   );
