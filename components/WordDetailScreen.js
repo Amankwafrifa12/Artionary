@@ -2,12 +2,13 @@ import React from 'react';
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 
 const WordDetailScreen = ({ route, navigation }) => {
-  const { word, definition } = route.params;
+  const { word, pronunciation, definition } = route.params;
 
   return (
     <View style={styles.container}>
       <View style={styles.wordDetails}>
         <Text style={styles.word}>{word}</Text>
+        <Text style={styles.definition}>{pronunciation}</Text>
         <Text style={styles.definition}>{definition}</Text>
       </View>
     </View>

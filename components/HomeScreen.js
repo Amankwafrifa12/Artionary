@@ -50,7 +50,7 @@ const HomeScreen = ({ navigation }) => {
       <View style={styles.search_view}>
 
         <View style={styles.searchBar}>
-          <TextInput placeholder='Type the word to search'
+          <TextInput placeholder='Type a word to search'
             clearButtonMode='always'
             autoCorrect={false}
             style={styles.search_bar}
