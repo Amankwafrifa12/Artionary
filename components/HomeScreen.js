@@ -10,6 +10,7 @@ import words from '../words.json';
 const HomeScreen = ({ navigation }) => {
   const [sortedData, setSortedData] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
+  const [buttonVisible, setButtonVisible] = useState(false);
 
   useEffect(() => {
     const sortedData = words.sort((a, b) => {
@@ -30,22 +31,27 @@ const HomeScreen = ({ navigation }) => {
     });
     setSortedData(filteredData);
     setSearchTerm(text);
+    if (text.length > 0) {
+      setButtonVisible(true);
+    } else {
+      setButtonVisible(false);
+    }
   };
 
 
   const handleClearSearch = () => {
-    setSearchTerm(''); setSortedData(words); // Clear the search input
+    setSearchTerm(''); setSortedData(words); setButtonVisible(false); // Clear the search input
   };
 
-  
+
   return (
     <View style={{ flex: 1 }}>
-      <TouchableOpacity
+      {/*<TouchableOpacity
         style={styles.floatingButton}
         onPress={() => navigation.navigate('About')}
       >
         <FontAwesome5 name="info-circle" size={50} color="purple" />
-      </TouchableOpacity>
+      </TouchableOpacity>*/}
 
       <View style={styles.search_view}>
 
@@ -58,7 +64,7 @@ const HomeScreen = ({ navigation }) => {
             onChangeText={handleSearch}
           />
 
-          {setSearchTerm && ( // Show the clear button only if there's search text
+          {buttonVisible && ( // Show the clear button only if there's search text
             <TouchableOpacity style={styles.clearButton} onPress={handleClearSearch}>
               <FontAwesome5 name="times-circle" size={20} color="#999" />
             </TouchableOpacity>
@@ -128,5 +134,6 @@ const styles = StyleSheet.create({
     position: 'absolute',
     padding: 10,
     right: 10,
+
   }
 })
