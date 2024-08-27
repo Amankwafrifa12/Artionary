@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Artionary",
+    "slug": "Artionary",
+    "version": "1.2.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.genielab.Artionary",
+      "versionCode": 3
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1b86a29c-0b6f-4b90-9b12-69c3d94a9be2"
+      }
+    }
+  },
+  "react-native-google-mobile-ads": {
+  "android_app_id": "ca-app-pub-6312205639979010~2042354458",
+  "ios_app_id": "ca-app-pub-3940256099942544~1458002511"
+}
+}
