@@ -1,4 +1,4 @@
-import { StyleSheet, Text, TouchableOpacity, View, TextInput, FlatList } from 'react-native'
+import { StyleSheet, Text, TouchableOpacity, View, TextInput, FlatList, Dimensions } from 'react-native'
 import React, { useState, useEffect } from 'react';
 import About from './About';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5'; // Import FontAwesome5 icon library
@@ -9,10 +9,20 @@ import { BannerAds } from './BannerAds';
 
 
 
+
+const { width } = Dimensions.get('window');
 const HomeScreen = ({ navigation }) => {
   const [sortedData, setSortedData] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [buttonVisible, setButtonVisible] = useState(false);
+  const [isAdLoaded, setIsAdLoaded] = useState(true);
+  const handleAdLoad = () => {
+    setIsAdLoaded(true);
+  };
+  const handleAdError = (error) => { 
+    console.error('ad failed to load', error);
+    setIsAdLoaded(false);
+  };
 
   useEffect(() => {
     const sortedData = words.sort((a, b) => {
@@ -47,7 +57,9 @@ const HomeScreen = ({ navigation }) => {
 
 
   return (
-    <View style={{ flex: 1 }}>
+    <View style={{ flex: 1, width: '100%' }}>
+      
+    <View >
       {/*<TouchableOpacity
         style={styles.floatingButton}
         onPress={() => navigation.navigate('About')}
@@ -72,13 +84,7 @@ const HomeScreen = ({ navigation }) => {
             </TouchableOpacity>
           )}
         </View>
-        <BannerAd
-          unitId={BannerAds.BANNER}
-          size={BannerAdSize.LARGE_BANNER}
-          requestOptions={{
-            requestNonPersonalizedAdsOnly: true
-          }}
-        />
+        
         <FlatList showsVerticalScrollIndicator={true}
           nestedScrollEnabled={true}
           data={sortedData}
@@ -94,17 +100,28 @@ const HomeScreen = ({ navigation }) => {
 
             </TouchableOpacity>
             
+            
           )}
           keyExtractor={item => (item.word)}
-          style={{ marginTop: 10 }}
+          style={{ marginTop: 10, marginBottom:50}}
 
           
         />
         
         
-    
+        
       </View>
       
+    </View>
+    <View style={{position: 'absolute', bottom:0, width: '100%'}}>
+    {isAdLoaded && (<BannerAd
+       unitId={BannerAds.BANNER}
+       size={BannerAdSize.ANCHORED_ADAPTIVE_BANNER}
+       onAdOpened={handleAdLoad}
+       
+     /> 
+     )}
+     </View>
     </View>
     
   )

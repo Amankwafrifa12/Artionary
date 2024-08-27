@@ -1,10 +1,20 @@
-import React from 'react';
 import { View, Text, TouchableOpacity, StyleSheet, Button } from 'react-native';
 import * as Speech from 'expo-speech';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
+import { BannerAd, BannerAdSize, TestIds, AdEventType } from 'react-native-google-mobile-ads';
+import { BannerAds } from './BannerAds';
+import React, { useState, useEffect } from 'react';
 
 const WordDetailScreen = ({ route, navigation }) => {
   const { word, pronunciation, definition } = route.params;
+  const [isAdLoaded, setIsAdLoaded] = useState(false);
+  const handleAdLoad = () => {
+    setIsAdLoaded(true);
+  };
+  const handleAdError = (error) => { 
+    console.error('ad failed to load', error);
+    setIsAdLoaded(false);
+  };
 
   
 
@@ -22,8 +32,19 @@ const WordDetailScreen = ({ route, navigation }) => {
         <Text style={styles.definition}>{definition}</Text>
 
 
-        
+        {isAdLoaded && (<View style={{width: '100%', marginTop: 20}}>
+    <BannerAd
+       unitId={BannerAds.BANNER}
+       size={BannerAdSize.LARGE_BANNER}
+       onAdOpened={handleAdLoad}
+       
+     /> 
+     
+    
+     </View> )}
       </View>
+      
+     
     </View>
   );
 };
