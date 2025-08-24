@@ -3,8 +3,7 @@ import React, { useState, useEffect } from 'react';
 import About from './About';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5'; // Import FontAwesome5 icon library
 import words from '../words.json';
-import { BannerAd, BannerAdSize, TestIds, AdEventType } from 'react-native-google-mobile-ads';
-import { BannerAds } from './BannerAds';
+// Google Ads removed
 
 
 
@@ -15,14 +14,7 @@ const HomeScreen = ({ navigation }) => {
   const [sortedData, setSortedData] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [buttonVisible, setButtonVisible] = useState(false);
-  const [isAdLoaded, setIsAdLoaded] = useState(true);
-  const handleAdLoad = () => {
-    setIsAdLoaded(true);
-  };
-  const handleAdError = (error) => { 
-    console.error('ad failed to load', error);
-    setIsAdLoaded(false);
-  };
+  // Google Ads removed
 
   useEffect(() => {
     const sortedData = words.sort((a, b) => {
@@ -113,15 +105,7 @@ const HomeScreen = ({ navigation }) => {
       </View>
       
     </View>
-    <View style={{position: 'absolute', bottom:0, width: '100%'}}>
-    {isAdLoaded && (<BannerAd
-       unitId={BannerAds.BANNER}
-       size={BannerAdSize.ANCHORED_ADAPTIVE_BANNER}
-       onAdOpened={handleAdLoad}
-       
-     /> 
-     )}
-     </View>
+  {/* Google Ads removed */}
     </View>
     
   )
