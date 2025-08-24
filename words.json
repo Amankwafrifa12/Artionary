@@ -89,11 +89,7 @@
         "pronunciation": "/ɑːrt nuːˈvoʊ/ (ART noo-VOH)",
         "definition": "Art Nouveau is French for 'new art'. It was a style popular in the late 19th and early 20th centuries with flowing lines and natural forms."
     },
-    {
-        "word": "Assemblage",
-        "pronunciation": "/ˌæsɛmˈblɑːʒ/ (ah-SEM-blahzh)",
-        "definition": "Assemblage comes from French 'assembler', meaning 'to assemble'. It is a work of art created by combining found objects or materials."
-    },
+    
     {
         "word": "Asymmetrical Balance",
         "pronunciation": "/ˌæsɪˈmɛtrɪkəl ˈbæləns/ (ay-sim-ET-rih-kul BAL-ans)",
@@ -479,11 +475,7 @@
     "pronunciation": "/lɪˈθɒɡrəfi/ (li-THOG-ruh-fee)",
     "definition": "Lithography comes from Greek 'lithos' meaning 'stone' and 'graphein' meaning 'to write'. It is a printmaking process where designs are drawn on stone or metal with a greasy substance and then printed."
 },
-{
-    "word": "Mandala",
-    "pronunciation": "/ˈmʌndələ/ (MUN-duh-luh)",
-    "definition": "Mandala comes from Sanskrit 'maṇḍala', meaning 'circle'. It is a geometric design representing the universe, often used in Hindu and Buddhist art."
-},
+
 {
     "word": "Medium",
     "pronunciation": "/ˈmiːdiəm/ (MEE-dee-um)",
@@ -514,11 +506,7 @@
     "pronunciation": "/ˈmjʊərəl/ (MYUR-uhl)",
     "definition": "Mural comes from Latin 'murus', meaning 'wall'. A mural is a large painting made directly on a wall or ceiling."
 },
-{
-    "word": "Palette",
-    "pronunciation": "/ˈpælɪt/ (PAL-it)",
-    "definition": "Palette comes from Old French 'palete', meaning 'small board'. A palette is a flat surface where artists mix paints, and also refers to the range of colours an artist uses."
-},
+
 {
     "word": "Papier-Mâché",
     "pronunciation": "/ˌpæpi.eɪ mæˈʃeɪ/ (PAP-ee-ay ma-SHAY)",
@@ -539,11 +527,7 @@
     "pronunciation": "/ˈpɪɡmənt/ (PIG-ment)",
     "definition": "Pigment comes from Latin 'pigmentum', meaning 'colouring'. Pigments are coloured powders used to make paint, ink, or dyes."
 },
-{
-    "word": "Pointillism",
-    "pronunciation": "/ˈpwæntɪˌlɪzəm/ (PWAN-tih-lizm)",
-    "definition": "Pointillism comes from French 'pointiller', meaning 'to mark with dots'. It is a painting technique where small dots of colour are placed close together to form an image."
-},
+
 {
     "word": "Pop Art",
     "pronunciation": "/pɒp ɑːrt/ (POP art)",
@@ -563,16 +547,6 @@
     "word": "Realism",
     "pronunciation": "/ˈriːəˌlɪzəm/ (REE-uh-lizm)",
     "definition": "Realism comes from Latin 'realis', meaning 'real'. It is an art style that shows subjects truthfully, without exaggeration or idealisation."
-},
-{
-    "word": "Relief",
-    "pronunciation": "/rɪˈliːf/ (ri-LEEF)",
-    "definition": "Relief comes from Old French 'relever', meaning 'to raise'. Relief is a sculptural technique where figures are raised above a flat background."
-},
-{
-    "word": "Renaissance",
-    "pronunciation": "/ˌrɛnəˈsɑːns/ (REN-uh-sahns)",
-    "definition": "Renaissance comes from French 'renaissance', meaning 'rebirth'. It was a cultural movement in Europe (14th–17th centuries) that revived classical art, architecture, and learning."
 },
 {
     "word": "Sfumato",
@@ -604,11 +578,7 @@
     "pronunciation": "/səˈriːəˌlɪzəm/ (suh-REE-uh-lizm)",
     "definition": "Surrealism comes from French 'surréalisme', meaning 'beyond realism'. It is an art movement that shows dream-like, strange, or illogical scenes."
 },
-{
-    "word": "Symbolism",
-    "pronunciation": "/ˈsɪmbəˌlɪzəm/ (SIM-buh-lizm)",
-    "definition": "Symbolism comes from Greek 'symbolon', meaning 'token' or 'sign'. Symbolism is an art style where symbols and images are used to express deeper meanings."
-},
+
 {
     "word": "Tapestry",
     "pronunciation": "/ˈtæpəstri/ (TAP-uh-stree)",
@@ -624,26 +594,13 @@
     "pronunciation": "/trɒmp ˈlɔɪ/ (tromp LOY)",
     "definition": "Trompe-l'œil is French for 'deceive the eye'. It is an art technique that creates very realistic images to trick viewers into thinking they are real."
 },
-{
-    "word": "Triptych",
-    "pronunciation": "/ˈtrɪptɪk/ (TRIP-tik)",
-    "definition": "Triptych comes from Greek 'triptychos', meaning 'three-fold'. It is a work of art made of three panels, often hinged together."
-},
+
 {
     "word": "Typography",
     "pronunciation": "/taɪˈpɒɡrəfi/ (ty-POG-ruh-fee)",
     "definition": "Typography comes from Greek 'typos' meaning 'form' and 'graphein' meaning 'to write'. Typography is the art of arranging text in a readable and visually appealing way."
 },
-{
-    "word": "Underpainting",
-    "pronunciation": "/ˈʌndərˌpeɪntɪŋ/ (UN-der-paynt-ing)",
-    "definition": "Underpainting comes from 'under' and 'painting'. It is the first layer of paint applied to a surface, which helps build the composition for later layers."
-},
-{
-    "word": "Vanishing Point",
-    "pronunciation": "/ˈvænɪʃɪŋ pɔɪnt/ (VAN-ish-ing point)",
-    "definition": "Vanishing Point comes from 'vanish', meaning to disappear. In perspective drawing, it is the point where parallel lines seem to meet in the distance."
-},
+
 {
     "word": "Vernacular Art",
     "pronunciation": "/vərˈnækjələr ɑːrt/ (ver-NAK-yuh-lar art)",
@@ -719,11 +676,7 @@
     "pronunciation": "/ˈlaɪnoʊˌkʌt/ (LYE-noh-kut)",
     "definition": "Linocut comes from 'linoleum' and 'cut'. It is a printmaking technique where an image is carved into linoleum, inked, and pressed onto paper."
 },
-{
-    "word": "Lithography",
-    "pronunciation": "/lɪˈθɒɡrəfi/ (li-THOG-ruh-fee)",
-    "definition": "Lithography comes from Greek 'lithos' meaning 'stone' and 'graphein' meaning 'to write'. It is a printmaking process where designs are drawn on stone or metal with a greasy substance and then printed."
-},
+
 {
     "word": "Logo",
     "pronunciation": "/ˈloʊɡoʊ/ (LOH-go)",
@@ -739,11 +692,7 @@
     "pronunciation": "/ˈmæŋɡə/ (MAN-guh)",
     "definition": "Manga comes from Japanese 'man' meaning 'whimsical' and 'ga' meaning 'pictures'. Manga refers to Japanese comic books or graphic novels with a unique art style."
 },
-{
-    "word": "Mandala",
-    "pronunciation": "/ˈmʌndələ/ (MUN-duh-luh)",
-    "definition": "Mandala comes from Sanskrit 'maṇḍala', meaning 'circle'. It is a geometric design symbolising the universe, often used in Hindu and Buddhist art."
-},
+
 {
     "word": "Manuscript Illumination",
     "pronunciation": "/ˈmænjʊskrɪpt ɪˌluːməˈneɪʃən/ (MAN-yoo-script il-LOO-muh-nay-shun)",
@@ -819,11 +768,7 @@
     "pronunciation": "/ˈmɒnəˌtaɪp/ (MON-oh-type)",
     "definition": "Monotype comes from Greek 'monos' meaning 'single' and 'typos' meaning 'impression'. It is a printmaking technique that creates a single, unique image by painting or drawing on a smooth surface and pressing it onto paper."
 },
-{
-    "word": "Mosaic",
-    "pronunciation": "/moʊˈzeɪɪk/ (moh-ZAY-ik)",
-    "definition": "Mosaic comes from Latin 'mosaicus', meaning 'work of the Muses'. A mosaic is an image or pattern created by arranging small pieces of stone, glass, or tile."
-},
+
 {
     "word": "Mural",
     "pronunciation": "/ˈmjʊərəl/ (MYUR-uhl)",
@@ -1042,26 +987,13 @@
     "pronunciation": "/pərˈfɔːrməns ɑːrt/ (per-FOR-muns art)",
     "definition": "Performance comes from Old French 'parfournir', meaning 'to complete'. Performance Art is a live art presentation where the artist’s actions become the artwork."
 },
-{
-    "word": "Perspective",
-    "pronunciation": "/pərˈspɛktɪv/ (per-SPEK-tiv)",
-    "definition": "Perspective comes from Latin 'perspectiva', meaning 'to look through'. In art, perspective is the technique of representing three-dimensional depth on a flat surface."
-},
-{
-    "word": "Photorealism",
-    "pronunciation": "/ˌfoʊtoʊˈriːəlɪzəm/ (FOH-toh-ree-uh-lizm)",
-    "definition": "Photorealism comes from 'photo' meaning 'light' and 'realism'. It is an art style where paintings and drawings look almost like high-resolution photographs."
-},
+
 {
     "word": "Pictogram",
     "pronunciation": "/ˈpɪktəˌɡræm/ (PIK-to-gram)",
     "definition": "Pictogram comes from Latin 'pictus' meaning 'painted' and Greek 'gramma' meaning 'something written'. A pictogram is a simple picture symbol representing an object or idea."
 },
-{
-    "word": "Pigment",
-    "pronunciation": "/ˈpɪɡmənt/ (PIG-ment)",
-    "definition": "Pigment comes from Latin 'pigmentum', meaning 'colouring substance'. In art, pigment is the coloured material mixed with a medium to make paint."
-},
+
 {
     "word": "Pietà",
     "pronunciation": "/piːˈeɪtɑː/ (pee-AY-tah)",
@@ -1086,16 +1018,6 @@
     "word": "Pop Art",
     "pronunciation": "/pɒp ɑːrt/ (POP art)",
     "definition": "Pop Art comes from 'popular art'. It is a 20th-century movement that uses imagery from mass culture like advertising, comics, and consumer goods."
-},
-{
-    "word": "Portrait",
-    "pronunciation": "/ˈpɔːrtrət/ (POR-trit)",
-    "definition": "Portrait comes from Latin 'portrahere', meaning 'to draw forth'. A portrait is an artwork that represents a person, usually focusing on the face."
-},
-{
-    "word": "Post-Impressionism",
-    "pronunciation": "/ˌpoʊst ɪmˈprɛʃənɪzəm/ (POST-im-PRESH-un-izm)",
-    "definition": "Post-Impressionism combines 'post' meaning 'after' and Impressionism. It is an art movement after Impressionism, exploring new styles, colours, and emotional expression."
 },
 {
     "word": "Pottery",
@@ -1302,11 +1224,7 @@
     "pronunciation": "/ˈskʌlptʃər rɪˈliːf/ (SKULP-cher ri-LEEF)",
     "definition": "Relief comes from French 'relever', meaning 'to raise'. A sculpture relief is carved so that figures project slightly from a flat background."
 },
-{
-    "word": "Sfumato",
-    "pronunciation": "/sfuːˈmɑːtoʊ/ (sfoo-MAH-toh)",
-    "definition": "Sfumato comes from Italian 'sfumare', meaning 'to evaporate like smoke'. It is a painting technique of blending tones and colours so there are no sharp outlines."
-},
+
 {
     "word": "Shade",
     "pronunciation": "/ʃeɪd/ (SHAYD)",
@@ -1428,11 +1346,7 @@
     "pronunciation": "/suːˈpriːmətɪzəm/ (soo-PREE-muh-tizm)",
     "definition": "Suprematism comes from 'supreme'. It is a Russian art movement founded by Kazimir Malevich, focusing on basic geometric forms and pure artistic feeling."
 },
-{
-    "word": "Surrealism",
-    "pronunciation": "/səˈriːəlɪzəm/ (suh-REE-uh-lizm)",
-    "definition": "Surrealism comes from French 'surréalisme', meaning 'super-realism'. It is an art movement that expresses dreams, the subconscious, and irrational imagery."
-},
+
 {
     "word": "Symbolism",
     "pronunciation": "/ˈsɪmbəˌlɪzəm/ (SIM-buh-lizm)",
@@ -1542,11 +1456,6 @@
     "word": "Tachisme",
     "pronunciation": "/ˈtæʃɪzəm/ (TASH-izm)",
     "definition": "Tachisme comes from French 'tache', meaning 'stain' or 'spot'. It is a style of abstract painting popular in 1940s–50s Europe, using spontaneous brushwork and blotches of colour."
-},
-{
-    "word": "Tapestry",
-    "pronunciation": "/ˈtæpəstri/ (TAP-uh-stree)",
-    "definition": "Tapestry comes from Old French 'tapis', meaning 'carpet'. It is a form of textile art made by weaving coloured threads to create pictures or designs."
 },
 {
     "word": "Tempera",
@@ -2173,11 +2082,7 @@
     "pronunciation": "/ˈwiːvɪŋ/ (WEE-ving)",
     "definition": "Weaving comes from Old English 'wefan', meaning 'to weave'. It is the art of interlacing threads or fibres to create fabric or decorative patterns."
 },
-{
-    "word": "Woodcut",
-    "pronunciation": "/ˈwʊdkʌt/ (WOOD-cut)",
-    "definition": "Woodcut comes from 'wood' and 'cut'. It is a printmaking technique where designs are carved into a wooden block, inked, and pressed onto paper."
-},
+
 {
     "word": "Workshop",
     "pronunciation": "/ˈwɜːrkʃɒp/ (WURK-shop)",
@@ -2502,6 +2407,10 @@
     "word": "Zweifel Perspective",
     "pronunciation": "/ˈtsvaɪfəl pərˈspɛktɪv/ (TSVY-fel per-SPEK-tiv)",
     "definition": "Named after Hans Zweifel, an artist and theorist. Zweifel Perspective explores complex spatial illusions and overlapping planes in modern art."
+},
+{
+    "word": "Alla Prima",
+    "pronunciation": "/ˌæl.ə ˈpriː.mə/ (AL-la PREE-ma)",
+    "definition": "Alla Prima is Italian for 'at first attempt'. It is a painting technique where an artwork is completed in one sitting, applying wet paint on wet paint without letting previous layers dry."
 }
-
 ]
