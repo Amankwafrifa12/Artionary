@@ -24,27 +24,29 @@ const HomeScreen = ({ navigation }) => {
       if (wordA > wordB) return 1;
       return 0;
     });
-    setSortedData(sortedData);
+    setSortedData(sortedData.slice(0, 20)); // Show only first 20 words initially
   }, []);
 
   const handleSearch = (text) => {
-    const filteredData = words.filter((item) => {
-      const itemName = item.word.toLowerCase();
-      const searchText = text.toLowerCase();
-      return itemName.includes(searchText);
-    });
-    setSortedData(filteredData);
-    setSearchTerm(text);
-    if (text.length > 0) {
+    const searchText = text.toLowerCase();
+    let filteredData;
+    if (searchText.length > 0) {
+      filteredData = words.filter((item) => item.word.toLowerCase().includes(searchText));
       setButtonVisible(true);
     } else {
+      // Show only first 20 words when search is cleared
+      filteredData = words.slice(0, 20);
       setButtonVisible(false);
     }
+    setSortedData(filteredData);
+    setSearchTerm(text);
   };
 
 
   const handleClearSearch = () => {
-    setSearchTerm(''); setSortedData(words); setButtonVisible(false); // Clear the search input
+    setSearchTerm('');
+    setSortedData(words.slice(0, 20)); // Show only first 20 words when cleared
+    setButtonVisible(false);
   };
 
 

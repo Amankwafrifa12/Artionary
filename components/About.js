@@ -1,4 +1,5 @@
 import React from 'react';
+import words from '../words.json';
 import { View, Text, StyleSheet, TouchableOpacity, Linking, Share } from 'react-native';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 import appConfig from '../app.json';
@@ -22,9 +23,12 @@ const About = () => {
     }
   };
   return (
-    <View style={styles.container}>
-  <Text style={styles.title}>About Artionary</Text>
-  <Text style={styles.description}>Artionary (Art + Dictionary) is an ultimate dictionary of art words.</Text>
+      <View style={styles.container}>
+        <Text style={styles.title}>About Artionary</Text>
+        <Text style={styles.description}>
+          Artionary (Art + Dictionary) is an ultimate dictionary of art words.  
+         The dictionary contains <Text style={styles.bold}> {words.length} </Text> art terms to help you understand and explore the world of art.
+        </Text>
       <Text style={styles.info}>Version: <Text style={styles.bold}>{APP_VERSION}</Text></Text>
       <Text style={styles.info}>Developer: <Text style={styles.bold}>{DEVELOPER}</Text></Text>
       <TouchableOpacity style={styles.infoRow} onPress={() => Linking.openURL(`tel:${PHONE}`)}>

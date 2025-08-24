@@ -1,1350 +1,2507 @@
 [
     {
-        "word": "Aboriginal Rock Art",
-        "definition": "Usually refers to Australian rock painting and petroglyphs.",
-        "pronunciation": "/ˌæbəˈrɪdʒɪnəl ˈrɒk ˈɑːt/"
-    },
-    {
-        "word": "Abstract Art",
-        "pronunciation": "/æbstrækt ˈɑːrt/",
-        "definition": "Art that does not depict the physical world in a realistic way."
-    },
-    {
-        "word": "Abstract Expressionism",
-        "pronunciation": "/æbstrækt ɪkˈsprɛʃənɪzəm/",
-        "definition": "A movement in art that emphasizes the expression of emotions and inner experiences through non-representational forms."
-    },
-    {
-        "word": "Acrylic Paint",
-        "pronunciation": "/əˈkrɪlɪk peɪnt/",
-        "definition": "A fast-drying paint made from a mixture of water, pigment, and acrylic polymer."
-    },
-    {
-        "word": "Additive Process",
-        "pronunciation": "/ˈædɪtɪv ˈprəʊsɛs/",
-        "definition": "A technique in art that involves adding layers of material to create a final product."
-    },
-    {
-        "word": "Aegean Art",
-        "pronunciation": "/iˈdʒiːən ɑːrt/",
-        "definition": "Art from the Aegean region, including ancient Greek and Minoan art."
-    },
-    {
-        "word": "Aerial Perspective",
-        "pronunciation": "/ˈɛəriəl pərˈspɛktɪv/",
-        "definition": "A technique used to create the illusion of depth on a flat surface by depicting objects in the distance as smaller and lighter."
-    },
-    {
-        "word": "Aesthetic",
-        "pronunciation": "/ɛsˈθɛtɪk/",
-        "definition": "Relating to the appreciation of beauty or art."
-    },
-    {
-        "word": "African Art",
-        "pronunciation": "/ˈæfrɪkən ɑːrt/",
-        "definition": "Art from Africa, including traditional and contemporary works."
-    },
-    {
-        "word": "Airbrush",
-        "pronunciation": "/ˈɛərbrʌʃ/",
-        "definition": "A tool used to spray paint or other materials onto a surface."
-    },
-    {
-        "word": "Alabaster",
-        "pronunciation": "/ˈæləbɑːstər/",
-        "definition": "A type of mineral used in sculpture and carving."
-    },
-    {
-        "word": "Alla Prima",
-        "pronunciation": "/ˌɑːlə ˈpriːmə/",
-        "definition": "A technique in painting that involves applying layers of paint to canvas without waiting for the previous layer to dry."
-    },
-    {
-        "word": "Allegory",
-        "pronunciation": "/ˈælɪɡɔːri/",
-        "definition": "A work of art that conveys a hidden meaning or message."
-    },
-    {
-        "word": "All-over Space",
-        "pronunciation": "/ˌɔːl oʊvər ˈspeɪs/",
-        "definition": "A technique in art that involves using the entire surface of a work to create a cohesive composition."
-    },
-    {
-        "word": "Altarpiece",
-        "pronunciation": "/ˈɔːltərpiːs/",
-        "definition": "A work of art placed behind an altar in a church or other religious building."
-    },
-    {
-        "word": "Alternating Rhythm",
-        "pronunciation": "/ˌɔːltərˈneɪtɪŋ ˈrɪðəm/",
-        "definition": "A technique in art that involves creating a sense of rhythm through the repetition of elements."
-    },
-    {
-        "word": "Analogous Colours",
-        "pronunciation": "/əˈnæləɡəs ˈkʌlərz/",
-        "definition": "Colours that are next to each other on the colour wheel."
-    },
-    {
-        "word": "Ancient Art",
-        "pronunciation": "/ˈeɪnʃənt ɑːrt/",
-        "definition": "Art from ancient civilizations, such as Greece, Rome, and Egypt."
-    },
-    {
-        "word": "Animalier",
-        "pronunciation": "/ˌænɪmælˈiːər/",
-        "definition": "An artist who specializes in depicting animals."
-    },
-    {
-        "word": "Animal style",
-        "pronunciation": "/ˈænɪməl staɪl/",
-        "definition": "A style of art that depicts animals in a naturalistic way."
-    },
-    {
         "word": "Animation Art",
-        "pronunciation": "/ˌænɪˈmeɪʃən ɑːrt/",
-        "definition": "The art of creating motion pictures or digital images that tell a story or convey a message."
+        "pronunciation": "/ˌænɪˈmeɪʃən ɑːrt/ (AN-ih-MAY-shun art)",
+        "definition": "Animation comes from Latin 'animare', meaning 'to give life'. Animation Art is the art of making pictures move to tell a story or show an idea."
     },
     {
         "word": "Antiquity",
-        "pronunciation": "/ˌæntɪˈkwɪtɪ/",
-        "definition": "The state of being ancient or from a past time."
+        "pronunciation": "/ˌæntɪˈkwɪtɪ/ (an-TIK-wi-tee)",
+        "definition": "Antiquity comes from Latin 'antiquitas', meaning 'ancient times'. It refers to the period of history before the Middle Ages, including the art of Greece, Rome, and Egypt."
     },
     {
         "word": "Applied Art",
-        "pronunciation": "/ˌæplaid ɑːrt/",
-        "definition": "Art that is used for practical purposes, such as design and decoration."
+        "pronunciation": "/ˌæplaid ɑːrt/ (uh-PLYD art)",
+        "definition": "Applied comes from Latin 'applicare', meaning 'to attach'. Applied Art is art used for practical purposes, like design and decoration."
     },
     {
         "word": "Applique",
-        "pronunciation": "/ˈæplɪkeɪ/",
-        "definition": "A technique in art that involves applying fabric or other materials to a surface."
+        "pronunciation": "/ˈæplɪkeɪ/ (AP-li-kay)",
+        "definition": "Applique comes from French 'appliquer', meaning 'to apply'. It is a technique that involves applying fabric or other materials to a surface."
     },
     {
-        "word": "Aquatint etching",
-        "pronunciation": "/ˈækwətɪnt ˈɛtʃɪŋ/",
-        "definition": "A technique in printmaking that involves using acid to etch a design onto a metal plate."
+        "word": "Aquatint Etching",
+        "pronunciation": "/ˈækwətɪnt ˈɛtʃɪŋ/ (AK-wuh-tint ETCH-ing)",
+        "definition": "Aquatint comes from Latin 'aqua' meaning 'water' and 'tinctus' meaning 'dyeing'. Aquatint Etching is a printmaking technique that uses acid to etch designs on a metal plate."
     },
     {
         "word": "Arabesque",
-        "pronunciation": "/ˌærəˈbɛsk/",
-        "definition": "A decorative style of art that features intricate patterns and curves."
+        "pronunciation": "/ˌærəˈbɛsk/ (AR-uh-besk)",
+        "definition": "Arabesque comes from Italian 'arabesco', meaning 'in Arabic style'. It is a decorative art style with flowing, intricate patterns and curves, often found in Islamic art."
     },
     {
         "word": "Archaic Greek Art",
-        "pronunciation": "/ˌɑːrkɪk ɡriːk ɑːrt/",
-        "definition": "Art from ancient Greece, particularly from the Archaic period (c. 700-480 BCE)."
-    },
-    {
-        "word": "Architecture",
-        "pronunciation": "/ˌɑːrkɪˈtɛktʃər/",
-        "definition": "The art of designing and building structures, such as houses, churches, and museums."
+        "pronunciation": "/ˌɑːrkɪk ɡriːk ɑːrt/ (ar-KAY-ik Greek art)",
+        "definition": "Archaic comes from Greek 'arkhaikos', meaning 'old'. Archaic Greek Art refers to Greek art from about 700–480 BCE, known for stylized figures and patterns."
     },
     {
         "word": "Armature",
-        "pronunciation": "/ˈɑːrmətʃər/",
-        "definition": "A framework or skeleton used to support a sculpture or other artwork."
+        "pronunciation": "/ˈɑːrmətʃər/ (AR-muh-cher)",
+        "definition": "Armature comes from Latin 'armatura', meaning 'armor or equipment'. It is a framework or skeleton used to support a sculpture."
     },
     {
         "word": "Armory Show",
-        "pronunciation": "/ˈɑːrməri ʃoʊ/",
-        "definition": "An annual art exhibition held in New York City."
+        "pronunciation": "/ˈɑːrməri ʃoʊ/ (AR-muh-ree show)",
+        "definition": "Armory comes from 'armory', a place for storing weapons. The Armory Show was a famous 1913 art exhibition in New York City that introduced modern art to America."
     },
     {
         "word": "Art",
-        "pronunciation": "/ɑːrt/",
-        "definition": "The expression or application of human creative skill and imagination, often in a visual form."
+        "pronunciation": "/ɑːrt/ (ART)",
+        "definition": "Art comes from Latin 'ars', meaning 'skill or craft'. It is the expression or application of human creativity and imagination, often in visual form."
     },
     {
         "word": "Art Brut",
-        "pronunciation": "/ɑːrt bruːt/",
-        "definition": "A term used to describe art that is created outside of the mainstream art world."
+        "pronunciation": "/ɑːrt bruːt/ (ART broot)",
+        "definition": "Art Brut is French for 'raw art'. It refers to art created outside traditional culture, often by self-taught or outsider artists."
     },
     {
         "word": "Art Criticism",
-        "pronunciation": "/ɑːrt ˈkrɪtɪsɪzəm/",
-        "definition": "The analysis and interpretation of art by critics and scholars."
+        "pronunciation": "/ɑːrt ˈkrɪtɪsɪzəm/ (ART krit-uh-siz-um)",
+        "definition": "Criticism comes from Greek 'kritikos', meaning 'able to judge'. Art Criticism is the analysis and interpretation of art by critics and scholars."
     },
     {
         "word": "Art Critics",
-        "pronunciation": "/ɑːrt ˈkrɪtɪks/",
-        "definition": "People who write or speak about art, offering their opinions and insights."
+        "pronunciation": "/ɑːrt ˈkrɪtɪks/ (ART krit-iks)",
+        "definition": "Critic comes from Greek 'kritikos', meaning 'able to judge'. Art Critics are people who write or speak about art, giving their opinions and insights."
     },
     {
         "word": "Arte Povera",
-        "pronunciation": "/ˌɑːrteɪ ˈpɔːvərɑː/",
-        "definition": "A movement in art that emphasizes simplicity and uses everyday materials."
+        "pronunciation": "/ˌɑːrteɪ ˈpɔːvərɑː/ (AR-tay POH-ver-ah)",
+        "definition": "Arte Povera is Italian for 'poor art'. It is an art movement that uses simple, everyday materials like wood, stone, and cloth to challenge traditional art ideas."
     },
     {
         "word": "Artefact",
-        "pronunciation": "/ˈɑːrtɪfækt/",
-        "definition": "An object made by human skill or art."
+        "pronunciation": "/ˈɑːrtɪfækt/ (AR-ti-fakt)",
+        "definition": "Artefact comes from Latin 'arte factum', meaning 'made by skill'. An artefact is an object made by humans, often of historical or cultural interest."
     },
     {
         "word": "Artisan",
-        "pronunciation": "/ˈɑːrtɪsən/",
-        "definition": "A person skilled in a craft or trade."
+        "pronunciation": "/ˈɑːrtɪsən/ (AR-ti-zuhn)",
+        "definition": "Artisan comes from Old French 'artisan', meaning 'craftsman'. An artisan is a person skilled in a craft, especially one who makes things by hand."
     },
     {
         "word": "Artist Statement",
-        "pronunciation": "/ɑːrtɪst ˈsteɪtment/",
-        "definition": "A written statement by an artist describing their work and inspiration."
+        "pronunciation": "/ɑːrtɪst ˈsteɪtment/ (AR-tist STAYT-ment)",
+        "definition": "Statement comes from Latin 'stare', meaning 'to stand'. An Artist Statement is a written explanation by an artist describing their work and creative process."
     },
     {
         "word": "Art Nouveau",
-        "pronunciation": "/ɑːrt nuːˈvoʊ/",
-        "definition": "A style of art characterized by sinuous, flowing lines and organic forms."
+        "pronunciation": "/ɑːrt nuːˈvoʊ/ (ART noo-VOH)",
+        "definition": "Art Nouveau is French for 'new art'. It was a style popular in the late 19th and early 20th centuries with flowing lines and natural forms."
     },
     {
         "word": "Assemblage",
-        "pronunciation": "/ˌæsɛmˈblɑːʒ/",
-        "definition": "A work of art created from found objects or materials."
+        "pronunciation": "/ˌæsɛmˈblɑːʒ/ (ah-SEM-blahzh)",
+        "definition": "Assemblage comes from French 'assembler', meaning 'to assemble'. It is a work of art created by combining found objects or materials."
     },
     {
         "word": "Asymmetrical Balance",
-        "pronunciation": "/ˌæsɪˈmɛtrɪkəl ˈbæləns/",
-        "definition": "A principle of design that emphasizes imbalance and tension."
+        "pronunciation": "/ˌæsɪˈmɛtrɪkəl ˈbæləns/ (ay-sim-ET-rih-kul BAL-ans)",
+        "definition": "Asymmetrical comes from Greek 'a-' meaning 'not' and 'symmetria' meaning 'measured together'. Asymmetrical Balance is when art elements are not evenly balanced but still create harmony."
     },
     {
         "word": "Atmospheric Perspective",
-        "pronunciation": "/ˌætmɒsˈfɛrɪk pərˈspɛktɪv/",
-        "definition": "A technique used to create the illusion of depth by depicting distant objects as lighter and less detailed."
+        "pronunciation": "/ˌætmɒsˈfɛrɪk pərˈspɛktɪv/ (at-moss-FER-ik per-SPEK-tiv)",
+        "definition": "Atmospheric comes from Greek 'atmos', meaning 'vapor', and Perspective comes from Latin 'perspectiva', meaning 'to look through'. It is an art technique that creates depth by making distant objects lighter and less detailed."
     },
     {
         "word": "Automatism in Art",
-        "pronunciation": "/ˌɔːtəˈmætɪzəm ɪn ɑːrt/",
-        "definition": "A technique in art that involves allowing the subconscious to guide the creative process."
+        "pronunciation": "/ˌɔːtəˈmætɪzəm ɪn ɑːrt/ (AW-to-mat-izm in ART)",
+        "definition": "Automatism comes from Greek 'automatos', meaning 'self-moving'. It is a technique where artists let their subconscious guide the creative process, often used in Surrealism."
     },
     {
         "word": "Avant-garde",
-        "pronunciation": "/ˌævɒ̃t ˈɡɑːrd/",
-        "definition": "A movement in art that emphasizes innovation and experimentation."
+        "pronunciation": "/ˌævɒ̃t ˈɡɑːrd/ (AH-vant gard)",
+        "definition": "Avant-garde is French for 'advance guard'. It refers to art that is experimental, innovative, and ahead of its time."
     },
     {
         "word": "Bacchanal",
-        "pronunciation": "/bəˈkænəl/",
-        "definition": "A scene of wild and drunken revelry, often depicted in art."
+        "pronunciation": "/ˌbækəˈnæl/ (BAK-uh-nal)",
+        "definition": "Bacchanal comes from Latin 'Bacchanalia', festivals for Bacchus, the god of wine. It refers to an artwork showing wild, festive celebrations."
     },
     {
         "word": "Bamboccianti",
-        "pronunciation": "/ˌbæmboʊtʃiˈænti/",
-        "definition": "A group of Dutch painters who specialized in landscapes and everyday scenes."
+        "pronunciation": "/ˌbæmboʊtʃiˈænti/ (bam-BO-chee-AN-tee)",
+        "definition": "Bamboccianti comes from Italian 'bamboccio', meaning 'ugly doll'. It refers to a group of Dutch painters in Rome who painted everyday life scenes in the 17th century."
     },
     {
-        "word": "Banketjea or banquet piece",
-        "pronunciation": "/bæŋkɪtˈjeɪ ɔːr ˈbæŋkwɪt piːs/",
-        "definition": "A type of still life painting that depicts a sumptuous feast."
+        "word": "Banketjea or Banquet Piece",
+        "pronunciation": "/bæŋkɪtˈjeɪ ɔːr ˈbæŋkwɪt piːs/ (BAN-kit-yay or BAN-kwit piece)",
+        "definition": "Banketjea is Dutch for 'little banquet'. A Banquet Piece is a type of still life painting that shows a rich feast."
     },
     {
         "word": "Background",
-        "pronunciation": "/ˈbækɡraʊnd/",
-        "definition": "The part of a painting or other artwork that is behind the main subject."
+        "pronunciation": "/ˈbækɡraʊnd/ (BAK-ground)",
+        "definition": "Background comes from Middle English 'bakgrund', meaning 'behind'. It is the part of a painting or artwork that is behind the main subject."
     },
     {
         "word": "Balance",
-        "pronunciation": "/ˈbæləns/",
-        "definition": "A principle of design that emphasizes harmony and stability."
+        "pronunciation": "/ˈbæləns/ (BAL-ans)",
+        "definition": "Balance comes from Latin 'bilanx', meaning 'having two scales'. In art, balance is arranging elements so no part overpowers another, creating harmony."
     },
     {
         "word": "Baren",
-        "pronunciation": "/ˈbɑːrɛn/",
-        "definition": "A type of seal or stamp used in Japanese art."
+        "pronunciation": "/ˈbɑːrɛn/ (BAH-ren)",
+        "definition": "Baren is a Japanese word. It is a tool used in Japanese printmaking to press paper onto inked woodblocks."
     },
     {
         "word": "Bas-relief",
-        "pronunciation": "/ˌbɑːr ɛlˈjiːf/",
-        "definition": "A type of sculpture that projects from a flat surface."
+        "pronunciation": "/ˌbɑːr ɛlˈjiːf/ (BAH ruh-LEEF)",
+        "definition": "Bas-relief is French for 'low relief'. It is a type of sculpture where shapes slightly project from a flat background."
     },
     {
         "word": "Bauhaus",
-        "pronunciation": "/ˈbaʊhɑʊs/",
-        "definition": "A school of art and design that emphasized functional simplicity and clean lines."
+        "pronunciation": "/ˈbaʊhɑːs/ (BOW-house)",
+        "definition": "Bauhaus is German for 'building house'. It was a German school of art and design founded in 1919, famous for its simple, functional style."
     },
     {
         "word": "Bayeux Tapestry",
-        "pronunciation": "/ˈbaɪjuː ˈtæpɪstri/",
-        "definition": "A medieval embroidery depicting the Norman Conquest of England."
+        "pronunciation": "/ˈbaɪjuː ˈtæpɪstri/ (BY-yoo TAP-uh-stree)",
+        "definition": "Bayeux comes from the town in France, and Tapestry comes from Old French 'tapisserie'. The Bayeux Tapestry is an 11th-century cloth showing the Norman Conquest of England."
     },
     {
-        "word": "Biennale (Europe), Biennial (America)",
-        "pronunciation": "/biˈɛnɑːleɪ (jʊəˈroʊp), baɪˈɛnɪəl (əˈmɛrɪkə)/",
-        "definition": "An international art exhibition held every two years."
+        "word": "Biennale / Biennial",
+        "pronunciation": "/biˈɛnɑːleɪ / baɪˈɛnɪəl/ (bee-en-NAH-lay / bye-EN-ee-uhl)",
+        "definition": "Biennale is Italian for 'every two years'; Biennial comes from Latin 'biennium', meaning 'two years'. Both refer to major art exhibitions held every two years."
     },
     {
         "word": "Biscuit",
-        "pronunciation": "/ˈbɪskɪt/",
-        "definition": "A type of ceramic material that is fired at a low temperature."
+        "pronunciation": "/ˈbɪskɪt/ (BIS-kit)",
+        "definition": "Biscuit comes from French 'biscuit', meaning 'twice cooked'. In art, it refers to unglazed porcelain or pottery that has been fired once but not glazed."
     },
     {
         "word": "Body Art",
-        "pronunciation": "/ˈbɒdi ɑːrt/",
-        "definition": "A type of art that uses the human body as a medium."
+        "pronunciation": "/ˈbɒdi ɑːrt/ (BOD-ee art)",
+        "definition": "Body comes from Old English 'bodig', and Art comes from Latin 'ars'. Body Art is art that uses the human body as a canvas or medium, such as tattoos or body painting."
     },
     {
-        "word": "Brush stroke",
-        "pronunciation": "/ˈbrʌʃ stroʊk/",
-        "definition": "A mark made on a surface by a brush."
+        "word": "Brush Stroke",
+        "pronunciation": "/ˈbrʌʃ stroʊk/ (BRUSH stroke)",
+        "definition": "Brush comes from Old French 'broche', and Stroke comes from Old English 'stracian', meaning 'to strike'. A Brush Stroke is a mark or line made by a brush in painting."
     },
     {
         "word": "Brushwork",
-        "pronunciation": "/ˈbrʌʃwɜːrk/",
-        "definition": "The technique of using a brush to apply paint to a surface."
+        "pronunciation": "/ˈbrʌʃwɜːrk/ (BRUSH-work)",
+        "definition": "Brush comes from Old French 'broche', and Work comes from Old English 'weorc', meaning 'action'. Brushwork is the technique of using a brush to apply paint to a surface."
     },
     {
         "word": "Burin",
-        "pronunciation": "/ˈbjʊərɪn/",
-        "definition": "A tool used in engraving to cut lines into a surface."
+        "pronunciation": "/ˈbjʊərɪn/ (BYUR-in)",
+        "definition": "Burin comes from French 'burin', meaning 'engraving tool'. It is a sharp, chisel-like tool used to cut designs into metal, wood, or stone."
     },
     {
         "word": "Byzantine Art",
-        "pronunciation": "/bɪˈzæntɪn ɑːrt/",
-        "definition": "Art from the Byzantine Empire, characterized by intricate patterns and gold leaf."
+        "pronunciation": "/bɪˈzæntɪn ɑːrt/ (BIZ-an-teen art)",
+        "definition": "Byzantine comes from Byzantium, the old name for Istanbul. Byzantine Art refers to the art of the Byzantine Empire, known for religious icons, mosaics, and gold leaf."
     },
     {
-        "word": "Black-figure technique",
-        "pronunciation": "/ˌblæk ˈfɪɡər ˌtɛkˈniːk/",
-        "definition": "A technique used in ancient Greek pottery to create black figures on a red background."
+        "word": "Black-figure Technique",
+        "pronunciation": "/ˌblæk ˈfɪɡər ˌtɛkˈniːk/ (BLACK-fig-yer tek-NEEK)",
+        "definition": "This method comes from ancient Greece. Black-figure Technique is a pottery style where black figures are painted on a red background."
     },
     {
-        "word": "Blocking in",
-        "pronunciation": "/ˈblɒkɪŋ ɪn/",
-        "definition": "A technique used in painting to rough out the main elements of a composition."
+        "word": "Blocking In",
+        "pronunciation": "/ˈblɒkɪŋ ɪn/ (BLOCK-ing in)",
+        "definition": "Block comes from Old English 'bloc', meaning 'mass'. Blocking In is a painting method where an artist quickly sketches main shapes and colours before adding details."
     },
     {
-        "word": "Body colour",
-        "pronunciation": "/ˈbɒdi ˈkʌlər/",
-        "definition": "A type of paint that is opaque and vibrant."
+        "word": "Body Colour",
+        "pronunciation": "/ˈbɒdi ˈkʌlər/ (BOD-ee KULL-er)",
+        "definition": "Body comes from Old English 'bodig', and Colour comes from Latin 'colorem'. Body Colour is an opaque type of paint, often used for highlights and details."
     },
     {
         "word": "Body Painting",
-        "pronunciation": "/ˈbɒdi ˈpeɪntɪŋ/",
-        "definition": "A type of art that involves painting on the human body."
+        "pronunciation": "/ˈbɒdi ˈpeɪntɪŋ/ (BOD-ee PAYNT-ing)",
+        "definition": "Body comes from Old English 'bodig', and Painting comes from Latin 'pingere', meaning 'to paint'. Body Painting is the art of painting designs or images directly onto the human body."
     },
     {
         "word": "Bronze",
-        "pronunciation": "/ˈbrɒnz/",
-        "definition": "A type of metal alloy that is often used in sculpture."
-    },
-    {
-        "word": "Brush",
-        "pronunciation": "/ˈbrʌʃ/",
-        "definition": "A tool used in painting to apply paint to a surface."
+        "pronunciation": "/ˈbrɒnz/ (BRONZ)",
+        "definition": "Bronze comes from French 'bronze', meaning 'copper-tin alloy'. It is a strong metal used for sculptures, coins, and tools."
     },
     {
         "word": "Burnt Sienna",
-        "pronunciation": "/ˌbɜːrnt sɪˈɛnə/",
-        "definition": "A reddish-brown pigment made from iron oxide."
+        "pronunciation": "/ˌbɜːrnt sɪˈɛnə/ (BURNT see-EN-uh)",
+        "definition": "Sienna comes from the Italian city Siena, where the pigment was originally produced. Burnt Sienna is a reddish-brown pigment made from heated iron oxide."
     },
     {
         "word": "Butterfly Brush",
-        "pronunciation": "/ˈbʌtərflaɪ ˈbrʌʃ/",
-        "definition": "A type of brush used in Japanese art to create delicate, sweeping strokes."
+        "pronunciation": "/ˈbʌtərflaɪ ˈbrʌʃ/ (BUT-er-fly BRUSH)",
+        "definition": "Butterfly Brush is named for its shape resembling butterfly wings. It is a type of brush used in Japanese art to create delicate, sweeping strokes."
     },
     {
         "word": "Byzantine Mosaic",
-        "pronunciation": "/bɪˈzæntɪn ˈmɒzæk/",
-        "definition": "A type of mosaic art that originated in the Byzantine Empire."
+        "pronunciation": "/bɪˈzæntɪn ˈmɒzæk/ (BIZ-an-teen moh-ZAY-ik)",
+        "definition": "Mosaic comes from Greek 'mouseios', meaning 'belonging to the Muses'. A Byzantine Mosaic is a decorative artwork made of small tiles, common in the Byzantine Empire."
     },
     {
         "word": "Cabinet",
-        "pronunciation": "/ˈkæbɪnɪt/",
-        "definition": "A small room or enclosure, often used for displaying art or treasures."
-    },
-    {
-        "word": "Calligraphy",
-        "pronunciation": "/kəˈlɪɡrəfi/",
-        "definition": "The art of beautiful handwriting, often used in art and design."
-    },
-    {
-        "word": "Carving",
-        "pronunciation": "/ˈkɑːrvɪŋ/",
-        "definition": "The act of cutting or shaping a material, such as wood or stone, to create a sculpture or design."
-    },
-    {
-        "word": "Casting",
-        "pronunciation": "/ˈkɑːstɪŋ/",
-        "definition": "The process of creating a sculpture by pouring liquid material into a mold."
-    },
-    {
-        "word": "Caravaggism",
-        "pronunciation": "/kærəˈvædʒɪzəm/",
-        "definition": "A style of art that emphasizes dramatic lighting and intense emotions, inspired by the works of Caravaggio."
-    },
-    {
-        "word": "Caricature",
-        "pronunciation": "/kærɪkəˈtʊər/",
-        "definition": "A humorous or satirical drawing or representation of a person or thing."
-    },
-    {
-        "word": "Carolingian art",
-        "pronunciation": "/kærəˈlɪŋɡiən ɑːrt/",
-        "definition": "Art produced during the Carolingian Renaissance, characterized by intricate designs and classical influences."
-    },
-    {
-        "word": "Catholic Art",
-        "pronunciation": "/kəˈθɒlɪk ɑːrt/",
-        "definition": "Art that is inspired by or reflects the teachings and traditions of the Catholic Church."
-    },
-    {
-        "word": "Ceramics",
-        "pronunciation": "/sɪˈræmɪks/",
-        "definition": "The art of creating objects from clay, often used to create functional or decorative items."
-    },
-    {
-        "word": "Ceremonial Art",
-        "pronunciation": "/sɛrɪˈmɔːniəl ɑːrt/",
-        "definition": "Art that is used in ceremonies or rituals, often to convey spiritual or cultural significance."
-    },
-    {
-        "word": "Chalk",
-        "pronunciation": "/tʃɔːk/",
-        "definition": "A soft, white mineral used for drawing or writing."
-    },
-    {
-        "word": "Charcoal",
-        "pronunciation": "/ˈtʃɑːrkɒl/",
-        "definition": "A black, carbon-based material used for drawing or art."
-    },
-    {
-        "word": "Champleve enamel",
-        "pronunciation": "/ʃɑ̃.plɛ.veɪ ɪˈnæmɛl/",
-        "definition": "A type of enamel work that involves carving or etching a design into metal."
-    },
-    {
-        "word": "Chiaroscuro",
-        "pronunciation": "/kiˌɑːrəˈskjʊəroʊ/",
-        "definition": "An artistic technique that uses strong contrasts of light and dark to create a sense of volume and depth."
-    },
-    {
-        "word": "Chinese Art",
-        "pronunciation": "/tʃaɪˈniːz ɑːrt/",
-        "definition": "Art produced in China, including painting, sculpture, ceramics, and other forms."
-    },
-    {
-        "word": "Chinoiserie",
-        "pronunciation": "/ʃɪnˈwɑːziəri/",
-        "definition": "A style of art that imitates Chinese art and design, often used in decorative arts and architecture."
-    },
-    {
-        "word": "Chip carving",
-        "pronunciation": "/tʃɪp ˈkɑːrvɪŋ/",
-        "definition": "A type of woodcarving that involves removing small chips of wood to create a design or pattern."
-    },
-    {
-        "word": "Chi-Rho",
-        "pronunciation": "/kaɪ ˈroʊ/",
-        "definition": "A symbol used to represent Christ, made up of the Greek letters chi and rho."
-    },
-    {
-        "word": "Christian Art",
-        "pronunciation": "/krɪsˈtjɑːn ɑːrt/",
-        "definition": "Art that is inspired by or reflects the teachings and traditions of Christianity."
-    },
-    {
-        "word": "Cinquecento",
-        "pronunciation": "/tʃɪn.kweˈtʃɛn.toʊ/",
-        "definition": "A term used to describe the art and culture of 16th-century Italy."
-    },
-    {
-        "word": "Cire perdue",
-        "pronunciation": "/siːr pɛrˈduː/",
-        "definition": "A technique used in sculpture to create a mold from a wax original."
-    },
-    {
-        "word": "Cityscape",
-        "pronunciation": "/ˈsɪtɪskeɪp/",
-        "definition": "A painting or drawing that depicts a city or urban scene."
-    },
-    {
-        "word": "Classical Greek Art",
-        "pronunciation": "/klæsɪkəl ɡriːk ɑːrt/",
-        "definition": "Art produced in ancient Greece, characterized by idealized forms and classical influences."
-    },
-    {
-        "word": "Classicisim",
-        "pronunciation": "/klæsɪsɪzəm/",
-        "definition": "A movement in art that emphasizes traditional forms and classical influences."
-    },
-    {
-        "word": "Clay",
-        "pronunciation": "/kleɪ/",
-        "definition": "A type of material used in art, often used for sculpture or ceramics."
-    },
-    {
-        "word": "Cloisonne enamel",
-        "pronunciation": "/klɔɪzɒn ɪˈnæmɛl/",
-        "definition": "A type of enamel work that involves using metal wires to create a design."
-    },
-    {
-        "word": "Constructivism",
-        "pronunciation": "/kɒnstrʌktɪvɪzəm/",
-        "definition": "A movement in art that emphasizes abstract forms and construction."
-    },
-    {
-        "word": "Coil",
-        "pronunciation": "/kɔɪl/",
-        "definition": "A type of pottery technique that involves building up coils of clay to create a form."
-    },
-    {
-        "word": "Collage",
-        "pronunciation": "/kɒlɑːʒ/",
-        "definition": "A type of art that involves creating a composition from different materials and objects."
-    },
-    {
-        "word": "Colour",
-        "pronunciation": "/kʌlər/",
-        "definition": "The property of an object that is perceived by the eye as a result of the way it reflects or emits light."
-    },
-    {
-        "word": "Colour Groups",
-        "pronunciation": "/kʌlər ɡruːps/",
-        "definition": "A term used to describe the way colours are arranged or grouped in a composition."
-    },
-    {
-        "word": "Colour Harmonies",
-        "pronunciation": "/kʌlər hɑːmɒnɪz/",
-        "definition": "The principle of creating a visually appealing effect by using colours that work well together."
-    },
-    {
-        "word": "Colour Properties",
-        "pronunciation": "/kʌlər ˈprɒpətɪz/",
-        "definition": "The characteristics of colour, including hue, saturation, and value."
-    },
-    {
-        "word": "Colour Scheme",
-        "pronunciation": "/kʌlər skiːm/",
-        "definition": "A term used to describe the overall colour plan or design of a composition."
-    },
-    {
-        "word": "Colour Wheel",
-        "pronunciation": "/kʌlər wiːl/",
-        "definition": "A circular diagram showing the relationships between colours."
-    },
-    {
-        "word": "Complimentary Colours",
-        "pronunciation": "/kɒmplɪmɛntərɪ ˈkʌlərz/",
-        "definition": "Colours that are opposite each other on the colour wheel."
-    },
-    {
-        "word": "Composition",
-        "pronunciation": "/kɒmpəˈzɪʃən/",
-        "definition": "The arrangement of elements in a work of art."
-    },
-    {
-        "word": "Colourism",
-        "pronunciation": "/kʌlərɪzəm/",
-        "definition": "A term used to describe the emphasis on colour in a work of art."
-    },
-    {
-        "word": "Colorito",
-        "pronunciation": "/kɒləˈriːtoʊ/",
-        "definition": "A term used to describe the use of colour in a work of art."
-    },
-    {
-        "word": "Computer Art",
-        "pronunciation": "/kɒmpjʊtər ɑːrt/",
-        "definition": "Art created using a computer or digital tools."
-    },
-    {
-        "word": "Computer Design",
-        "pronunciation": "/kɒmpjʊtər dɪˈzaɪn/",
-        "definition": "The use of computers in the design process."
-    },
-    {
-        "word": "Conceptual Art",
-        "pronunciation": "/kɒnsɛptʊəl ɑːrt/",
-        "definition": "Art that emphasizes the idea or concept behind the work."
-    },
-    {
-        "word": "Contemporary Art",
-        "pronunciation": "/kɒntɛmpɒrərɪ ɑːrt/",
-        "definition": "Art produced at the present time."
-    },
-    {
-        "word": "Continuous Line Drawing",
-        "pronunciation": "/kɒntɪnjʊəs laɪn ˈdrɔɪŋ/",
-        "definition": "A drawing technique that involves creating a continuous line."
-    },
-    {
-        "word": "Contour Drawing",
-        "pronunciation": "/kɒntʊər ˈdrɔɪŋ/",
-        "definition": "A drawing technique that involves creating an outline of a subject."
-    },
-    {
-        "word": "Contrast",
-        "pronunciation": "/kɒntrɑːst/",
-        "definition": "The use of opposing elements in a composition."
-    },
-    {
-        "word": "Critique",
-        "pronunciation": "/krɪtɪk/",
-        "definition": "A critical analysis or evaluation of a work of art."
-    },
-    {
-        "word": "Cross Hatching",
-        "pronunciation": "/krɔs ˈhætʃɪŋ/",
-        "definition": "A drawing technique that involves creating a series of crossed lines."
-    },
-    {
-        "word": "Cubism",
-        "pronunciation": "/kjuːbɪzəm/",
-        "definition": "An art movement that emphasizes geometric forms and fragmented images."
-    },
-    {
-        "word": "Cyanotype",
-        "pronunciation": "/saɪəˈnɒtaɪp/",
-        "definition": "A photographic process that produces a blue print."
-    },
-    {
-        "word": "Crafts",
-        "pronunciation": "/krɑːfts/",
-        "definition": "Handmade objects or activities."
-    },
-    {
-        "word": "Curvilinear",
-        "pronunciation": "/kɜːrvɪˈlɪnɪər/",
-        "definition": "Having a curved or rounded shape."
-    },
-    {
-        "word": "Cycladic Art",
-        "pronunciation": "/saɪˈklædɪk ɑːrt/",
-        "definition": "Art produced by the Cycladic civilization."
-    },
-    {
-        "word": "Dadaism",
-        "pronunciation": "/dɑːdɑːɪzəm/",
-        "definition": "An art movement that emphasizes absurdity and randomness."
-    },
-    {
-        "word": "Décollage",
-        "pronunciation": "/deɪkɒlɑːʒ/",
-        "definition": "A technique that involves tearing or removing paper to create a design."
-    },
-    {
-        "word": "Decalcomania",
-        "pronunciation": "/dɛkælkəˈmeɪniə/",
-        "definition": "A technique that involves transferring images onto a surface."
-    },
-    {
-        "word": "Direct Observation",
-        "pronunciation": "/dɪˈrekt ɒbzɜːrˈveɪʃən/",
-        "definition": "A technique that involves observing a subject directly."
-    },
-    {
-        "word": "Decorative Art",
-        "pronunciation": "/dɛkɒrətɪv ɑːrt/",
-        "definition": "Art that is intended to be decorative or ornamental."
-    },
-    {
-        "word": "Decoupage",
-        "pronunciation": "/dɛkʊpɑːʒ/",
-        "definition": "A technique that involves gluing cut-out images onto a surface."
-    },
-    {
-        "word": "Degenerate Art",
-        "pronunciation": "/dɪˈdʒɛnərɪt ɑːrt/",
-        "definition": "A term used to describe art that is considered to be of poor quality or decadent."
-    },
-    {
-        "word": "Design",
-        "pronunciation": "/dɪˈzaɪn/",
-        "definition": "The process of creating a plan or concept for a work of art."
-    },
-    {
-        "word": "Diptych",
-        "pronunciation": "/ˈdɪptɪk/",
-        "definition": "A work of art that consists of two panels."
-    },
-    {
-        "word": "Direct Carving",
-        "pronunciation": "/dɪˈrekt ˈkɑːrvɪŋ/",
-        "definition": "A technique that involves carving a work of art directly into a material."
-    },
-    {
-        "word": "Disegno",
-        "pronunciation": "/dɪˈsɛɲoʊ/",
-        "definition": "An Italian term for drawing or design."
-    },
-    {
-        "word": "Dome",
-        "pronunciation": "/doʊm/",
-        "definition": "A rounded vault forming the roof of a building or structure."
-    },
-    {
-        "word": "Drawing",
-        "pronunciation": "/ˈdrɔɪŋ/",
-        "definition": "The act of creating a work of art using lines and marks."
-    },
-    {
-        "word": "Drypoint",
-        "pronunciation": "/ˈdraɪpɔɪnt/",
-        "definition": "A technique that involves etching a design onto a plate using a dry point."
-    },
-    {
-        "word": "Easel",
-        "pronunciation": "/ˈiːzəl/",
-        "definition": "A stand used to support a painting or drawing."
-    },
-    {
-        "word": "Ecce Homo",
-        "pronunciation": "/ɛkˈseɪ ˈhɔːmoʊ/",
-        "definition": "A Latin phrase meaning 'behold the man'."
-    },
-    {
-        "word": "Emboss",
-        "pronunciation": "/ɛmˈbɒs/",
-        "definition": "A technique that involves raising a design or pattern on a surface."
-    },
-    {
-        "word": "Enamelling",
-        "pronunciation": "/ɛˈnæməlɪŋ/",
-        "definition": "A technique that involves fusing powdered glass onto a metal surface."
-    },
-    {
-        "word": "Encaustic",
-        "pronunciation": "/ɛnˈkɔːstɪk/",
-        "definition": "A technique that involves using wax and pigment to create a work of art."
-    },
-    {
-        "word": "Engraving",
-        "pronunciation": "/ɛnˈɡreɪvɪŋ/",
-        "definition": "A technique that involves cutting a design onto a surface using a tool."
-    },
-    {
-        "word": "Etching",
-        "pronunciation": "/ˈɛtʃɪŋ/",
-        "definition": "A technique that involves using acid to cut a design onto a surface."
-    },
-    {
-        "word": "Ethnographic Art",
-        "pronunciation": "/ɛθnəˈɡræfɪk ɑːrt/",
-        "definition": "Art that is created by or about non-Western cultures."
-    },
-    {
-        "word": "Extender",
-        "pronunciation": "/ɪkˈstɛndər/",
-        "definition": "A substance used to thin or extend paint."
-    },
-    {
-        "word": "Egyptian Art",
-        "pronunciation": "/ɪˈdʒɪptɪən ɑːrt/",
-        "definition": "Art produced by the ancient Egyptian civilization."
-    },
-    {
-        "word": "Environmental Art",
-        "pronunciation": "/ɛnvɪrɒnˈmɛntəl ɑːrt/",
-        "definition": "Art that is created in response to the natural environment."
-    },
-    {
-        "word": "Expressionism",
-        "pronunciation": "/ɛkˈsprɛʃənɪzəm/",
-        "definition": "An art movement that emphasizes the expression of emotions."
-    },
-    {
-        "word": "Fabergé Easter Eggs",
-        "pronunciation": "/ˈfæbərʒeɪ ˈiːstər ɛɡz/",
-        "definition": "Decorative eggs created by Peter Carl Fabergé."
-    },
-    {
-        "word": "Faience",
-        "pronunciation": "/faɪˈɑːns/",
-        "definition": "A type of ceramic material that is made from tin-glazed earthenware."
-    },
-    {
-        "word": "Fauvism",
-        "pronunciation": "/foʊˈvɪzəm/",
-        "definition": "An art movement that emphasizes bold, vibrant colors."
-    },
-    {
-        "word": "Figure Drawing",
-        "pronunciation": "/ˈfɪɡər ˈdrɔɪŋ/",
-        "definition": "The act of drawing the human figure."
-    },
-    {
-        "word": "Fine Art",
-        "pronunciation": "/faɪn ɑːrt/",
-        "definition": "Art that is created for its aesthetic value rather than its functional value."
-    },
-    {
-        "word": "Firing",
-        "pronunciation": "/ˈfaɪərɪŋ/",
-        "definition": "The process of heating clay or other materials to create a work of art."
-    },
-    {
-        "word": "Folk Art",
-        "pronunciation": "/foʊk ɑːrt/",
-        "definition": "Art that is created by or about ordinary people."
-    },
-    {
-        "word": "Form",
-        "pronunciation": "/fɔːrm/",
-        "definition": "The shape or structure of a work of art."
-    },
-    {
-        "word": "Frottage",
-        "pronunciation": "/frɔːtɑːʒ/",
-        "definition": "A technique that involves rubbing a surface to create a design."
-    },
-    {
-        "word": "Functionalism",
-        "pronunciation": "/fʌŋkʃənəlɪzəm/",
-        "definition": "An art movement that emphasizes the functional value of a work of art."
-    },
-    {
-        "word": "Futurism",
-        "pronunciation": "/fjuːtʊərɪzəm/",
-        "definition": "An art movement that emphasizes the future and technology."
-    },
-    {
-        "word": "Genre",
-        "pronunciation": "/ʒɑ̃nrə/",
-        "definition": "A category or style of art."
-    },
-    {
-        "word": "Geometric Shapes",
-        "pronunciation": "/dʒɪˈɒmɛtrɪk ʃeɪps/",
-        "definition": "Shapes that are made up of lines and angles."
-    },
-    {
-        "word": "Gestural Drawing",
-        "pronunciation": "/dʒɛsˈtʊərəl ˈdrɔɪŋ/",
-        "definition": "A technique that involves using quick, expressive movements to create a drawing."
-    },
-    {
-        "word": "Gilding",
-        "pronunciation": "/ɡɪldɪŋ/",
-        "definition": "The process of applying gold or other metals to a surface."
-    },
-    {
-        "word": "Glaze",
-        "pronunciation": "/ɡleɪz/",
-        "definition": "A layer of transparent material applied to a work of art."
-    },
-    {
-        "word": "Gothic",
-        "pronunciation": "/ɡɒθɪk/",
-        "definition": "A style of art and architecture that originated in Europe."
-    },
-    {
-        "word": "Gradation",
-        "pronunciation": "/ɡrəˈdeɪʃən/",
-        "definition": "A gradual transition from one color or tone to another."
-    },
-    {
-        "word": "Graphic Design",
-        "pronunciation": "/ɡræfɪk dɪˈzaɪn/",
-        "definition": "The art of communicating ideas through visual elements."
-    },
-    {
-        "word": "Hatching",
-        "pronunciation": "/ˈhætʃɪŋ/",
-        "definition": "A technique that involves creating shading and texture using parallel lines."
-    },
-    {
-        "word": "Hieroglyphics",
-        "pronunciation": "/haɪərəˈɡlɪfɪks/",
-        "definition": "An ancient writing system used by the Egyptians."
-    },
-    {
-        "word": "Highlight",
-        "pronunciation": "/haɪˈlaɪt/",
-        "definition": "The lightest part of a subject in a work of art."
-    },
-    {
-        "word": "Horizon Line",
-        "pronunciation": "/həˈraɪzən ˈlaɪn/",
-        "definition": "The line where the sky meets the earth in a landscape."
-    },
-    {
-        "word": "Hue",
-        "pronunciation": "/hjuː/",
-        "definition": "The actual color or shade of a color."
-    },
-    {
-        "word": "Iconography",
-        "pronunciation": "/aɪkɒnˈɒɡrəfi/",
-        "definition": "The study of symbols and images in art."
-    },
-    {
-        "word": "Illuminated Manuscripts",
-        "pronunciation": "/ɪˈluːmɪneɪtɪd ˈmænjʊskrɪpts/",
-        "definition": "Handwritten books decorated with gold and color."
-    },
-    {
-        "word": "Impasto",
-        "pronunciation": "/ɪmˈpæstoʊ/",
-        "definition": "A technique that involves applying thick layers of paint."
-    },
-    {
-        "word": "Impressionism",
-        "pronunciation": "/ɪmˈprɛʃənɪzəm/",
-        "definition": "An art movement that emphasizes capturing light and color."
-    },
-    {
-        "word": "Ink",
-        "pronunciation": "/ɪŋk/",
-        "definition": "A liquid substance used for writing or drawing."
-    },
-    {
-        "word": "Intaglio",
-        "pronunciation": "/ɪnˈtælioʊ/",
-        "definition": "A technique that involves engraving a design onto a surface."
-    },
-    {
-        "word": "Intarsia",
-        "pronunciation": "/ɪnˈtɑːrsɪə/",
-        "definition": "A technique that involves creating images using small pieces of wood or stone."
-    },
-    {
-        "word": "Japonism",
-        "pronunciation": "/dʒæpəˈnɪzəm/",
-        "definition": "A style of art that originated in Japan."
-    },
-    {
-        "word": "Kinetic Art",
-        "pronunciation": "/kaɪˈnɛtɪk ɑːrt/",
-        "definition": "Art that moves or changes shape."
-    },
-    {
-        "word": "Kitsch",
-        "pronunciation": "/kɪtʃ/",
-        "definition": "Art that is considered tacky or sentimental."
-    },
-    {
-        "word": "Lacquerware",
-        "pronunciation": "/ˈlækərweər/",
-        "definition": "Objects coated with a shiny, protective layer."
-    },
-    {
-        "word": "Landscape",
-        "pronunciation": "/ˈlændskeɪp/",
-        "definition": "A painting or drawing of natural scenery."
-    },
-    {
-        "word": "Lateral",
-        "pronunciation": "/ˈlætərəl/",
-        "definition": "Located on the side."
-    },
-    {
-        "word": "Lavis",
-        "pronunciation": "/læˈvɪs/",
-        "definition": "A term used to describe a style of medieval art."
-    },
-    {
-        "word": "Lay Figure",
-        "pronunciation": "/leɪ ˈfɪɡər/",
-        "definition": "A model used by artists to practice drawing."
-    },
-    {
-        "word": "Lenticular",
-        "pronunciation": "/lɛnˈtɪkjʊlər/",
-        "definition": "A technique that involves using lenses to create a 3D effect."
-    },
-    {
-        "word": "Life Drawing",
-        "pronunciation": "/laɪf ˈdrɔɪŋ/",
-        "definition": "The act of drawing the human figure from observation."
-    },
-    {
-        "word": "Light and Shade",
-        "pronunciation": "/laɪt ənd ʃeɪd/",
-        "definition": "The use of light and dark to create depth and volume in art."
-    },
-    {
-        "word": "Linear Perspective",
-        "pronunciation": "/lɪˈnɛər pərˈspɛktɪv/",
-        "definition": "A technique used to create the illusion of depth on a flat surface."
-    },
-    {
-        "word": "Lithography",
-        "pronunciation": "/lɪˈθɒɡrəfi/",
-        "definition": "A printing technique that uses stone or metal plates."
-    },
-    {
-        "word": "Medium",
-        "pronunciation": "/ˈmiːdiəm/",
-        "definition": "The materials used to create a work of art."
-    },
-    {
-        "word": "Mezzotint",
-        "pronunciation": "/mɛˈzoʊtɪnt/",
-        "definition": "A printing technique that uses a roughened surface to create tone and texture."
-    },
-    {
-        "word": "Mixed Media",
-        "pronunciation": "/mɪkst ˈmiːdiə/",
-        "definition": "The use of multiple materials and techniques in a single work of art."
-    },
-    {
-        "word": "Model",
-        "pronunciation": "/ˈmɒdəl/",
-        "definition": "A three-dimensional representation of a person or object."
-    },
-    {
-        "word": "Monochromatic",
-        "pronunciation": "/mɒnəkrəˈmætɪk/",
-        "definition": "A color scheme that uses different shades of a single color."
-    },
-    {
-        "word": "Monotype",
-        "pronunciation": "/ˈmɒnətaɪp/",
-        "definition": "A printing technique that creates a single, unique impression."
-    },
-    {
-        "word": "Mosaic",
-        "pronunciation": "/məˈzeɪɪk/",
-        "definition": "A work of art created from small, arranged pieces."
-    },
-    {
-        "word": "Motif",
-        "pronunciation": "/moʊˈtiːf/",
-        "definition": "A recurring theme or symbol in a work of art."
-    },
-    {
-        "word": "Movement",
-        "pronunciation": "/ˈmuːvmənt/",
-        "definition": "A style or period of art characterized by a particular technique or theme."
-    },
-    {
-        "word": "Narrative Art",
-        "pronunciation": "/ˈnærətɪv ɑːrt/",
-        "definition": "Art that tells a story or depicts a scene."
-    },
-    {
-        "word": "Naturalism",
-        "pronunciation": "/ˈnætʃərəlɪzəm/",
-        "definition": "A style of art that emphasizes realism and accuracy."
-    },
-    {
-        "word": "Naïve Art",
-        "pronunciation": "/naɪˈiːv ɑːrt/",
-        "definition": "Art created by artists who have had no formal training."
-    },
-    {
-        "word": "Neo-Classicism",
-        "pronunciation": "/niːoʊˈklæsɪsɪzəm/",
-        "definition": "A style of art that revives classical Greek and Roman themes."
-    },
-    {
-        "word": "New Media",
-        "pronunciation": "/nuː ˈmiːdiə/",
-        "definition": "Art that uses digital or electronic media."
-    },
-    {
-        "word": "Non-Representational",
-        "pronunciation": "/nɒn ˌrɛprɪzɛnˈteɪʃənəl/",
-        "definition": "Art that does not depict recognizable subjects."
-    },
-    {
-        "word": "Nuance",
-        "pronunciation": "/nuːˈɑːns/",
-        "definition": "A subtle difference or shade of meaning."
-    },
-    {
-        "word": "Oil Painting",
-        "pronunciation": "/ɔɪl ˈpeɪntɪŋ/",
-        "definition": "A painting technique that uses oil-based paints."
-    },
-    {
-        "word": "Overlap",
-        "pronunciation": "/ˈoʊvərlæp/",
-        "definition": "A technique where two or more shapes or forms overlap."
-    },
-    {
-        "word": "Painting",
-        "pronunciation": "/ˈpeɪntɪŋ/",
-        "definition": "The art of applying paint to a surface."
-    },
-    {
-        "word": "Paper Marbling",
-        "pronunciation": "/ˈpeɪpər ˈmɑːrbəlɪŋ/",
-        "definition": "A technique that creates a marbled effect on paper."
-    },
-    {
-        "word": "Pastel",
-        "pronunciation": "/pæˈstɛl/",
-        "definition": "A soft, powdery art material."
-    },
-    {
-        "word": "Patina",
-        "pronunciation": "/pəˈtiːnə/",
-        "definition": "A layer of color or texture on a surface."
-    },
-    {
-        "word": "Pencil Drawing",
-        "pronunciation": "/ˈpɛnsəl ˈdrɔɪŋ/",
-        "definition": "A drawing technique that uses a pencil."
-    },
-    {
-        "word": "Perspective",
-        "pronunciation": "/pərˈspɛktɪv/",
-        "definition": "A technique that creates the illusion of depth on a flat surface."
-    },
-    {
-        "word": "Photorealism",
-        "pronunciation": "/ˌfoʊtəˈriːəlɪzəm/",
-        "definition": "A style of art that aims to accurately depict reality."
-    },
-    {
-        "word": "Picasso",
-        "pronunciation": "/pɪˈkɑːsoʊ/",
-        "definition": "A famous Spanish artist known for his Cubist works."
-    },
-    {
-        "word": "Pigment",
-        "pronunciation": "/ˈpɪɡmənt/",
-        "definition": "A substance used to create color in art."
-    },
-    {
-        "word": "Pointillism",
-        "pronunciation": "/pɔɪntɪˈlɪzəm/",
-        "definition": "A technique that uses small dots of color to create an image."
-    },
-    {
-        "word": "Pop Art",
-        "pronunciation": "/pɒp ɑːrt/",
-        "definition": "A style of art that uses popular culture and consumer products as subjects."
-    },
-    {
-        "word": "Portrait",
-        "pronunciation": "/ˈpɔːtrɪt/",
-        "definition": "A painting or drawing of a person."
-    },
-    {
-        "word": "Printmaking",
-        "pronunciation": "/ˈprɪntmeɪkɪŋ/",
-        "definition": "The process of creating artworks by printing images on paper or fabric."
-    },
-    {
-        "word": "Proportion",
-        "pronunciation": "/prəˈpɔːrʃən/",
-        "definition": "The relationship between the size of different parts of a composition."
-    },
-    {
-        "word": "Realism",
-        "pronunciation": "/ˈriːəlɪzəm/",
-        "definition": "A style of art that aims to accurately depict reality."
-    },
-    {
-        "word": "Relief",
-        "pronunciation": "/rɪˈliːf/",
-        "definition": "A sculpture that projects from a flat surface."
-    },
-    {
-        "word": "Renaissance",
-        "pronunciation": "/rɛnəˈsɑːns/",
-        "definition": "A cultural and artistic movement in Europe from the 14th to 17th centuries."
-    },
-    {
-        "word": "Rococo",
-        "pronunciation": "/rəˈkoʊkoʊ/",
-        "definition": "A style of art characterized by ornate decoration and curved lines."
-    },
-    {
-        "word": "Romanticism",
-        "pronunciation": "/roʊˈmæntɪsɪzəm/",
-        "definition": "A style of art that emphasizes emotion and imagination."
-    },
-    {
-        "word": "Sculpture",
-        "pronunciation": "/ˈskʌlptʃər/",
-        "definition": "A three-dimensional work of art created by carving, modeling, or assembling materials."
-    },
-    {
-        "word": "Shading",
-        "pronunciation": "/ˈʃeɪdɪŋ/",
-        "definition": "The use of gradations of tone and color to create the illusion of volume and depth."
-    },
-    {
-        "word": "Silhouette",
-        "pronunciation": "/sɪluˈɛt/",
-        "definition": "A profile or outline of a figure or object."
-    },
-    {
-        "word": "Sketch",
-        "pronunciation": "/skɛtʃ/",
-        "definition": "A quick and rough drawing or painting."
-    },
-    {
-        "word": "Still Life",
-        "pronunciation": "/stɪl ˈlaɪf/",
-        "definition": "A painting or drawing of inanimate objects."
-    },
-    {
-        "word": "Stippling",
-        "pronunciation": "/ˈstɪplɪŋ/",
-        "definition": "A technique that uses small dots to create an image."
-    },
-    {
-        "word": "Studio",
-        "pronunciation": "/ˈstjuːdi.oʊ/",
-        "definition": "A room or space used for artistic work."
-    },
-    {
-        "word": "Style",
-        "pronunciation": "/staɪl/",
-        "definition": "A distinctive manner or technique of artistic expression."
-    },
-    {
-        "word": "Subject",
-        "pronunciation": "/ˈsʌbdʒɪkt/",
-        "definition": "The person, object, or scene depicted in a work of art."
-    },
-    {
-        "word": "Symbolism",
-        "pronunciation": "/ˈsɪmbəlɪzəm/",
-        "definition": "The use of symbols to represent ideas or concepts."
-    },
-    {
-        "word": "Tapestry",
-        "pronunciation": "/tæˈpɛstrɪ/",
-        "definition": "A decorative hanging or wall covering made from woven fabric."
-    },
-    {
-        "word": "Technique",
-        "pronunciation": "/tɛkˈniːk/",
-        "definition": "A method or approach used to create a work of art."
-    },
-    {
-        "word": "Tempera",
-        "pronunciation": "/tɛmˈpɛrə/",
-        "definition": "A painting medium made from egg yolks and pigment."
-    },
-    {
-        "word": "Texture",
-        "pronunciation": "/ˈtɛkstʃər/",
-        "definition": "The surface quality or feel of a work of art."
-    },
-    {
-        "word": "Tint",
-        "pronunciation": "/tɪnt/",
-        "definition": "A shade or tone of color."
-    },
-    {
-        "word": "Tone",
-        "pronunciation": "/toʊn/",
-        "definition": "A shade or quality of color."
-    },
-    {
-        "word": "Tracing",
-        "pronunciation": "/ˈtreɪsɪŋ/",
-        "definition": "A technique used to create a detailed drawing or outline."
-    },
-    {
-        "word": "Typography",
-        "pronunciation": "/taɪˈpɒɡrəfi/",
-        "definition": "The art of arranging type for printing or digital display."
-    },
-    {
-        "word": "Value",
-        "pronunciation": "/ˈvæljuː/",
-        "definition": "The lightness or darkness of a color or shade."
-    },
-    {
-        "word": "Vanishing Point",
-        "pronunciation": "/vænɪʃɪŋ ˈpɔɪnt/",
-        "definition": "A point in a perspective drawing where parallel lines appear to converge."
-    },
-    {
-        "word": "Varnish",
-        "pronunciation": "/ˈvɑːrnɪʃ/",
-        "definition": "A transparent coating applied to protect and enhance a work of art."
-    },
-    {
-        "word": "Watercolor",
-        "pronunciation": "/ˈwɔːtərklər/",
-        "definition": "A painting medium made from water-soluble pigments."
-    },
-    {
-        "word": "Wax",
-        "pronunciation": "/wæks/",
-        "definition": "A substance used in encaustic painting and sculpture."
-    },
-    {
-        "word": "Woodcut",
-        "pronunciation": "/ˈwʊdkʌt/",
-        "definition": "A print made from a carved wooden block."
-    },
-    {
-        "word": "Xylography",
-        "pronunciation": "/ziˈlɒɡrəfi/",
-        "definition": "The art of engraving on wood."
-    },
-    {
-        "word": "Yarn",
-        "pronunciation": "/jɑːrn/",
-        "definition": "A thread or strand used in textile art."
-    },
-    {
-        "word": "Zigzag",
-        "pronunciation": "/ˈzɪɡzæɡ/",
-        "definition": "A decorative motif featuring alternating diagonal lines."
-    },
-    {
-        "word": "Yamato-e",
-        "pronunciation": "/jɑːmətoʊiː/",
-        "definition": "A style of Japanese painting that flourished during the Heian period (794-1185 CE), characterized by delicate and refined depictions of nature and courtly life."
-    },
-    {
-        "word": "Yellow Book",
-        "pronunciation": "/ˈjɛloʊ ˈbʊk/",
-        "definition": "A literary and artistic magazine published in London from 1894 to 1897, known for its avant-garde and Decadent style, featuring artists like Aubrey Beardsley."
-    },
-    {
-        "word": "Ziggurat",
-        "pronunciation": "/ˈzɪɡəræt/",
-        "definition": "A type of ancient Mesopotamian temple, characterized by a stepped pyramid structure, often dedicated to the worship of gods."
-    },
-    {
-        "word": "Zoomorphic",
-        "pronunciation": "/zoʊˈmɔːrfɪk/",
-        "definition": "A term used to describe art or symbols that depict animals or animal-like creatures, often used in ancient cultures to represent gods, goddesses, or mythological beings."
-    }
-    ,
-    { "word": "Assemblage Art", "pronunciation": "/əˈsɛmblɪdʒ ɑːrt/", "definition": "Art created by assembling disparate elements, often found objects, into a unified whole." },
-    { "word": "Batik", "pronunciation": "/bəˈtiːk/", "definition": "A technique of wax-resist dyeing applied to cloth, popular in textile art." },
-    { "word": "Cartooning", "pronunciation": "/kɑːrˈtuːnɪŋ/", "definition": "The art of drawing cartoons, often for comics or animation." },
-    { "word": "Chiaroscuro Drawing", "pronunciation": "/kiˌɑːrəˈskjʊəroʊ ˈdrɔɪŋ/", "definition": "A drawing technique using strong contrasts between light and dark." },
-    { "word": "Cloisonné", "pronunciation": "/klwɑːˈzɒneɪ/", "definition": "Decorative art using metal strips and enamel to create intricate designs." },
-    { "word": "Collagraph", "pronunciation": "/ˈkɒləɡræf/", "definition": "A printmaking process using materials glued to a printing plate." },
-    { "word": "Conceptual Photography", "pronunciation": "/kənˈsɛptʃuəl fəˈtɒɡrəfi/", "definition": "Photography that illustrates an idea or concept, often used in contemporary art." },
-    { "word": "Contour Painting", "pronunciation": "/ˈkɒntʊər ˈpeɪntɪŋ/", "definition": "Painting that emphasizes the outline of forms." },
-    { "word": "Crayon Art", "pronunciation": "/ˈkreɪɒn ɑːrt/", "definition": "Art created using colored wax crayons." },
-    { "word": "Digital Collage", "pronunciation": "/ˈdɪdʒɪtəl kəˈlɑːʒ/", "definition": "Collage created using digital tools and images." },
-    { "word": "Diptych Painting", "pronunciation": "/ˈdɪptɪk ˈpeɪntɪŋ/", "definition": "A painting composed of two panels that are meant to be displayed together." },
-    { "word": "Dry Brush Technique", "pronunciation": "/draɪ brʌʃ tɛkˈniːk/", "definition": "A painting technique using a dry brush to create texture." },
-    { "word": "Egg Tempera", "pronunciation": "/ɛɡ ˈtɛmpərə/", "definition": "A painting medium made by mixing pigment with egg yolk." },
-    { "word": "En Plein Air", "pronunciation": "/ɑ̃ plɛn ɛr/", "definition": "Painting outdoors to capture natural light and atmosphere." },
-    { "word": "Fresco", "pronunciation": "/ˈfrɛskoʊ/", "definition": "A technique of mural painting on freshly laid lime plaster." },
-    { "word": "Gesso", "pronunciation": "/ˈdʒɛsoʊ/", "definition": "A white paint mixture used as a base for painting on canvas or wood." },
-    { "word": "Gouache", "pronunciation": "/ɡwɑːʃ/", "definition": "An opaque watercolor paint used in illustration and design." },
-    { "word": "Graffiti Art", "pronunciation": "/ɡrəˈfiːti ɑːrt/", "definition": "Art created on public surfaces, often using spray paint." },
-    { "word": "Grid Drawing", "pronunciation": "/ɡrɪd ˈdrɔɪŋ/", "definition": "A drawing technique using a grid to aid in proportion and accuracy." },
-    { "word": "Impressionist Landscape", "pronunciation": "/ɪmˈprɛʃənɪst ˈlændskeɪp/", "definition": "Landscape painting in the style of Impressionism, focusing on light and color." },
-    { "word": "Installation Art", "pronunciation": "/ɪnˌstɑːˈleɪʃən ɑːrt/", "definition": "Art created for a specific site, often three-dimensional and immersive." },
-    { "word": "Intuitive Painting", "pronunciation": "/ɪnˈtuːɪtɪv ˈpeɪntɪŋ/", "definition": "Painting guided by instinct and emotion rather than planning." },
-    { "word": "Lino Print", "pronunciation": "/ˈlaɪnoʊ prɪnt/", "definition": "A printmaking technique using a linoleum block." },
-    { "word": "Mandala Art", "pronunciation": "/mænˈdɑːlə ɑːrt/", "definition": "Art featuring geometric designs representing the universe." },
-    { "word": "Mural", "pronunciation": "/ˈmjʊrəl/", "definition": "A large painting or artwork applied directly to a wall or ceiling." },
-    { "word": "Palette Knife Painting", "pronunciation": "/ˈpælɪt naɪf ˈpeɪntɪŋ/", "definition": "Painting using a palette knife to apply thick layers of paint." },
-    { "word": "Paper Sculpture", "pronunciation": "/ˈpeɪpər ˈskʌlptʃər/", "definition": "Sculpture created using paper as the primary material." },
-    { "word": "Photomontage", "pronunciation": "/ˌfoʊtoʊmɒnˈtɑːʒ/", "definition": "A collage made from photographs or photographic images." },
-    { "word": "Plein Air Drawing", "pronunciation": "/plɛn ɛr ˈdrɔɪŋ/", "definition": "Drawing outdoors to capture the environment and light." },
-    { "word": "Pointillist Painting", "pronunciation": "/ˈpɔɪntɪlɪst ˈpeɪntɪŋ/", "definition": "Painting using small dots of color, in the style of Pointillism." },
-    { "word": "Polyptych", "pronunciation": "/ˈpɒlɪptɪk/", "definition": "A painting or artwork composed of several panels." },
-    { "word": "Portrait Miniature", "pronunciation": "/ˈpɔːtrɪt ˈmɪnɪətʃər/", "definition": "A small, detailed portrait painting, often used in jewelry or keepsakes." },
-    { "word": "Relief Print", "pronunciation": "/rɪˈliːf prɪnt/", "definition": "A printmaking technique where the image is raised from the surface." },
-    { "word": "Reverse Glass Painting", "pronunciation": "/rɪˈvɜːrs ɡlæs ˈpeɪntɪŋ/", "definition": "Painting on the back of glass to be viewed from the front." },
-    { "word": "Screen Printing", "pronunciation": "/skriːn ˈprɪntɪŋ/", "definition": "A printing technique using a mesh screen to transfer ink onto a surface." },
-    { "word": "Scratchboard Art", "pronunciation": "/ˈskrætʃbɔːrd ɑːrt/", "definition": "Art created by scratching off a dark surface to reveal a lighter layer beneath." },
-    { "word": "Sgraffito", "pronunciation": "/zɡræˈfiːtoʊ/", "definition": "A technique of scratching through a surface to reveal a lower layer of contrasting color." },
-    { "word": "Soft Pastel", "pronunciation": "/sɒft pæˈstɛl/", "definition": "A type of pastel that is soft and easily blended, used in drawing and painting." },
-    { "word": "Stencil Art", "pronunciation": "/ˈstɛnsəl ɑːrt/", "definition": "Art created by applying pigment through a cut-out template." },
-    { "word": "Street Art", "pronunciation": "/striːt ɑːrt/", "definition": "Visual art created in public locations, often with a social or political message." },
-    { "word": "Trompe-l'œil", "pronunciation": "/trɒmp ˈlɔɪ/", "definition": "A painting technique that creates the illusion of three-dimensionality." },
-    { "word": "Underpainting", "pronunciation": "/ˈʌndərˌpeɪntɪŋ/", "definition": "The initial layer of paint applied to a canvas, serving as a base for later layers." },
-    { "word": "Vitreous Enamel", "pronunciation": "/ˈvɪtrɪəs ɪˈnæməl/", "definition": "A glassy coating fused to metal, used in decorative art." },
-    { "word": "Wall Mural", "pronunciation": "/wɔːl ˈmjʊrəl/", "definition": "A large artwork painted or applied directly to a wall." },
-    { "word": "Wash Drawing", "pronunciation": "/wɒʃ ˈdrɔɪŋ/", "definition": "A drawing technique using diluted ink or watercolor to create tonal effects." },
-    { "word": "Wood Engraving", "pronunciation": "/wʊd ɪnˈɡreɪvɪŋ/", "definition": "A printmaking technique using engraved wood blocks." },
-    { "word": "Yarn Bombing", "pronunciation": "/jɑːrn ˈbɒmɪŋ/", "definition": "A form of street art using knitted or crocheted yarn to decorate public spaces." }
+        "pronunciation": "/ˈkæbɪnɪt/ (CAB-in-it)",
+        "definition": "Cabinet comes from French 'cabinet', meaning a small room. In art, it refers to a small room or enclosure, often used to display artworks or treasures."
+    },
+    {
+        "word": "Cabinet of Curiosities",
+        "pronunciation": "/ˈkæbɪnɪt əv kjʊəˈrɪɒsɪtiz/ (CAB-in-it of kyoo-ree-OS-i-teez)",
+        "definition": "Curiosity comes from Latin 'curiositas', meaning 'desire to know'. A Cabinet of Curiosities is a collection of unusual and interesting objects, often displayed in a small room or cabinet."
+    },
+    {
+    "word": "Cabinet Painting",
+    "pronunciation": "/ˈkæbɪnɪt ˈpeɪntɪŋ/ (CAB-in-it PAYNT-ing)",
+    "definition": "Cabinet comes from French 'cabinet', meaning a small room. Cabinet Painting is a small artwork, usually meant to be displayed in a private room or study."
+},
+{
+    "word": "Calotype",
+    "pronunciation": "/ˈkæləˌtaɪp/ (CAL-uh-type)",
+    "definition": "Calotype comes from Greek 'kalos' meaning 'beautiful' and 'typos' meaning 'impression'. It is an early photographic process that produced paper negatives."
+},
+{
+    "word": "Cameo",
+    "pronunciation": "/ˈkæmioʊ/ (KAM-ee-oh)",
+    "definition": "Cameo comes from Medieval Latin 'cammaeus'. A Cameo is a carved piece of jewellery or art where a raised image is cut on a contrasting background."
+},
+{
+    "word": "Canopy",
+    "pronunciation": "/ˈkænəpi/ (KAN-uh-pee)",
+    "definition": "Canopy comes from Greek 'konops', meaning 'mosquito', since cloth was first used as protection. In art and architecture, a canopy is a covering often placed over an altar, throne, or bed."
+},
+{
+    "word": "Cartoon",
+    "pronunciation": "/kɑːrˈtuːn/ (kar-TOON)",
+    "definition": "Cartoon comes from Italian 'cartone', meaning 'big paper'. In art, a cartoon is a full-size drawing used as a guide for painting, fresco, or tapestry. Today, it also means a funny or animated drawing."
+},
+{
+    "word": "Carving",
+    "pronunciation": "/ˈkɑːrvɪŋ/ (CAR-ving)",
+    "definition": "Carving comes from Old English 'ceorfan', meaning 'to cut'. It is an art technique where material such as wood or stone is shaped by cutting or chipping away."
+},
+{
+    "word": "Casting",
+    "pronunciation": "/ˈkæstɪŋ/ (KAS-ting)",
+    "definition": "Casting comes from Old Norse 'kasta', meaning 'to throw'. In art, casting is a process of pouring liquid material like metal or plaster into a mold to create a shape."
+},
+{
+    "word": "Ceramics",
+    "pronunciation": "/səˈræmɪks/ (suh-RAM-iks)",
+    "definition": "Ceramics comes from Greek 'keramos', meaning 'potter’s clay'. Ceramics are objects made from clay that is shaped and hardened by heat, such as pots, tiles, and sculptures."
+},
+{
+    "word": "Chalk",
+    "pronunciation": "/tʃɔːk/ (CHAWK)",
+    "definition": "Chalk comes from Old English 'cealc', from Latin 'calx' meaning 'limestone'. In art, chalk is a soft stone used for drawing and making pigments."
+},
+{
+    "word": "Charcoal",
+    "pronunciation": "/ˈtʃɑːrkoʊl/ (CHAR-kohl)",
+    "definition": "Charcoal comes from Old English 'ceorcol', meaning 'carbonised wood'. Charcoal is a black material made by burning wood without air, used for sketching and shading in art."
+},
+{
+    "word": "Chiaroscuro",
+    "pronunciation": "/kiˌɑːroʊˈskʊəroʊ/ (kee-AR-oh-SKOO-roh)",
+    "definition": "Chiaroscuro comes from Italian 'chiaro' meaning 'light' and 'scuro' meaning 'dark'. It is a technique that uses strong contrasts of light and shadow in art."
+},
+{
+    "word": "Chiaroscuro Woodcut",
+    "pronunciation": "/kiˌɑːroʊˈskʊəroʊ ˈwʊdkʌt/ (kee-AR-oh-SKOO-roh WOOD-kut)",
+    "definition": "Chiaroscuro comes from Italian 'light-dark'. A Chiaroscuro Woodcut is a type of print where different woodblocks are used with light and dark inks to create shading effects."
+},
+{
+    "word": "Chisel",
+    "pronunciation": "/ˈtʃɪzəl/ (CHIZ-uhl)",
+    "definition": "Chisel comes from Old French 'cisel', meaning 'to cut'. A chisel is a tool with a sharp edge used to shape wood, stone, or metal."
+},
+{
+    "word": "Collage",
+    "pronunciation": "/kəˈlɑːʒ/ (kuh-LAHZH)",
+    "definition": "Collage comes from French 'coller', meaning 'to glue'. It is an art technique where different materials like paper, photos, or fabric are glued onto a surface to make a design."
+},
+{
+    "word": "Colour",
+    "pronunciation": "/ˈkʌlər/ (KULL-er)",
+    "definition": "Colour comes from Latin 'colorem', meaning 'hue'. In art, colour is the element that describes how objects reflect light, creating visual sensations like red, blue, and green."
+},
+{
+    "word": "Colour Field Painting",
+    "pronunciation": "/ˈkʌlər fiːld ˈpeɪntɪŋ/ (KULL-er feeld PAYNT-ing)",
+    "definition": "Colour comes from Latin 'colorem'. Colour Field Painting is a style of abstract painting with large areas of solid colour spread across the canvas."
+},
+{
+    "word": "Complementary Colours",
+    "pronunciation": "/ˌkɒmplɪˈmɛntəri ˈkʌlərz/ (kom-pli-MEN-tuh-ree KULL-ers)",
+    "definition": "Complementary comes from Latin 'complere', meaning 'to complete'. Complementary Colours are pairs of colours that are opposite each other on the colour wheel, like red and green."
+},
+{
+    "word": "Composition",
+    "pronunciation": "/ˌkɒmpəˈzɪʃən/ (kom-puh-ZISH-un)",
+    "definition": "Composition comes from Latin 'componere', meaning 'to put together'. In art, composition is the way elements like colour, shape, and space are arranged in a work."
+},
+{
+    "word": "Conceptual Art",
+    "pronunciation": "/kənˈsɛptʃuəl ɑːrt/ (kun-SEP-choo-uhl art)",
+    "definition": "Conceptual comes from Latin 'conceptus', meaning 'something conceived'. Conceptual Art focuses on the idea or concept behind the work rather than how it looks."
+},
+{
+    "word": "Contour Drawing",
+    "pronunciation": "/ˈkɒntʊər ˈdrɔːɪŋ/ (KON-toor DRAW-ing)",
+    "definition": "Contour comes from French 'contour', meaning 'outline'. Contour Drawing is a technique where the artist draws the outline of a subject without shading."
+},
+{
+    "word": "Contrapposto",
+    "pronunciation": "/ˌkɒntrəˈpɒstoʊ/ (kon-truh-POS-toh)",
+    "definition": "Contrapposto comes from Italian, meaning 'counterpose'. It describes a pose in sculpture where the weight is shifted onto one leg, making the body look more natural."
+},
+{
+    "word": "Cross-Hatching",
+    "pronunciation": "/krɒs ˈhætʃɪŋ/ (KROSS HATCH-ing)",
+    "definition": "Hatching comes from Old French 'hacher', meaning 'to chop'. Cross-Hatching is a shading technique using overlapping lines to create light and dark areas."
+},
+{
+    "word": "Cubism",
+    "pronunciation": "/ˈkjuːbɪzəm/ (KYOO-bizm)",
+    "definition": "Cubism comes from the word 'cube'. It is a 20th-century art movement where objects are broken into geometric shapes and shown from different angles at the same time."
+},
+{
+    "word": "Dada",
+    "pronunciation": "/ˈdɑːdɑː/ (DAH-dah)",
+    "definition": "Dada comes from the French word for 'hobby horse'. Dada was an art movement that rejected traditional art and used nonsense and randomness to protest against war and society."
+},
+{
+    "word": "Decoupage",
+    "pronunciation": "/ˌdeɪkuːˈpɑːʒ/ (DAY-koo-PAHZH)",
+    "definition": "Decoupage comes from French 'découper', meaning 'to cut out'. It is the art of decorating objects by gluing cut-out pictures or paper onto them."
+},
+{
+    "word": "Diptych",
+    "pronunciation": "/ˈdɪptɪk/ (DIP-tik)",
+    "definition": "Diptych comes from Greek 'diptychos', meaning 'two-fold'. It is a work of art made of two panels, often hinged together."
+},
+{
+    "word": "Drypoint",
+    "pronunciation": "/ˈdraɪpɔɪnt/ (DRY-point)",
+    "definition": "Drypoint combines 'dry' and 'point'. It is a printmaking technique where lines are scratched directly into a metal plate without using acid."
+},
+{
+    "word": "Easel",
+    "pronunciation": "/ˈiːzəl/ (EE-zuhl)",
+    "definition": "Easel comes from Dutch 'ezel', meaning 'donkey'. It is a stand used by artists to hold a canvas while they work."
+},
+{
+    "word": "Egg Tempera",
+    "pronunciation": "/ɛɡ ˈtɛmpərə/ (EG TEM-per-uh)",
+    "definition": "Tempera comes from Latin 'temperare', meaning 'to mix'. Egg Tempera is a painting medium where pigments are mixed with egg yolk to make paint."
+},
+{
+    "word": "Engraving",
+    "pronunciation": "/ɪnˈɡreɪvɪŋ/ (en-GRAY-ving)",
+    "definition": "Engraving comes from Old French 'engraver', meaning 'to carve'. It is an art technique where designs are cut into a hard surface like metal or wood."
+},
+{
+    "word": "Etching",
+    "pronunciation": "/ˈɛtʃɪŋ/ (ETCH-ing)",
+    "definition": "Etching comes from Dutch 'etsen', meaning 'to eat away'. It is a printmaking process where acid is used to bite designs into a metal plate."
+},
+{
+    "word": "Expressionism",
+    "pronunciation": "/ɪkˈsprɛʃənɪzəm/ (ex-PRESH-un-izm)",
+    "definition": "Expressionism comes from the word 'expression'. It is an art movement where artists show strong emotions rather than realistic details."
+},
+{
+    "word": "Fresco",
+    "pronunciation": "/ˈfrɛskoʊ/ (FRES-koh)",
+    "definition": "Fresco comes from Italian 'affresco', meaning 'fresh'. It is a technique of painting on wet plaster so the colours become part of the wall surface."
+},
+{
+    "word": "Genre Painting",
+    "pronunciation": "/ˈʒɑːnrə ˈpeɪntɪŋ/ (ZHAN-ruh PAYNT-ing)",
+    "definition": "Genre comes from French 'genre', meaning 'kind'. Genre Painting shows scenes of everyday life, such as people at work, home, or play."
+},
+{
+    "word": "Gesso",
+    "pronunciation": "/ˈʤɛsoʊ/ (JESS-oh)",
+    "definition": "Gesso comes from Italian 'gesso', meaning 'plaster'. It is a white paint mixture used to prepare surfaces like canvas or wood for painting."
+},
+{
+    "word": "Gothic Art",
+    "pronunciation": "/ˈɡɒθɪk ɑːrt/ (GOTH-ik art)",
+    "definition": "Gothic comes from the Goths, a Germanic tribe. Gothic Art was a style in Europe from the 12th to 16th centuries, known for pointed arches, stained glass, and tall cathedrals."
+},
+{
+    "word": "Graffiti",
+    "pronunciation": "/ɡrəˈfiːti/ (gra-FEE-tee)",
+    "definition": "Graffiti comes from Italian 'graffiare', meaning 'to scratch'. Graffiti is writing or drawings scribbled, painted, or sprayed on walls or surfaces in public places."
+},
+{
+    "word": "Graphite",
+    "pronunciation": "/ˈɡræfaɪt/ (GRAF-ite)",
+    "definition": "Graphite comes from Greek 'graphein', meaning 'to write'. It is a form of carbon used in pencils for drawing and writing."
+},
+{
+    "word": "Ground",
+    "pronunciation": "/ɡraʊnd/ (GROUND)",
+    "definition": "Ground comes from Old English 'grund', meaning 'bottom'. In art, ground is the prepared surface on which an artist paints or draws."
+},
+{
+    "word": "Gouache",
+    "pronunciation": "/ɡwɑːʃ/ (GWAHSH)",
+    "definition": "Gouache comes from Italian 'guazzo', meaning 'mud'. It is an opaque water-based paint similar to watercolour but thicker and brighter."
+},
+{
+    "word": "Hierarchy of Genres",
+    "pronunciation": "/ˈhaɪərɑːrki əv ˈʒɑːnrəz/ (HY-er-ar-kee of ZHAN-ruz)",
+    "definition": "Hierarchy comes from Greek 'hierarkhia', meaning 'rule of a high priest'. Hierarchy of Genres is the traditional ranking of art subjects, with history painting at the top and still life at the bottom."
+},
+{
+    "word": "Hatching",
+    "pronunciation": "/ˈhætʃɪŋ/ (HATCH-ing)",
+    "definition": "Hatching comes from Old French 'hacher', meaning 'to chop'. Hatching is a drawing technique that uses closely spaced lines to show shading and texture."
+},
+{
+    "word": "Impressionism",
+    "pronunciation": "/ɪmˈprɛʃənɪzəm/ (im-PRESH-un-izm)",
+    "definition": "Impressionism comes from the word 'impression'. It was a 19th-century art movement where artists painted quick, visible strokes to capture light and movement."
+},
+{
+    "word": "Installation Art",
+    "pronunciation": "/ˌɪnstəˈleɪʃən ɑːrt/ (in-stuh-LAY-shun art)",
+    "definition": "Installation comes from Latin 'installare', meaning 'to place into position'. Installation Art is a form of art where the whole space is transformed into an artwork, often using objects, sound, or video."
+},
+{
+    "word": "Intaglio",
+    "pronunciation": "/ɪnˈtælioʊ/ (in-TAL-ee-oh)",
+    "definition": "Intaglio comes from Italian 'intagliare', meaning 'to cut into'. It is a printmaking technique where designs are carved into a surface and then inked to make prints."
+},
+{
+    "word": "Kinetic Art",
+    "pronunciation": "/kɪˈnɛtɪk ɑːrt/ (kih-NET-ik art)",
+    "definition": "Kinetic comes from Greek 'kinesis', meaning 'movement'. Kinetic Art is art that moves or gives the impression of movement."
+},
+{
+    "word": "Lithography",
+    "pronunciation": "/lɪˈθɒɡrəfi/ (li-THOG-ruh-fee)",
+    "definition": "Lithography comes from Greek 'lithos' meaning 'stone' and 'graphein' meaning 'to write'. It is a printmaking process where designs are drawn on stone or metal with a greasy substance and then printed."
+},
+{
+    "word": "Mandala",
+    "pronunciation": "/ˈmʌndələ/ (MUN-duh-luh)",
+    "definition": "Mandala comes from Sanskrit 'maṇḍala', meaning 'circle'. It is a geometric design representing the universe, often used in Hindu and Buddhist art."
+},
+{
+    "word": "Medium",
+    "pronunciation": "/ˈmiːdiəm/ (MEE-dee-um)",
+    "definition": "Medium comes from Latin 'medium', meaning 'middle'. In art, medium refers to the material used to create a work, such as oil, watercolour, or digital tools."
+},
+{
+    "word": "Minimalism",
+    "pronunciation": "/ˈmɪnɪməlɪzəm/ (MIN-ih-mal-izm)",
+    "definition": "Minimalism comes from Latin 'minimus', meaning 'least'. It is an art style that uses very simple forms, colours, and materials to create beauty in simplicity."
+},
+{
+    "word": "Mixed Media",
+    "pronunciation": "/mɪkst ˈmiːdiə/ (MIXT MEE-dee-uh)",
+    "definition": "Mixed comes from Old English 'miscian', meaning 'to mix'. Mixed Media is art made using more than one material, such as paint with fabric or collage."
+},
+{
+    "word": "Monochrome",
+    "pronunciation": "/ˈmɒnəkrəʊm/ (MON-oh-krome)",
+    "definition": "Monochrome comes from Greek 'monos' meaning 'single' and 'chroma' meaning 'colour'. A monochrome artwork uses only one colour or shades of a single colour."
+},
+{
+    "word": "Mosaic",
+    "pronunciation": "/moʊˈzeɪɪk/ (moh-ZAY-ik)",
+    "definition": "Mosaic comes from Latin 'mosaicus', meaning 'work of the Muses'. A mosaic is a picture made by fitting together small pieces of stone, glass, or tile."
+},
+{
+    "word": "Mural",
+    "pronunciation": "/ˈmjʊərəl/ (MYUR-uhl)",
+    "definition": "Mural comes from Latin 'murus', meaning 'wall'. A mural is a large painting made directly on a wall or ceiling."
+},
+{
+    "word": "Palette",
+    "pronunciation": "/ˈpælɪt/ (PAL-it)",
+    "definition": "Palette comes from Old French 'palete', meaning 'small board'. A palette is a flat surface where artists mix paints, and also refers to the range of colours an artist uses."
+},
+{
+    "word": "Papier-Mâché",
+    "pronunciation": "/ˌpæpi.eɪ mæˈʃeɪ/ (PAP-ee-ay ma-SHAY)",
+    "definition": "Papier-Mâché comes from French, meaning 'chewed paper'. It is a material made of paper pieces or pulp bound with glue, used for modelling."
+},
+{
+    "word": "Perspective",
+    "pronunciation": "/pərˈspɛktɪv/ (per-SPEK-tiv)",
+    "definition": "Perspective comes from Latin 'perspicere', meaning 'to see through'. It is the technique used in art to show depth and distance on a flat surface."
+},
+{
+    "word": "Photorealism",
+    "pronunciation": "/ˌfoʊtoʊˈriəˌlɪzəm/ (FOH-toh-ree-uh-lizm)",
+    "definition": "Photorealism comes from 'photo' meaning light and 'realism'. It is a style of painting that looks as realistic as a photograph."
+},
+{
+    "word": "Pigment",
+    "pronunciation": "/ˈpɪɡmənt/ (PIG-ment)",
+    "definition": "Pigment comes from Latin 'pigmentum', meaning 'colouring'. Pigments are coloured powders used to make paint, ink, or dyes."
+},
+{
+    "word": "Pointillism",
+    "pronunciation": "/ˈpwæntɪˌlɪzəm/ (PWAN-tih-lizm)",
+    "definition": "Pointillism comes from French 'pointiller', meaning 'to mark with dots'. It is a painting technique where small dots of colour are placed close together to form an image."
+},
+{
+    "word": "Pop Art",
+    "pronunciation": "/pɒp ɑːrt/ (POP art)",
+    "definition": "Pop Art comes from 'popular art'. It is a movement from the 1950s that used images from advertising, comics, and popular culture."
+},
+{
+    "word": "Portrait",
+    "pronunciation": "/ˈpɔːrtrət/ (POR-trit)",
+    "definition": "Portrait comes from Old French 'portraire', meaning 'to draw'. A portrait is a painting, drawing, or photograph of a person, especially of the face."
+},
+{
+    "word": "Post-Impressionism",
+    "pronunciation": "/ˌpoʊst ɪmˈprɛʃənɪzəm/ (POST im-PRESH-un-izm)",
+    "definition": "Post-Impressionism comes from 'post' meaning 'after' and Impressionism. It is an art movement that developed after Impressionism, focusing on bold colours and emotional expression."
+},
+{
+    "word": "Realism",
+    "pronunciation": "/ˈriːəˌlɪzəm/ (REE-uh-lizm)",
+    "definition": "Realism comes from Latin 'realis', meaning 'real'. It is an art style that shows subjects truthfully, without exaggeration or idealisation."
+},
+{
+    "word": "Relief",
+    "pronunciation": "/rɪˈliːf/ (ri-LEEF)",
+    "definition": "Relief comes from Old French 'relever', meaning 'to raise'. Relief is a sculptural technique where figures are raised above a flat background."
+},
+{
+    "word": "Renaissance",
+    "pronunciation": "/ˌrɛnəˈsɑːns/ (REN-uh-sahns)",
+    "definition": "Renaissance comes from French 'renaissance', meaning 'rebirth'. It was a cultural movement in Europe (14th–17th centuries) that revived classical art, architecture, and learning."
+},
+{
+    "word": "Sfumato",
+    "pronunciation": "/sfuːˈmɑːtoʊ/ (sfoo-MAH-toh)",
+    "definition": "Sfumato comes from Italian 'sfumare', meaning 'to tone down' or 'fade like smoke'. It is a painting technique that creates soft transitions between colours and tones."
+},
+{
+    "word": "Sculpture",
+    "pronunciation": "/ˈskʌlptʃər/ (SKULP-cher)",
+    "definition": "Sculpture comes from Latin 'sculpere', meaning 'to carve'. Sculpture is three-dimensional art made by carving, modelling, or assembling materials."
+},
+{
+    "word": "Silkscreen",
+    "pronunciation": "/ˈsɪlkˌskriːn/ (SILK-screen)",
+    "definition": "Silkscreen comes from 'silk' and 'screen'. It is a printmaking technique where ink is pressed through a mesh screen to make an image."
+},
+{
+    "word": "Still Life",
+    "pronunciation": "/stɪl laɪf/ (STIL lyfe)",
+    "definition": "Still Life comes from Dutch 'stilleven', meaning 'motionless life'. It is an artwork showing objects like fruit, flowers, or everyday items arranged together."
+},
+{
+    "word": "Stippling",
+    "pronunciation": "/ˈstɪplɪŋ/ (STIP-ling)",
+    "definition": "Stippling comes from Middle English 'stipel', meaning 'to prick'. It is a drawing technique that uses many small dots to create shading and texture."
+},
+{
+    "word": "Surrealism",
+    "pronunciation": "/səˈriːəˌlɪzəm/ (suh-REE-uh-lizm)",
+    "definition": "Surrealism comes from French 'surréalisme', meaning 'beyond realism'. It is an art movement that shows dream-like, strange, or illogical scenes."
+},
+{
+    "word": "Symbolism",
+    "pronunciation": "/ˈsɪmbəˌlɪzəm/ (SIM-buh-lizm)",
+    "definition": "Symbolism comes from Greek 'symbolon', meaning 'token' or 'sign'. Symbolism is an art style where symbols and images are used to express deeper meanings."
+},
+{
+    "word": "Tapestry",
+    "pronunciation": "/ˈtæpəstri/ (TAP-uh-stree)",
+    "definition": "Tapestry comes from Old French 'tapisserie', meaning 'carpet work'. A tapestry is a thick woven fabric with pictures or designs, often hung on walls."
+},
+{
+    "word": "Texture",
+    "pronunciation": "/ˈtɛkstʃər/ (TEKS-cher)",
+    "definition": "Texture comes from Latin 'textura', meaning 'weaving'. In art, texture is the way a surface feels or looks like it feels, such as rough, smooth, or soft."
+},
+{
+    "word": "Trompe-l'œil",
+    "pronunciation": "/trɒmp ˈlɔɪ/ (tromp LOY)",
+    "definition": "Trompe-l'œil is French for 'deceive the eye'. It is an art technique that creates very realistic images to trick viewers into thinking they are real."
+},
+{
+    "word": "Triptych",
+    "pronunciation": "/ˈtrɪptɪk/ (TRIP-tik)",
+    "definition": "Triptych comes from Greek 'triptychos', meaning 'three-fold'. It is a work of art made of three panels, often hinged together."
+},
+{
+    "word": "Typography",
+    "pronunciation": "/taɪˈpɒɡrəfi/ (ty-POG-ruh-fee)",
+    "definition": "Typography comes from Greek 'typos' meaning 'form' and 'graphein' meaning 'to write'. Typography is the art of arranging text in a readable and visually appealing way."
+},
+{
+    "word": "Underpainting",
+    "pronunciation": "/ˈʌndərˌpeɪntɪŋ/ (UN-der-paynt-ing)",
+    "definition": "Underpainting comes from 'under' and 'painting'. It is the first layer of paint applied to a surface, which helps build the composition for later layers."
+},
+{
+    "word": "Vanishing Point",
+    "pronunciation": "/ˈvænɪʃɪŋ pɔɪnt/ (VAN-ish-ing point)",
+    "definition": "Vanishing Point comes from 'vanish', meaning to disappear. In perspective drawing, it is the point where parallel lines seem to meet in the distance."
+},
+{
+    "word": "Vernacular Art",
+    "pronunciation": "/vərˈnækjələr ɑːrt/ (ver-NAK-yuh-lar art)",
+    "definition": "Vernacular comes from Latin 'vernaculus', meaning 'native'. Vernacular Art is art made by ordinary people using local traditions and everyday materials."
+},
+{
+    "word": "Watercolour",
+    "pronunciation": "/ˈwɔːtərkʌlər/ (WAW-ter-kull-er)",
+    "definition": "Watercolour comes from 'water' and 'colour'. It is a type of paint that uses water to spread pigments on paper, creating soft and transparent effects."
+},
+{
+    "word": "Woodcut",
+    "pronunciation": "/ˈwʊdkʌt/ (WOOD-kut)",
+    "definition": "Woodcut comes from 'wood' and 'cut'. It is a printmaking technique where an image is carved into a wooden block, inked, and pressed onto paper."
+},
+{
+    "word": "Abstract Expressionism",
+    "pronunciation": "/ˈæbstrækt ɪkˈsprɛʃənɪzəm/ (AB-strakt ex-PRESH-un-izm)",
+    "definition": "Abstract comes from Latin 'abstrahere', meaning 'to draw away'. Abstract Expressionism is a movement where artists used large gestures and abstract forms to express emotions."
+},
+{
+    "word": "Assemblage",
+    "pronunciation": "/əˈsɛmblɪʤ/ (uh-SEM-blij)",
+    "definition": "Assemblage comes from French 'assembler', meaning 'to assemble'. It is an art form made by putting together found objects and materials."
+},
+{
+    "word": "Bas-Relief",
+    "pronunciation": "/ˌbɑː rəˈliːf/ (BAH ruh-LEEF)",
+    "definition": "Bas-relief comes from French 'bas', meaning 'low', and 'relief'. It is a sculptural technique where figures project slightly from a flat background."
+},
+{
+    "word": "Jugendstil",
+    "pronunciation": "/ˈjuːɡəndʃtiːl/ (YOO-guhnd-shteel)",
+    "definition": "Jugendstil comes from German 'Jugend', meaning 'youth', and 'Stil', meaning 'style'. It was the German name for Art Nouveau, popular in the late 19th and early 20th centuries."
+},
+{
+    "word": "Kaleidoscope",
+    "pronunciation": "/kəˈlaɪdəˌskoʊp/ (kuh-LY-duh-skope)",
+    "definition": "Kaleidoscope comes from Greek 'kalos' meaning 'beautiful', 'eidos' meaning 'form', and 'skopein' meaning 'to look'. In art, it refers to colourful symmetrical patterns, often used in design."
+},
+{
+    "word": "Kilim",
+    "pronunciation": "/ˈkiːlɪm/ (KEE-lim)",
+    "definition": "Kilim comes from Turkish 'kilim'. It is a flat tapestry-woven rug or textile, often featuring geometric patterns, valued both as decoration and functional art."
+},
+{
+    "word": "Kinetic Art",
+    "pronunciation": "/kɪˈnɛtɪk ɑːrt/ (kih-NET-ik art)",
+    "definition": "Kinetic comes from Greek 'kinesis', meaning 'movement'. Kinetic Art is art that incorporates movement or gives the impression of movement."
+},
+{
+    "word": "Kitsch",
+    "pronunciation": "/kɪtʃ/ (KITCH)",
+    "definition": "Kitsch comes from German slang, meaning 'cheap' or 'tacky'. It refers to art or objects that are considered overly sentimental or in poor taste, but sometimes appreciated ironically."
+},
+{
+    "word": "Lacquer",
+    "pronunciation": "/ˈlækər/ (LAK-er)",
+    "definition": "Lacquer comes from Portuguese 'lacre', meaning 'resin'. In art, lacquer is a shiny protective coating applied to wood, metal, or ceramics, especially in Asian decorative arts."
+},
+{
+    "word": "Landscape Painting",
+    "pronunciation": "/ˈlændskeɪp ˈpeɪntɪŋ/ (LAND-skape PAYNT-ing)",
+    "definition": "Landscape comes from Dutch 'landschap', meaning 'region of land'. Landscape Painting is art that represents natural scenery such as mountains, valleys, rivers, or forests."
+},
+{
+    "word": "Line",
+    "pronunciation": "/laɪn/ (LYNE)",
+    "definition": "Line comes from Latin 'linea', meaning 'thread' or 'mark'. In art, a line is a mark made by a tool or movement that defines shape, direction, or boundary."
+},
+{
+    "word": "Linocut",
+    "pronunciation": "/ˈlaɪnoʊˌkʌt/ (LYE-noh-kut)",
+    "definition": "Linocut comes from 'linoleum' and 'cut'. It is a printmaking technique where an image is carved into linoleum, inked, and pressed onto paper."
+},
+{
+    "word": "Lithography",
+    "pronunciation": "/lɪˈθɒɡrəfi/ (li-THOG-ruh-fee)",
+    "definition": "Lithography comes from Greek 'lithos' meaning 'stone' and 'graphein' meaning 'to write'. It is a printmaking process where designs are drawn on stone or metal with a greasy substance and then printed."
+},
+{
+    "word": "Logo",
+    "pronunciation": "/ˈloʊɡoʊ/ (LOH-go)",
+    "definition": "Logo comes from Greek 'logos', meaning 'word'. A logo is a graphic symbol or design used to represent a brand, organisation, or product."
+},
+{
+    "word": "Luminism",
+    "pronunciation": "/ˈluːməˌnɪzəm/ (LOO-muh-nizm)",
+    "definition": "Luminism comes from Latin 'lumen', meaning 'light'. It is an American painting style of the 19th century that emphasises light, clarity, and atmosphere in landscapes."
+},
+{
+    "word": "Manga",
+    "pronunciation": "/ˈmæŋɡə/ (MAN-guh)",
+    "definition": "Manga comes from Japanese 'man' meaning 'whimsical' and 'ga' meaning 'pictures'. Manga refers to Japanese comic books or graphic novels with a unique art style."
+},
+{
+    "word": "Mandala",
+    "pronunciation": "/ˈmʌndələ/ (MUN-duh-luh)",
+    "definition": "Mandala comes from Sanskrit 'maṇḍala', meaning 'circle'. It is a geometric design symbolising the universe, often used in Hindu and Buddhist art."
+},
+{
+    "word": "Manuscript Illumination",
+    "pronunciation": "/ˈmænjʊskrɪpt ɪˌluːməˈneɪʃən/ (MAN-yoo-script il-LOO-muh-nay-shun)",
+    "definition": "Manuscript comes from Latin 'manu' meaning 'hand' and 'scriptus' meaning 'written'. Illumination comes from 'illuminare', meaning 'to light up'. It refers to decorated manuscripts with gold, silver, and colourful designs from the Middle Ages."
+},
+{
+    "word": "Marbling",
+    "pronunciation": "/ˈmɑːrblɪŋ/ (MAR-bling)",
+    "definition": "Marbling comes from 'marble', inspired by the stone’s patterns. It is a technique of creating colourful, swirling designs on paper or fabric using floating inks."
+},
+{
+    "word": "Masonry",
+    "pronunciation": "/ˈmeɪsənri/ (MAY-sun-ree)",
+    "definition": "Masonry comes from Old French 'maçon', meaning 'builder'. In art and architecture, masonry refers to building with stone, brick, or concrete."
+},
+{
+    "word": "Mask",
+    "pronunciation": "/mæsk/ (MASK)",
+    "definition": "Mask comes from French 'masque', meaning 'covering'. In art and culture, masks are decorated objects worn on the face, often for rituals, theatre, or festivals."
+},
+{
+    "word": "Mausoleum",
+    "pronunciation": "/ˌmɔːsəˈliːəm/ (maw-suh-LEE-um)",
+    "definition": "Mausoleum comes from the tomb of King Mausolus in Halicarnassus, one of the Seven Wonders of the Ancient World. It is a large, decorated tomb structure."
+},
+{
+    "word": "Medium",
+    "pronunciation": "/ˈmiːdiəm/ (MEE-dee-um)",
+    "definition": "Medium comes from Latin 'medium', meaning 'middle'. In art, medium refers to the material or technique used to create a work, such as oil, clay, or digital tools."
+},
+{
+    "word": "Medieval Art",
+    "pronunciation": "/ˌmɛdiˈiːvəl ɑːrt/ (med-ee-EE-vuhl art)",
+    "definition": "Medieval comes from Latin 'medium aevum', meaning 'the Middle Ages'. Medieval Art refers to art made in Europe between the 5th and 15th centuries, including manuscripts, stained glass, and sculpture."
+},
+{
+    "word": "Metalpoint",
+    "pronunciation": "/ˈmɛtlˌpɔɪnt/ (MET-uhl-point)",
+    "definition": "Metalpoint comes from 'metal' and 'point'. It is a drawing technique where a metal stylus is used on specially prepared paper to create delicate lines."
+},
+{
+    "word": "Minimalism",
+    "pronunciation": "/ˈmɪnɪməlɪzəm/ (MIN-ih-mal-izm)",
+    "definition": "Minimalism comes from Latin 'minimus', meaning 'least'. It is an art style that focuses on simplicity, using basic shapes, colours, and forms."
+},
+{
+    "word": "Miniature Painting",
+    "pronunciation": "/ˈmɪniətʃər ˈpeɪntɪŋ/ (MIN-ee-uh-cher PAYNT-ing)",
+    "definition": "Miniature comes from Latin 'miniare', meaning 'to colour with red lead'. Miniature Painting refers to small, detailed paintings often used in manuscripts or portraits."
+},
+{
+    "word": "Mixed Media",
+    "pronunciation": "/mɪkst ˈmiːdiə/ (MIXT MEE-dee-uh)",
+    "definition": "Mixed comes from Old English 'miscian', meaning 'to mix'. Mixed Media is art created by combining different materials, such as paint, fabric, and collage."
+},
+{
+    "word": "Modernism",
+    "pronunciation": "/ˈmɒdərnɪzəm/ (MOD-er-nizm)",
+    "definition": "Modernism comes from Latin 'modernus', meaning 'of today'. Modernism is an art movement of the late 19th and 20th centuries that rejected tradition and experimented with new ideas and techniques."
+},
+{
+    "word": "Monochrome",
+    "pronunciation": "/ˈmɒnəkrəʊm/ (MON-oh-krome)",
+    "definition": "Monochrome comes from Greek 'monos' meaning 'single' and 'chroma' meaning 'colour'. A monochrome artwork uses only one colour or different shades of a single colour."
+},
+{
+    "word": "Monoprint",
+    "pronunciation": "/ˈmɒnoʊˌprɪnt/ (MON-oh-print)",
+    "definition": "Monoprint comes from 'mono' meaning 'one' and 'print'. It is a printmaking method where only one unique impression can be made."
+},
+{
+    "word": "Monotype",
+    "pronunciation": "/ˈmɒnəˌtaɪp/ (MON-oh-type)",
+    "definition": "Monotype comes from Greek 'monos' meaning 'single' and 'typos' meaning 'impression'. It is a printmaking technique that creates a single, unique image by painting or drawing on a smooth surface and pressing it onto paper."
+},
+{
+    "word": "Mosaic",
+    "pronunciation": "/moʊˈzeɪɪk/ (moh-ZAY-ik)",
+    "definition": "Mosaic comes from Latin 'mosaicus', meaning 'work of the Muses'. A mosaic is an image or pattern created by arranging small pieces of stone, glass, or tile."
+},
+{
+    "word": "Mural",
+    "pronunciation": "/ˈmjʊərəl/ (MYUR-uhl)",
+    "definition": "Mural comes from Latin 'murus', meaning 'wall'. A mural is a large painting or artwork created directly on a wall or ceiling."
+}
+,
+{
+    "word": "Murano Glass",
+    "pronunciation": "/mʊˈrɑːnoʊ ɡlæs/ (moo-RAH-no glass)",
+    "definition": "Murano Glass comes from Murano, an island near Venice, Italy, famous for glassmaking since the Middle Ages. It refers to high-quality, colourful, handcrafted glass artworks."
+},
+{
+    "word": "Mythology in Art",
+    "pronunciation": "/mɪˈθɒlədʒi ɪn ɑːrt/ (mith-OL-uh-jee in art)",
+    "definition": "Mythology comes from Greek 'mythos' meaning 'story' and 'logos' meaning 'study'. Mythology in Art refers to artworks inspired by ancient myths, gods, and heroes."
+},
+{
+    "word": "Naïve Art",
+    "pronunciation": "/naɪˈiːv ɑːrt/ (nah-EEV art)",
+    "definition": "Naïve comes from French 'naïf', meaning 'natural' or 'innocent'. Naïve Art is created by artists without formal training, often simple, colourful, and childlike in style."
+},
+{
+    "word": "Naturalism",
+    "pronunciation": "/ˈnætʃərəˌlɪzəm/ (NATCH-uh-ruh-lizm)",
+    "definition": "Naturalism comes from Latin 'natura', meaning 'nature'. It is an art style that represents subjects realistically and accurately, based on careful observation of nature."
+},
+{
+    "word": "Negative Space",
+    "pronunciation": "/ˈnɛɡətɪv speɪs/ (NEG-uh-tiv space)",
+    "definition": "Negative comes from Latin 'negare', meaning 'to deny'. Negative Space is the empty or blank area around and between objects in an artwork, used to define shapes."
+},
+{
+    "word": "Neoclassicism",
+    "pronunciation": "/ˌniːoʊˈklæsɪsɪzəm/ (NEE-oh-klass-ih-sizm)",
+    "definition": "Neoclassicism comes from Greek 'neos' meaning 'new' and Latin 'classicus' meaning 'classical'. It was an 18th-century art movement inspired by ancient Greek and Roman styles."
+},
+{
+    "word": "Neolithic Art",
+    "pronunciation": "/ˌniːoʊˈlɪθɪk ɑːrt/ (nee-oh-LITH-ik art)",
+    "definition": "Neolithic comes from Greek 'neos' meaning 'new' and 'lithos' meaning 'stone'. Neolithic Art refers to art from the New Stone Age, including cave paintings, pottery, and carvings."
+},
+{
+    "word": "Neo-Expressionism",
+    "pronunciation": "/ˌniːoʊ ɪkˈsprɛʃənɪzəm/ (NEE-oh ex-PRESH-un-izm)",
+    "definition": "Neo-Expressionism combines 'neo' meaning 'new' and Expressionism. It is a late 20th-century movement using vivid colours and dramatic brushstrokes to express strong emotions."
+},
+{
+    "word": "Neo-Plasticism",
+    "pronunciation": "/ˌniːoʊ ˈplæstɪsɪzəm/ (NEE-oh PLAS-ti-sizm)",
+    "definition": "Neo-Plasticism comes from 'neo' meaning 'new' and 'plastic', meaning 'to form'. Coined by Piet Mondrian, it is an art style using straight lines and primary colours to create harmony."
+},
+{
+    "word": "Neutral Colours",
+    "pronunciation": "/ˈnjuːtrəl ˈkʌlərz/ (NYOO-truhl KULL-ers)",
+    "definition": "Neutral comes from Latin 'neuter', meaning 'neither'. Neutral Colours are colours like black, white, grey, and brown that are not strongly expressed on the colour wheel."
+},
+{
+    "word": "Niche",
+    "pronunciation": "/niːʃ/ (NEESH)",
+    "definition": "Niche comes from French 'nicher', meaning 'to nest'. In art and architecture, a niche is a hollow space in a wall where a statue or decorative object is placed."
+},
+{
+    "word": "Non-Objective Art",
+    "pronunciation": "/ˌnɒn əbˈdʒɛktɪv ɑːrt/ (non-ub-JEK-tiv art)",
+    "definition": "Non-Objective Art comes from 'non' meaning 'not' and 'objective'. It refers to abstract art that does not represent any real objects, focusing only on colour, shape, and line."
+},
+{
+    "word": "Nude",
+    "pronunciation": "/nuːd/ (NOOD)",
+    "definition": "Nude comes from Latin 'nudus', meaning 'bare'. In art, a nude is a depiction of the unclothed human body, often studied for form, proportion, and beauty."
+},
+{
+    "word": "Numismatics in Art",
+    "pronunciation": "/ˌnjuːmɪzˈmætɪks ɪn ɑːrt/ (nyoo-miz-MAT-iks in art)",
+    "definition": "Numismatics comes from Greek 'nomisma', meaning 'coin'. In art, numismatics refers to the design and artistic study of coins, medals, and currency."
+}
+,
+{
+    "word": "Obelisk",
+    "pronunciation": "/ˈɒbəlɪsk/ (OB-uh-lisk)",
+    "definition": "Obelisk comes from Greek 'obeliskos', meaning 'little spit' or 'pillar'. An obelisk is a tall, four-sided stone monument with a pyramid-shaped top, often used in ancient Egyptian art and architecture."
+},
+{
+    "word": "Objet d’art",
+    "pronunciation": "/ˌɒbʒeɪ ˈdɑːr/ (ob-ZHAY dar)",
+    "definition": "Objet d’art is French for 'art object'. It refers to a small, decorative piece of art such as a sculpture, vase, or ornament."
+},
+{
+    "word": "Oil Painting",
+    "pronunciation": "/ɔɪl ˈpeɪntɪŋ/ (OYL PAYNT-ing)",
+    "definition": "Oil Painting comes from 'oil', the medium used, and 'painting'. It is a technique of creating art using pigments mixed with oil, popular since the Renaissance."
+},
+{
+    "word": "Op Art",
+    "pronunciation": "/ɒp ɑːrt/ (OP art)",
+    "definition": "Op Art comes from 'optical art'. It is a style of abstract art that uses patterns and colours to create visual effects and illusions of movement."
+},
+{
+    "word": "Openwork",
+    "pronunciation": "/ˈoʊpənwɜːrk/ (OH-pen-wurk)",
+    "definition": "Openwork comes from 'open' and 'work'. It refers to a decorative design where parts are cut out, leaving openings in metal, wood, or stone."
+},
+{
+    "word": "Ornament",
+    "pronunciation": "/ˈɔːrnəmənt/ (OR-nuh-ment)",
+    "definition": "Ornament comes from Latin 'ornamentum', meaning 'decoration'. In art and architecture, ornament is a decorative design added to beautify an object or building."
+},
+{
+    "word": "Orphism",
+    "pronunciation": "/ˈɔːrfɪzəm/ (OR-fiz-um)",
+    "definition": "Orphism comes from Orpheus, a figure from Greek mythology, symbolising harmony. It is an early 20th-century art movement that used bold colours and abstract shapes to suggest music and rhythm."
+},
+{
+    "word": "Ossuary Art",
+    "pronunciation": "/ˈɒsjuəri ɑːrt/ (OSS-yoo-air-ee art)",
+    "definition": "Ossuary comes from Latin 'ossuarium', meaning 'place of bones'. Ossuary Art refers to artworks and decorations created from human bones, often seen in historical churches and catacombs."
+},
+{
+    "word": "Outline",
+    "pronunciation": "/ˈaʊtlaɪn/ (OWT-lyne)",
+    "definition": "Outline comes from 'out' and 'line'. In art, an outline is the line that defines the outer edges of a shape or figure."
+},
+{
+    "word": "Overpainting",
+    "pronunciation": "/ˌoʊvərˈpeɪntɪŋ/ (OH-ver-paynt-ing)",
+    "definition": "Overpainting comes from 'over' and 'painting'. It refers to painting over an existing layer of paint, often to make corrections or add new elements."
+},
+{
+    "word": "Owl Symbolism",
+    "pronunciation": "/aʊl ˈsɪmbəlɪzəm/ (OWL SIM-buh-lizm)",
+    "definition": "Owl comes from Old English 'ule', and symbolism from Greek 'symbolon', meaning 'sign'. In art, owl symbolism often represents wisdom, mystery, or night."
+},
+{
+    "word": "Oxidation Art",
+    "pronunciation": "/ˌɒksɪˈdeɪʃən ɑːrt/ (OK-si-day-shun art)",
+    "definition": "Oxidation comes from Latin 'oxydare', meaning 'to rust'. Oxidation Art refers to artworks created by chemical reactions such as rusting, tarnishing, or patination of materials like metal."
+},
+{
+    "word": "Oyster Palette",
+    "pronunciation": "/ˈɔɪstər ˈpælət/ (OY-ster PAL-it)",
+    "definition": "Oyster comes from Latin 'ostrea', meaning 'shell'. An Oyster Palette is a traditional artist’s palette shaped like an oyster shell, often used in ancient and medieval times."
+},
+{
+    "word": "Pagan Art",
+    "pronunciation": "/ˈpeɪɡən ɑːrt/ (PAY-gun art)",
+    "definition": "Pagan comes from Latin 'paganus', meaning 'country dweller'. Pagan Art refers to artworks connected to pre-Christian or non-mainstream spiritual traditions."
+},
+{
+    "word": "Palette",
+    "pronunciation": "/ˈpælɪt/ (PAL-it)",
+    "definition": "Palette comes from Old French 'palete', meaning 'small board'. A palette is the board artists use to mix paints, and also refers to the range of colours used in a work."
+},
+{
+    "word": "Palette Knife",
+    "pronunciation": "/ˈpælɪt naɪf/ (PAL-it nyfe)",
+    "definition": "Palette Knife comes from 'palette' and 'knife'. It is a tool with a flat, flexible blade used for mixing paints or applying thick layers of colour."
+},
+{
+    "word": "Panel Painting",
+    "pronunciation": "/ˈpænəl ˈpeɪntɪŋ/ (PAN-uhl PAYNT-ing)",
+    "definition": "Panel Painting comes from 'panel', meaning a flat surface, and 'painting'. It refers to artworks painted on wooden panels before canvas became common."
+},
+{
+    "word": "Papier-mâché",
+    "pronunciation": "/ˌpæpi.eɪ mæˈʃeɪ/ (PAP-ee-ay ma-SHAY)",
+    "definition": "Papier-mâché is French for 'chewed paper'. It is a craft material made from paper pieces bound with glue, used to create lightweight sculptures and masks."
+},
+{
+    "word": "Papyrus",
+    "pronunciation": "/pəˈpaɪrəs/ (puh-PIE-rus)",
+    "definition": "Papyrus comes from Greek 'papuros', meaning 'reed'. It is an ancient writing surface made from reed plants, used in Egyptian and classical art."
+},
+{
+    "word": "Paradox in Art",
+    "pronunciation": "/ˈpærədɒks ɪn ɑːrt/ (PAR-uh-doks in art)",
+    "definition": "Paradox comes from Greek 'paradoxon', meaning 'contrary to expectation'. In art, a paradox is an image or idea that appears contradictory but reveals deeper meaning."
+},
+{
+    "word": "Pargeting",
+    "pronunciation": "/ˈpɑːrdʒɪtɪŋ/ (PAR-jit-ing)",
+    "definition": "Pargeting comes from Middle English 'parget', meaning 'plaster'. It is the art of decorating building walls with ornamental plasterwork."
+},
+{
+    "word": "Parian Ware",
+    "pronunciation": "/ˈpɛəriən wɛər/ (PAIR-ee-uhn wair)",
+    "definition": "Parian comes from the Greek island Paros, famous for its marble. Parian Ware is a type of fine porcelain resembling white marble, often used for sculptures."
+},
+{
+    "word": "Parody in Art",
+    "pronunciation": "/ˈpærədi ɪn ɑːrt/ (PAR-uh-dee in art)",
+    "definition": "Parody comes from Greek 'parōidia', meaning 'imitating a song'. Parody in Art is when an artwork imitates another style or piece, usually with humour or critique."
+},
+{
+    "word": "Pastel",
+    "pronunciation": "/pæˈstɛl/ (pa-STEHL)",
+    "definition": "Pastel comes from Italian 'pastello', meaning 'paste'. It refers to a coloured drawing stick made of powdered pigment and also the artworks created with it."
+},
+{
+    "word": "Patina",
+    "pronunciation": "/ˈpætɪnə/ (PAT-ih-nuh)",
+    "definition": "Patina comes from Latin 'patina', meaning 'shallow dish'. In art, patina refers to the green or brown surface that develops naturally on bronze, copper, and similar materials over time."
+}
+,
+{
+    "word": "Pattern",
+    "pronunciation": "/ˈpætərn/ (PAT-urn)",
+    "definition": "Pattern comes from Old French 'patron', meaning 'model' or 'design'. In art, a pattern is a repeated decorative design using shapes, lines, or colours."
+},
+{
+    "word": "Pentimento",
+    "pronunciation": "/ˌpɛntɪˈmɛntoʊ/ (pen-tee-MEN-toh)",
+    "definition": "Pentimento comes from Italian 'pentirsi', meaning 'to repent'. In art, it refers to traces of earlier paintings or drawings visible under the final work."
+},
+{
+    "word": "Performance Art",
+    "pronunciation": "/pərˈfɔːrməns ɑːrt/ (per-FOR-muns art)",
+    "definition": "Performance comes from Old French 'parfournir', meaning 'to complete'. Performance Art is a live art presentation where the artist’s actions become the artwork."
+},
+{
+    "word": "Perspective",
+    "pronunciation": "/pərˈspɛktɪv/ (per-SPEK-tiv)",
+    "definition": "Perspective comes from Latin 'perspectiva', meaning 'to look through'. In art, perspective is the technique of representing three-dimensional depth on a flat surface."
+},
+{
+    "word": "Photorealism",
+    "pronunciation": "/ˌfoʊtoʊˈriːəlɪzəm/ (FOH-toh-ree-uh-lizm)",
+    "definition": "Photorealism comes from 'photo' meaning 'light' and 'realism'. It is an art style where paintings and drawings look almost like high-resolution photographs."
+},
+{
+    "word": "Pictogram",
+    "pronunciation": "/ˈpɪktəˌɡræm/ (PIK-to-gram)",
+    "definition": "Pictogram comes from Latin 'pictus' meaning 'painted' and Greek 'gramma' meaning 'something written'. A pictogram is a simple picture symbol representing an object or idea."
+},
+{
+    "word": "Pigment",
+    "pronunciation": "/ˈpɪɡmənt/ (PIG-ment)",
+    "definition": "Pigment comes from Latin 'pigmentum', meaning 'colouring substance'. In art, pigment is the coloured material mixed with a medium to make paint."
+},
+{
+    "word": "Pietà",
+    "pronunciation": "/piːˈeɪtɑː/ (pee-AY-tah)",
+    "definition": "Pietà is Italian for 'pity' or 'compassion'. In art, it refers to depictions of the Virgin Mary holding the dead body of Jesus."
+},
+{
+    "word": "Pointillism",
+    "pronunciation": "/ˈpwæntɪˌlɪzəm/ (POYN-till-izm)",
+    "definition": "Pointillism comes from French 'pointiller', meaning 'to mark with dots'. It is a painting technique where small dots of colour are applied to form an image."
+},
+{
+    "word": "Polychrome",
+    "pronunciation": "/ˈpɒlɪˌkroʊm/ (POL-ee-krome)",
+    "definition": "Polychrome comes from Greek 'poly' meaning 'many' and 'chroma' meaning 'colour'. It refers to artwork or decoration painted in several colours."
+},
+{
+    "word": "Polyptych",
+    "pronunciation": "/ˈpɒlɪptɪk/ (POL-ee-tik)",
+    "definition": "Polyptych comes from Greek 'poly' meaning 'many' and 'ptyche' meaning 'fold'. It is a painting or altarpiece made of multiple panels joined together."
+},
+{
+    "word": "Pop Art",
+    "pronunciation": "/pɒp ɑːrt/ (POP art)",
+    "definition": "Pop Art comes from 'popular art'. It is a 20th-century movement that uses imagery from mass culture like advertising, comics, and consumer goods."
+},
+{
+    "word": "Portrait",
+    "pronunciation": "/ˈpɔːrtrət/ (POR-trit)",
+    "definition": "Portrait comes from Latin 'portrahere', meaning 'to draw forth'. A portrait is an artwork that represents a person, usually focusing on the face."
+},
+{
+    "word": "Post-Impressionism",
+    "pronunciation": "/ˌpoʊst ɪmˈprɛʃənɪzəm/ (POST-im-PRESH-un-izm)",
+    "definition": "Post-Impressionism combines 'post' meaning 'after' and Impressionism. It is an art movement after Impressionism, exploring new styles, colours, and emotional expression."
+},
+{
+    "word": "Pottery",
+    "pronunciation": "/ˈpɒtəri/ (POT-uh-ree)",
+    "definition": "Pottery comes from Old French 'poterie', meaning 'pots'. It refers to objects made from clay and hardened by heat, often decorated artistically."
+},
+{
+    "word": "Primitivism",
+    "pronunciation": "/ˈprɪmɪtɪˌvɪzəm/ (PRIM-ih-tiv-izm)",
+    "definition": "Primitivism comes from Latin 'primitivus', meaning 'first or original'. It is an art style inspired by non-Western or prehistoric cultures, often idealised as 'pure'."
+},
+{
+    "word": "Printmaking",
+    "pronunciation": "/ˈprɪntˌmeɪkɪŋ/ (PRINT-may-king)",
+    "definition": "Printmaking comes from 'print' and 'making'. It is the process of creating artworks by printing, usually on paper, using techniques such as etching, lithography, or screen printing."
+},
+{
+    "word": "Proportion",
+    "pronunciation": "/prəˈpɔːrʃən/ (pro-POR-shun)",
+    "definition": "Proportion comes from Latin 'proportio', meaning 'comparing parts'. In art, proportion is the relationship of sizes between different elements of a work."
+},
+{
+    "word": "Public Art",
+    "pronunciation": "/ˈpʌblɪk ɑːrt/ (PUB-lick art)",
+    "definition": "Public comes from Latin 'publicus', meaning 'of the people'. Public Art refers to artworks created for public spaces, such as murals, statues, and installations."
+},
+{
+    "word": "Pueblo Art",
+    "pronunciation": "/ˈpwɛbloʊ ɑːrt/ (PWEH-blo art)",
+    "definition": "Pueblo comes from Spanish, meaning 'village'. Pueblo Art refers to the traditional arts of the Pueblo Native American communities, including pottery, weaving, and painting."
+},
+{
+    "word": "Pyrography",
+    "pronunciation": "/paɪˈrɒɡrəfi/ (pie-ROG-ruh-fee)",
+    "definition": "Pyrography comes from Greek 'pyr' meaning 'fire' and 'graphein' meaning 'to write'. It is the art of decorating wood or leather by burning designs into the surface."
+},
+{
+    "word": "Quadratura",
+    "pronunciation": "/ˌkwɑːdrəˈtjʊərə/ (kwah-drah-TOO-rah)",
+    "definition": "Quadratura comes from Italian, meaning 'to square'. It is a type of ceiling painting that uses perspective to create the illusion of extended architecture."
+},
+{
+    "word": "Quadriptych",
+    "pronunciation": "/ˈkwɒdrɪptɪk/ (KWOD-rip-tik)",
+    "definition": "Quadriptych comes from Latin 'quadri' meaning 'four' and Greek 'ptyche' meaning 'fold'. It is an artwork made of four panels joined together."
+},
+{
+    "word": "Quadrivium",
+    "pronunciation": "/kwɒˈdrɪviəm/ (kwod-RIV-ee-um)",
+    "definition": "Quadrivium comes from Latin 'quadri' meaning 'four' and 'via' meaning 'way'. In medieval education, it referred to the four subjects of arithmetic, geometry, music, and astronomy, often linked to art theory."
+},
+{
+    "word": "Quatrefoil",
+    "pronunciation": "/ˈkwɒtrəfɔɪl/ (KWOT-ruh-foyl)",
+    "definition": "Quatrefoil comes from Latin 'quattuor' meaning 'four' and 'folium' meaning 'leaf'. In art and architecture, it is a decorative design with four lobes or leaves, like a four-leaf clover."
+},
+{
+    "word": "Quill",
+    "pronunciation": "/kwɪl/ (KWIL)",
+    "definition": "Quill comes from Middle Low German 'quill', meaning 'reed' or 'shaft'. In art, a quill is a feather pen used for drawing or calligraphy."
+},
+{
+    "word": "Quintych",
+    "pronunciation": "/ˈkwɪntɪk/ (KWIN-tik)",
+    "definition": "Quintych comes from Latin 'quinque' meaning 'five' and Greek 'ptyche' meaning 'fold'. It is an artwork made up of five connected panels."
+},
+{
+    "word": "Raku",
+    "pronunciation": "/ˈrɑːkuː/ (RAH-koo)",
+    "definition": "Raku is Japanese for 'enjoyment' or 'comfort'. It is a type of Japanese pottery traditionally used in tea ceremonies, known for its unique glaze effects from rapid firing."
+},
+{
+    "word": "Readymade",
+    "pronunciation": "/ˈrɛdiˌmeɪd/ (RED-ee-mayd)",
+    "definition": "Readymade comes from 'ready' and 'made'. Coined by Marcel Duchamp, it refers to ordinary manufactured objects presented as artworks."
+},
+{
+    "word": "Realism",
+    "pronunciation": "/ˈriːəˌlɪzəm/ (REE-uh-lizm)",
+    "definition": "Realism comes from Latin 'realis', meaning 'actual'. It is an art style that depicts subjects as they appear in everyday life, without exaggeration or idealisation."
+},
+{
+    "word": "Red Figure Pottery",
+    "pronunciation": "/rɛd ˈfɪɡjər ˈpɒtəri/ (RED fig-yer POT-uh-ree)",
+    "definition": "Red Figure Pottery was developed in ancient Greece around 530 BCE. It is a style of pottery where figures are left in red against a black background, allowing greater detail than earlier black-figure pottery."
+},
+{
+    "word": "Relief",
+    "pronunciation": "/rɪˈliːf/ (ri-LEEF)",
+    "definition": "Relief comes from Old French 'relever', meaning 'to raise'. In art, relief is a sculpture where figures are raised above a flat background."
+},
+{
+    "word": "Renaissance",
+    "pronunciation": "/ˈrɛnəsɑːns/ (REN-uh-sahns)",
+    "definition": "Renaissance comes from French 'renaissance', meaning 'rebirth'. It refers to the cultural and artistic revival in Europe from the 14th to 17th centuries, inspired by classical antiquity."
+},
+{
+    "word": "Repoussé",
+    "pronunciation": "/rəˌpuːˈseɪ/ (ruh-POO-say)",
+    "definition": "Repoussé comes from French 'repousser', meaning 'to push back'. It is a metalworking technique where designs are hammered into relief from the reverse side."
+},
+{
+    "word": "Resin Art",
+    "pronunciation": "/ˈrɛzɪn ɑːrt/ (REZ-in art)",
+    "definition": "Resin comes from Latin 'resina', meaning 'tree sap'. Resin Art is made by mixing resin with pigments, creating glossy, colourful surfaces often used for abstract designs."
+},
+{
+    "word": "Retablo",
+    "pronunciation": "/rɛˈtɑːbloʊ/ (reh-TAH-blo)",
+    "definition": "Retablo is Spanish for 'board behind the altar'. It refers to devotional paintings, often on wood or tin, depicting saints or religious scenes."
+},
+{
+    "word": "Rhyton",
+    "pronunciation": "/ˈraɪtɒn/ (RY-ton)",
+    "definition": "Rhyton comes from Greek 'rhein', meaning 'to flow'. It is an ancient drinking vessel, often shaped like an animal, used in rituals and decorated artistically."
+},
+{
+    "word": "Rococo",
+    "pronunciation": "/ˌroʊkoʊˈkoʊ/ (roh-koh-KOH)",
+    "definition": "Rococo comes from French 'rocaille', meaning 'shell work' or 'rock work'. It is an 18th-century art style known for ornate decoration, pastel colours, and playful themes."
+},
+{
+    "word": "Romanesque",
+    "pronunciation": "/ˌroʊməˈnɛsk/ (ROH-muh-nesk)",
+    "definition": "Romanesque comes from 'Roman-like'. It is an architectural style of medieval Europe, featuring rounded arches, thick walls, and large towers."
+},
+{
+    "word": "Rondeau",
+    "pronunciation": "/ˈrɒndoʊ/ (RON-do)",
+    "definition": "Rondeau comes from French 'rond', meaning 'round'. In art and design, it can describe circular decorative motifs, though it is more common in music and poetry."
+},
+{
+    "word": "Rosetta Stone",
+    "pronunciation": "/roʊˈzɛtə stoʊn/ (roh-ZET-uh stone)",
+    "definition": "Rosetta comes from the town of Rosetta in Egypt. The Rosetta Stone is an ancient stele that helped scholars decipher Egyptian hieroglyphs."
+},
+{
+    "word": "Rubrication",
+    "pronunciation": "/ˌruːbrɪˈkeɪʃən/ (roo-bri-KAY-shun)",
+    "definition": "Rubrication comes from Latin 'rubrica', meaning 'red ochre'. In medieval manuscripts, rubrication refers to red lettering used for titles, headings, or emphasis."
+},
+{
+    "word": "Rustication",
+    "pronunciation": "/ˌrʌstɪˈkeɪʃən/ (RUS-ti-kay-shun)",
+    "definition": "Rustication comes from Latin 'rusticus', meaning 'rural'. In architecture, it is the technique of giving stone blocks a rough surface to create a bold, textured look."
+},
+{
+    "word": "Salt Glaze",
+    "pronunciation": "/sɔːlt ɡleɪz/ (SALT glayz)",
+    "definition": "Salt Glaze comes from 'salt' and 'glaze'. It is a ceramic finish created by throwing salt into a kiln during firing, which forms a glassy, textured surface."
+},
+{
+    "word": "Sandpainting",
+    "pronunciation": "/ˈsændˌpeɪntɪŋ/ (SAND-paynt-ing)",
+    "definition": "Sandpainting comes from 'sand' and 'painting'. It is an art form made by arranging coloured sand to create designs, often used in Navajo and Tibetan traditions."
+},
+{
+    "word": "Sans Serif",
+    "pronunciation": "/sæn ˈsɛrɪf/ (SAN ser-if)",
+    "definition": "Sans Serif comes from French 'sans', meaning 'without', and 'serif', meaning 'stroke'. It refers to typefaces without decorative strokes at the ends of letters."
+},
+{
+    "word": "Sarcophagus",
+    "pronunciation": "/sɑːrˈkɒfəɡəs/ (sar-KOF-uh-gus)",
+    "definition": "Sarcophagus comes from Greek 'sarkophagos', meaning 'flesh-eating'. In art, it refers to a decorated stone coffin used in ancient cultures."
+},
+{
+    "word": "Satire in Art",
+    "pronunciation": "/ˈsætaɪər ɪn ɑːrt/ (SAT-eye-er in art)",
+    "definition": "Satire comes from Latin 'satura', meaning 'medley'. In art, satire is the use of humour or exaggeration to criticise people, politics, or society."
+},
+{
+    "word": "Saturated Colour",
+    "pronunciation": "/ˈsætʃəˌreɪtɪd ˈkʌlər/ (SATCH-uh-ray-tid KULL-er)",
+    "definition": "Saturated comes from Latin 'saturare', meaning 'to fill'. A saturated colour is pure, intense, and not mixed with white, black, or grey."
+},
+{
+    "word": "Savant Art",
+    "pronunciation": "/səˈvɑːnt ɑːrt/ (suh-VAHNT art)",
+    "definition": "Savant comes from French 'savoir', meaning 'to know'. Savant Art refers to artworks created by individuals with exceptional but unusual abilities, often linked to autism."
+},
+{
+    "word": "Scale",
+    "pronunciation": "/skeɪl/ (SKAYL)",
+    "definition": "Scale comes from Latin 'scala', meaning 'ladder'. In art, scale is the size of an object in relation to another or to its surroundings."
+},
+{
+    "word": "Schematic Drawing",
+    "pronunciation": "/skiːˈmætɪk ˈdrɔːɪŋ/ (ski-MAT-ik DRAW-ing)",
+    "definition": "Schematic comes from Greek 'skhema', meaning 'form' or 'figure'. A schematic drawing is a simplified representation that shows structure or function instead of details."
+},
+{
+    "word": "Sculpture",
+    "pronunciation": "/ˈskʌlptʃər/ (SKULP-cher)",
+    "definition": "Sculpture comes from Latin 'sculpere', meaning 'to carve'. It is the art of making three-dimensional works by carving, modelling, or assembling materials."
+},
+{
+    "word": "Sculpture in the Round",
+    "pronunciation": "/ˈskʌlptʃər ɪn ðə raʊnd/ (SKULP-cher in the round)",
+    "definition": "This term comes from the idea of viewing art 'in the round'. Sculpture in the Round is a free-standing sculpture designed to be seen from all sides."
+},
+{
+    "word": "Sculpture Relief",
+    "pronunciation": "/ˈskʌlptʃər rɪˈliːf/ (SKULP-cher ri-LEEF)",
+    "definition": "Relief comes from French 'relever', meaning 'to raise'. A sculpture relief is carved so that figures project slightly from a flat background."
+},
+{
+    "word": "Sfumato",
+    "pronunciation": "/sfuːˈmɑːtoʊ/ (sfoo-MAH-toh)",
+    "definition": "Sfumato comes from Italian 'sfumare', meaning 'to evaporate like smoke'. It is a painting technique of blending tones and colours so there are no sharp outlines."
+},
+{
+    "word": "Shade",
+    "pronunciation": "/ʃeɪd/ (SHAYD)",
+    "definition": "Shade comes from Old English 'sceadu', meaning 'shadow'. In art, shade is a darker version of a colour created by adding black."
+},
+{
+    "word": "Shading",
+    "pronunciation": "/ˈʃeɪdɪŋ/ (SHAY-ding)",
+    "definition": "Shading comes from 'shade'. In drawing, shading is the use of light and dark tones to create the illusion of depth and form."
+},
+{
+    "word": "Silhouette",
+    "pronunciation": "/ˌsɪluˈɛt/ (sil-oo-ET)",
+    "definition": "Silhouette comes from Étienne de Silhouette, an 18th-century French official known for cheap portraits. In art, it refers to the dark outline of a person or object."
+},
+{
+    "word": "Silverpoint",
+    "pronunciation": "/ˈsɪlvərpɔɪnt/ (SIL-ver-point)",
+    "definition": "Silverpoint comes from 'silver' and 'point'. It is a drawing technique using a silver stylus on specially prepared paper, producing fine, delicate lines."
+},
+{
+    "word": "Simulacrum",
+    "pronunciation": "/ˌsɪmjʊˈleɪkrəm/ (sim-yoo-LAY-krum)",
+    "definition": "Simulacrum comes from Latin 'simulare', meaning 'to imitate'. In art, it is an image or representation that imitates reality, often raising questions about truth and illusion."
+},
+{
+    "word": "Site-Specific Art",
+    "pronunciation": "/saɪt spəˈsɪfɪk ɑːrt/ (SITE spuh-SIF-ik art)",
+    "definition": "Site comes from Latin 'situs', meaning 'place'. Site-Specific Art is created to exist in a particular location and often cannot be moved without losing its meaning."
+},
+{
+    "word": "Sketch",
+    "pronunciation": "/skɛtʃ/ (SKETCH)",
+    "definition": "Sketch comes from Dutch 'schets', meaning 'a first draft'. A sketch is a quick, rough drawing that captures the basic elements of a subject."
+},
+{
+    "word": "Sketchbook",
+    "pronunciation": "/ˈskɛtʃˌbʊk/ (SKETCH-book)",
+    "definition": "Sketchbook comes from 'sketch' and 'book'. It is a book of blank pages used by artists to draw, plan, and practise ideas."
+},
+{
+    "word": "Skyline in Art",
+    "pronunciation": "/ˈskaɪˌlaɪn ɪn ɑːrt/ (SKY-lyne in art)",
+    "definition": "Skyline comes from 'sky' and 'line'. In art, a skyline is the outline of buildings or natural forms seen against the sky."
+},
+{
+    "word": "Slipware",
+    "pronunciation": "/ˈslɪpwɛər/ (SLIP-wair)",
+    "definition": "Slipware comes from 'slip', meaning liquid clay. It refers to pottery decorated with liquid clay before firing."
+},
+{
+    "word": "Social Realism",
+    "pronunciation": "/ˈsoʊʃəl ˈriːəlɪzəm/ (SO-shul REE-uh-lizm)",
+    "definition": "Social Realism combines 'social' and 'realism'. It is an art movement that depicts everyday life and social issues, often highlighting the struggles of the working class."
+},
+{
+    "word": "Soft Sculpture",
+    "pronunciation": "/sɒft ˈskʌlptʃər/ (SOFT SKULP-cher)",
+    "definition": "Soft Sculpture comes from 'soft' and 'sculpture'. It is a form of sculpture made with materials like fabric, foam, or stuffing instead of stone or metal."
+},
+{
+    "word": "Stained Glass",
+    "pronunciation": "/steɪnd ɡlɑːs/ (STAYND glass)",
+    "definition": "Stained comes from Old French 'esteindre', meaning 'to colour'. Stained Glass refers to coloured glass used to create decorative windows, often in churches."
+},
+{
+    "word": "Statuette",
+    "pronunciation": "/ˌstætʃuˈɛt/ (STAT-choo-et)",
+    "definition": "Statuette comes from 'statue' plus the diminutive suffix '-ette'. It refers to a small statue or figurine."
+},
+{
+    "word": "Stele",
+    "pronunciation": "/ˈstiːli/ (STEE-lee)",
+    "definition": "Stele comes from Greek 'stēlē', meaning 'pillar'. It is an upright stone slab used as a monument, often inscribed or carved."
+},
+{
+    "word": "Stencil",
+    "pronunciation": "/ˈstɛnsəl/ (STEN-sul)",
+    "definition": "Stencil comes from Old French 'estenceler', meaning 'to sparkle'. In art, a stencil is a thin sheet with cut-out shapes used to reproduce designs."
+},
+{
+    "word": "Still Life",
+    "pronunciation": "/stɪl laɪf/ (STILL lyfe)",
+    "definition": "Still Life comes from Dutch 'stilleven', meaning 'motionless life'. It is an artwork depicting inanimate objects like fruit, flowers, and everyday items."
+},
+
+{
+    "word": "Street Art",
+    "pronunciation": "/striːt ɑːrt/ (STREET art)",
+    "definition": "Street Art comes from 'street' and 'art'. It refers to visual art created in public spaces, including graffiti, murals, and installations."
+},
+{
+    "word": "Structuralism in Art",
+    "pronunciation": "/ˈstrʌktʃərəlɪzəm ɪn ɑːrt/ (STRUK-chur-uh-lizm in art)",
+    "definition": "Structuralism comes from Latin 'structura', meaning 'arrangement'. In art theory, it studies how meaning is built through structures and systems of symbols."
+},
+{
+    "word": "Stucco",
+    "pronunciation": "/ˈstʌkoʊ/ (STUK-oh)",
+    "definition": "Stucco comes from Italian 'stuccare', meaning 'to plaster'. It is a fine plaster used to cover walls and ceilings, often for decorative purposes."
+},
+{
+    "word": "Stylisation",
+    "pronunciation": "/ˌstaɪlaɪˈzeɪʃən/ (STY-ly-zay-shun)",
+    "definition": "Stylisation comes from 'style'. It refers to representing objects in a non-realistic way, using deliberate design choices rather than naturalism."
+},
+{
+    "word": "Stylus",
+    "pronunciation": "/ˈstaɪləs/ (STY-lus)",
+    "definition": "Stylus comes from Latin 'stilus', meaning 'pointed tool'. It is a tool used for engraving, writing, or drawing on various surfaces."
+},
+{
+    "word": "Subtractive Sculpture",
+    "pronunciation": "/səbˈtræktɪv ˈskʌlptʃər/ (sub-TRAK-tiv SKULP-cher)",
+    "definition": "Subtractive comes from 'subtract', meaning 'to take away'. Subtractive Sculpture is created by carving or removing material from a solid block like stone or wood."
+},
+{
+    "word": "Suprematism",
+    "pronunciation": "/suːˈpriːmətɪzəm/ (soo-PREE-muh-tizm)",
+    "definition": "Suprematism comes from 'supreme'. It is a Russian art movement founded by Kazimir Malevich, focusing on basic geometric forms and pure artistic feeling."
+},
+{
+    "word": "Surrealism",
+    "pronunciation": "/səˈriːəlɪzəm/ (suh-REE-uh-lizm)",
+    "definition": "Surrealism comes from French 'surréalisme', meaning 'super-realism'. It is an art movement that expresses dreams, the subconscious, and irrational imagery."
+},
+{
+    "word": "Symbolism",
+    "pronunciation": "/ˈsɪmbəˌlɪzəm/ (SIM-buh-lizm)",
+    "definition": "Symbolism comes from Greek 'symbolon', meaning 'sign'. It is an art movement where artists used symbols and metaphors to express emotions and ideas."
+},
+{
+    "word": "Symmetry",
+    "pronunciation": "/ˈsɪmətri/ (SIM-uh-tree)",
+    "definition": "Symmetry comes from Greek 'symmetria', meaning 'agreement in dimensions'. In art, symmetry is the balanced arrangement of elements on either side of a central axis."
+},
+{
+    "word": "Synthetic Cubism",
+    "pronunciation": "/sɪnˈθɛtɪk ˈkjuːbɪzəm/ (sin-THET-ik KYOOB-izm)",
+    "definition": "Synthetic comes from Greek 'syntithenai', meaning 'to put together'. Synthetic Cubism is a later phase of Cubism where artists combined simple shapes, textures, and collage."
+},
+{
+    "word": "Syntax in Art",
+    "pronunciation": "/ˈsɪntæks ɪn ɑːrt/ (SIN-taks in art)",
+    "definition": "Syntax comes from Greek 'syntaxis', meaning 'arrangement'. In art, syntax refers to the arrangement of elements within a composition, similar to grammar in language."
+},
+{
+    "word": "Synaesthesia in Art",
+    "pronunciation": "/ˌsɪniːsˈθiːʒə ɪn ɑːrt/ (sin-es-THEE-zhuh in art)",
+    "definition": "Synaesthesia comes from Greek 'syn' meaning 'together' and 'aisthesis' meaning 'perception'. In art, it refers to mixing senses, like seeing colours when hearing music."
+},
+{
+    "word": "Synthesis in Art",
+    "pronunciation": "/ˈsɪnθəsɪs ɪn ɑːrt/ (SIN-thuh-sis in art)",
+    "definition": "Synthesis comes from Greek 'synthithenai', meaning 'to put together'. In art, synthesis is combining different elements or styles into a unified composition."
+},
+{
+    "word": "Synthetic Resin",
+    "pronunciation": "/sɪnˈθɛtɪk ˈrɛzɪn/ (sin-THET-ik REZ-in)",
+    "definition": "Synthetic comes from Greek 'syntithenai' meaning 'to combine', and resin from Latin 'resina'. Synthetic Resin is an artificial material used in painting and sculpture for glossy finishes."
+},
+{
+    "word": "Systematic Art",
+    "pronunciation": "/ˌsɪstəˈmætɪk ɑːrt/ (SIS-tuh-mat-ik art)",
+    "definition": "Systematic comes from Greek 'systema', meaning 'organized whole'. Systematic Art is created by following strict rules, systems, or sequences, often linked to minimalism and conceptual art."
+},
+{
+    "word": "Sgraffito",
+    "pronunciation": "/skrəˈfiːtoʊ/ (skra-FEE-toh)",
+    "definition": "Sgraffito comes from Italian 'sgraffiare', meaning 'to scratch'. It is a technique where a surface layer is scratched to reveal a different colour beneath."
+},
+{
+    "word": "Stereotomy",
+    "pronunciation": "/ˌstɛriˈɒtəmi/ (STARE-ee-OT-uh-mee)",
+    "definition": "Stereotomy comes from Greek 'stereos' meaning 'solid' and 'tomia' meaning 'cutting'. In art and architecture, it is the art of cutting stones into complex shapes for construction."
+},
+{
+    "word": "Serigraphy",
+    "pronunciation": "/ˈsɛrɪɡræfi/ (SERR-i-graf-ee)",
+    "definition": "Serigraphy comes from Latin 'seri' meaning 'silk' and Greek 'graphien' meaning 'to write'. It is another term for screen printing, where ink is pressed through a mesh stencil."
+},
+{
+    "word": "Skeuomorph",
+    "pronunciation": "/ˈskjuːəmɔːrf/ (SKYOO-oh-morf)",
+    "definition": "Skeuomorph comes from Greek 'skeuos' meaning 'container' and 'morphe' meaning 'form'. In art and design, it is a decorative form that imitates the look of an older material or function."
+},
+{
+    "word": "Serial Art",
+    "pronunciation": "/ˈsɪəriəl ɑːrt/ (SEER-ee-al art)",
+    "definition": "Serial comes from Latin 'series', meaning 'row' or 'sequence'. Serial Art is artwork made as part of a sequence, often exploring variations of a theme."
+},
+{
+    "word": "Sculptural Installation",
+    "pronunciation": "/ˈskʌlptʃərəl ˌɪnstəˈleɪʃən/ (SKULP-chur-al in-stuh-LAY-shun)",
+    "definition": "Installation comes from Latin 'installare', meaning 'to set up'. A Sculptural Installation is a three-dimensional artwork designed for a specific space, often immersive for viewers."
+},
+{
+    "word": "Skein",
+    "pronunciation": "/skeɪn/ (SKAYN)",
+    "definition": "Skein comes from Old French 'escaigne', meaning 'a hank of yarn'. In art and textiles, a skein is a length of yarn loosely coiled for use in weaving or knitting."
+},
+{
+    "word": "Screen Printing",
+    "pronunciation": "/skriːn ˈprɪntɪŋ/ (SKREEN PRINT-ing)",
+    "definition": "Screen Printing comes from 'screen' and 'printing'. It is a process where ink is forced through a mesh screen to create designs on surfaces like fabric or paper."
+},
+{
+    "word": "Squaring Up",
+    "pronunciation": "/ˈskwɛərɪŋ ʌp/ (SKWAIR-ing up)",
+    "definition": "Squaring Up comes from the practice of dividing a drawing into squares. It is a transfer method where artists enlarge or copy images using a grid system."
+},
+{
+    "word": "Spray Paint Art",
+    "pronunciation": "/spreɪ peɪnt ɑːrt/ (SPRAY paynt art)",
+    "definition": "Spray comes from Old Norse 'spreia'. Spray Paint Art uses aerosol paint cans to quickly create colourful designs, often in urban street art."
+},
+{
+    "word": "Soft Pastel",
+    "pronunciation": "/sɒft ˈpæstɛl/ (SOFT pas-tel)",
+    "definition": "Pastel comes from Italian 'pastello', meaning 'paste'. A Soft Pastel is a drawing stick made of powdered pigment and binder, producing rich but delicate colour."
+},
+{
+    "word": "Soldering in Art",
+    "pronunciation": "/ˈsɒldərɪŋ ɪn ɑːrt/ (SOL-der-ing in art)",
+    "definition": "Soldering comes from Latin 'solidare', meaning 'to make solid'. In jewellery and metal art, soldering is the process of joining pieces of metal by melting a filler material."
+},
+{
+    "word": "Stretcher Bar",
+    "pronunciation": "/ˈstrɛtʃər bɑːr/ (STRETCH-er bar)",
+    "definition": "Stretcher comes from 'stretch'. A Stretcher Bar is a wooden frame used to stretch and support canvas for painting."
+},
+{
+    "word": "Tachisme",
+    "pronunciation": "/ˈtæʃɪzəm/ (TASH-izm)",
+    "definition": "Tachisme comes from French 'tache', meaning 'stain' or 'spot'. It is a style of abstract painting popular in 1940s–50s Europe, using spontaneous brushwork and blotches of colour."
+},
+{
+    "word": "Tapestry",
+    "pronunciation": "/ˈtæpəstri/ (TAP-uh-stree)",
+    "definition": "Tapestry comes from Old French 'tapis', meaning 'carpet'. It is a form of textile art made by weaving coloured threads to create pictures or designs."
+},
+{
+    "word": "Tempera",
+    "pronunciation": "/ˈtɛmpərə/ (TEM-puh-ruh)",
+    "definition": "Tempera comes from Latin 'temperare', meaning 'to mix'. It is a painting medium made by mixing pigment with egg yolk or other binders, used since antiquity."
+},
+{
+    "word": "Tenebrism",
+    "pronunciation": "/ˈtɛnəˌbrɪzəm/ (TEN-uh-brizm)",
+    "definition": "Tenebrism comes from Italian 'tenebroso', meaning 'dark and gloomy'. It is a painting style with strong contrasts between light and dark, often used by Caravaggio."
+},
+{
+    "word": "Tessellation",
+    "pronunciation": "/ˌtɛsəˈleɪʃən/ (TES-uh-lay-shun)",
+    "definition": "Tessellation comes from Latin 'tessella', meaning 'small square'. In art, it is a pattern made of repeated shapes that fit together with no gaps, often used in mosaics."
+},
+{
+    "word": "Textile Art",
+    "pronunciation": "/ˈtɛkstaɪl ɑːrt/ (TEK-style art)",
+    "definition": "Textile comes from Latin 'texere', meaning 'to weave'. Textile Art includes works created with fabric, yarn, and fibres, such as weaving, embroidery, and quilting."
+},
+{
+    "word": "Texture",
+    "pronunciation": "/ˈtɛkstʃər/ (TEKS-chur)",
+    "definition": "Texture comes from Latin 'textura', meaning 'weaving'. In art, texture is the surface quality of an object, how it feels or looks like it would feel."
+},
+{
+    "word": "Thematic Art",
+    "pronunciation": "/θiːˈmætɪk ɑːrt/ (thee-MAT-ik art)",
+    "definition": "Thematic comes from Greek 'thema', meaning 'proposition' or 'subject'. Thematic Art is artwork created around a central theme or concept."
+},
+{
+    "word": "Tondo",
+    "pronunciation": "/ˈtɒndoʊ/ (TON-doh)",
+    "definition": "Tondo comes from Italian 'rotondo', meaning 'round'. In art, a tondo is a circular painting, relief, or sculpture."
+},
+{
+    "word": "Tonal Value",
+    "pronunciation": "/ˈtoʊnəl ˈvæljuː/ (TOE-nal VAL-yoo)",
+    "definition": "Tone comes from Latin 'tonus', meaning 'sound or pitch'. Tonal Value in art refers to the lightness or darkness of a colour or shade."
+},
+{
+    "word": "Tonalism",
+    "pronunciation": "/ˈtoʊnəlɪzəm/ (TOE-nuh-lizm)",
+    "definition": "Tonalism comes from 'tone'. It was an American art movement of the late 19th century, where landscapes were painted with soft, muted tones to create mood and atmosphere."
+},
+{
+    "word": "Torso",
+    "pronunciation": "/ˈtɔːrsoʊ/ (TOR-so)",
+    "definition": "Torso comes from Italian 'torso', meaning 'stalk' or 'trunk'. In art, it refers to a sculpture or depiction of the human body without head, arms, or legs."
+},
+{
+    "word": "Tracery",
+    "pronunciation": "/ˈtreɪsəri/ (TRAY-suh-ree)",
+    "definition": "Tracery comes from 'trace', meaning 'to draw'. In Gothic architecture, tracery is the ornamental stonework pattern in windows."
+},
+{
+    "word": "Triptych",
+    "pronunciation": "/ˈtrɪptɪk/ (TRIP-tik)",
+    "definition": "Triptych comes from Greek 'tri' meaning 'three' and 'ptyche' meaning 'fold'. It is a work of art divided into three panels, often hinged together."
+},
+{
+    "word": "Trompe-l’œil",
+    "pronunciation": "/trɒmp ˈlɔɪ/ (TROMP loy)",
+    "definition": "Trompe-l’œil is French for 'deceive the eye'. It is a painting technique that creates the illusion of three-dimensional objects on a flat surface."
+},
+{
+    "word": "Typography",
+    "pronunciation": "/taɪˈpɒɡrəfi/ (ty-POG-ruh-fee)",
+    "definition": "Typography comes from Greek 'typos' meaning 'form' and 'graphia' meaning 'writing'. It is the art of designing and arranging printed letters and text."
+},
+{
+    "word": "Tympanum",
+    "pronunciation": "/ˈtɪmpənəm/ (TIM-puh-num)",
+    "definition": "Tympanum comes from Greek 'tumpanon', meaning 'drum'. In architecture, it is the triangular or semi-circular space above a doorway, often decorated with sculpture."
+},
+{
+    "word": "Tapestry Cartoon",
+    "pronunciation": "/ˈtæpəstri kɑːrˈtuːn/ (TAP-uh-stree kar-TOON)",
+    "definition": "Cartoon comes from Italian 'cartone', meaning 'large paper'. A Tapestry Cartoon is a full-scale drawing used as a model for weaving a tapestry."
+},
+{
+    "word": "Temple Art",
+    "pronunciation": "/ˈtɛmpəl ɑːrt/ (TEM-pul art)",
+    "definition": "Temple comes from Latin 'templum'. Temple Art refers to art and decoration created for religious temples, including sculpture, painting, and architecture."
+},
+{
+    "word": "Tattoo Art",
+    "pronunciation": "/tæˈtuː ɑːrt/ (tat-TOO art)",
+    "definition": "Tattoo comes from Tahitian 'tatau', meaning 'to mark'. Tattoo Art is the practice of decorating the skin with permanent ink designs."
+},
+{
+    "word": "Tablet in Art",
+    "pronunciation": "/ˈtæblət ɪn ɑːrt/ (TAB-let in art)",
+    "definition": "Tablet comes from Latin 'tabula', meaning 'slab' or 'board'. In art, a tablet is a flat piece of stone, wood, or clay used for writing, carving, or painting."
+},
+{
+    "word": "Tessera",
+    "pronunciation": "/ˈtɛsərə/ (TES-er-uh)",
+    "definition": "Tessera comes from Latin 'tessella', meaning 'small cube'. A tessera is a single piece of stone, glass, or ceramic used in creating a mosaic."
+},
+{
+    "word": "Terra Cotta",
+    "pronunciation": "/ˌtɛrə ˈkɒtə/ (TER-uh KOT-uh)",
+    "definition": "Terra Cotta comes from Italian 'terra' meaning 'earth' and 'cotta' meaning 'baked'. It is a clay-based ceramic material used in sculpture and architecture."
+},
+{
+    "word": "Texturism",
+    "pronunciation": "/ˈtɛkstjʊrɪzəm/ (TEKS-choor-izm)",
+    "definition": "Texturism comes from 'texture'. It is an art style where surface texture plays a dominant role in the visual effect of the artwork."
+},
+{
+    "word": "Theatrical Design",
+    "pronunciation": "/θiˈætrɪkəl dɪˈzaɪn/ (thee-AT-ri-kul diz-INE)",
+    "definition": "Theatrical comes from Greek 'theatron', meaning 'a place for viewing'. Theatrical Design is the creation of sets, costumes, and lighting for stage performances."
+},
+{
+    "word": "Thumbnail Sketch",
+    "pronunciation": "/ˈθʌmˌneɪl skɛtʃ/ (THUM-nayl sketch)",
+    "definition": "Thumbnail comes from 'thumb' and 'nail', meaning something very small. A Thumbnail Sketch is a quick, small drawing used to plan larger artworks."
+},
+{
+    "word": "Tint",
+    "pronunciation": "/tɪnt/ (TINT)",
+    "definition": "Tint comes from Old French 'teinte', meaning 'dye'. In art, a tint is a lighter version of a colour made by adding white."
+},
+{
+    "word": "Tone",
+    "pronunciation": "/toʊn/ (TOHN)",
+    "definition": "Tone comes from Latin 'tonus', meaning 'sound'. In art, tone is the degree of lightness or darkness of a colour or shade."
+},
+{
+    "word": "Tonal Contrast",
+    "pronunciation": "/ˈtoʊnəl ˈkɒntræst/ (TOE-nal KON-trast)",
+    "definition": "Contrast comes from Latin 'contra' meaning 'against'. Tonal Contrast in art is the difference between light and dark values in a composition."
+},
+{
+    "word": "Transfer Print",
+    "pronunciation": "/ˈtrænsfɜːr prɪnt/ (TRANZ-fur print)",
+    "definition": "Transfer comes from Latin 'transferre', meaning 'to carry across'. A Transfer Print is made by transferring ink or design from one surface to another."
+},
+{
+    "word": "Translucent Colour",
+    "pronunciation": "/trænzˈluːsənt ˈkʌlər/ (trans-LOO-sent KULL-er)",
+    "definition": "Translucent comes from Latin 'translucere', meaning 'to shine through'. A translucent colour allows some light to pass through but is not fully transparent."
+},
+{
+    "word": "Transparent Colour",
+    "pronunciation": "/trænzˈpærənt ˈkʌlər/ (trans-PAIR-ent KULL-er)",
+    "definition": "Transparent comes from Latin 'transparere', meaning 'to appear through'. A transparent colour allows light to fully pass through, showing the surface underneath."
+},
+{
+    "word": "Tripod",
+    "pronunciation": "/ˈtraɪpɒd/ (TRY-pod)",
+    "definition": "Tripod comes from Greek 'tripous', meaning 'three-footed'. In art, a tripod is a three-legged stand used for holding equipment like cameras or easels."
+},
+{
+    "word": "Trophy Art",
+    "pronunciation": "/ˈtroʊfi ɑːrt/ (TROH-fee art)",
+    "definition": "Trophy comes from Greek 'tropaion', meaning 'monument of victory'. Trophy Art refers to artworks collected or displayed as symbols of wealth and success."
+},
+{
+    "word": "Turpentine",
+    "pronunciation": "/ˈtɜːrpənˌtaɪn/ (TUR-pen-tyne)",
+    "definition": "Turpentine comes from Greek 'terebinthine', meaning 'resin of the terebinth tree'. It is a solvent used in oil painting to thin paint and clean brushes."
+},
+{
+    "word": "Tusche",
+    "pronunciation": "/ˈtʊʃə/ (TOO-shuh)",
+    "definition": "Tusche comes from German, meaning 'ink'. It is a greasy ink used in lithography and other printmaking processes."
+},
+{
+    "word": "Typographic Poster",
+    "pronunciation": "/ˌtaɪpəˈɡræfɪk ˈpoʊstər/ (ty-po-GRAF-ik POH-ster)",
+    "definition": "Typographic comes from Greek 'typos' meaning 'form'. A Typographic Poster is a design that primarily uses text and font style as the main visual element."
+},
+{
+    "word": "Tactile Art",
+    "pronunciation": "/ˈtæktaɪl ɑːrt/ (TAK-tyle art)",
+    "definition": "Tactile comes from Latin 'tactilis', meaning 'touch'. Tactile Art emphasises textures and surfaces meant to be felt as well as seen."
+},
+{
+    "word": "Tachograph Drawing",
+    "pronunciation": "/ˈtækəˌɡræf ˈdrɔːɪŋ/ (TAK-oh-graf DRAW-ing)",
+    "definition": "Tachograph comes from Greek 'tachos' meaning 'speed' and 'graphien' meaning 'to write'. A Tachograph Drawing captures rapid motion with quick, sketchy lines."
+},
+{
+    "word": "Tonal Harmony",
+    "pronunciation": "/ˈtoʊnəl ˈhɑːrməni/ (TOE-nal HAR-muh-nee)",
+    "definition": "Harmony comes from Greek 'harmonia', meaning 'agreement' or 'concord'. Tonal Harmony in art is the pleasing balance of light and dark values within a composition."
+},
+{
+    "word": "Torsion Sculpture",
+    "pronunciation": "/ˈtɔːrʃən ˈskʌlptʃər/ (TOR-shun SKULP-chur)",
+    "definition": "Torsion comes from Latin 'torquere', meaning 'to twist'. A Torsion Sculpture is made by twisting materials to create dynamic, spiralling forms."
+},
+{
+    "word": "Total Art (Gesamtkunstwerk)",
+    "pronunciation": "/ˈtoʊtl ɑːrt/ (TOE-tuhl art)",
+    "definition": "Gesamtkunstwerk is German for 'total work of art'. Total Art is a concept where different art forms—such as music, drama, painting, and architecture—are combined into one unified experience."
+},
+{
+    "word": "Tactile Texture",
+    "pronunciation": "/ˈtæktaɪl ˈtɛkstʃər/ (TAK-tyle TEKS-chur)",
+    "definition": "Texture comes from Latin 'textura', meaning 'weaving'. Tactile Texture in art is the actual surface quality that can be felt by touch."
+},
+{
+    "word": "Timbre in Art",
+    "pronunciation": "/ˈtæmbər ɪn ɑːrt/ (TAM-ber in art)",
+    "definition": "Timbre comes from French, meaning 'quality of sound'. In art, timbre is sometimes used metaphorically to describe the tonal character or quality of colours."
+},
+{
+    "word": "Transcendental Art",
+    "pronunciation": "/ˌtrænsɛnˈdɛntəl ɑːrt/ (TRAN-sen-den-tul art)",
+    "definition": "Transcendental comes from Latin 'transcendere', meaning 'to climb beyond'. Transcendental Art refers to works that aim to go beyond physical reality and suggest spiritual or metaphysical ideas."
+},
+{
+    "word": "Transformation Art",
+    "pronunciation": "/ˌtrænsfɔːrˈmeɪʃən ɑːrt/ (TRANS-for-MAY-shun art)",
+    "definition": "Transformation comes from Latin 'transformare', meaning 'to change in shape'. Transformation Art focuses on altering forms to show change, growth, or evolution."
+},
+{
+    "word": "Transit Art",
+    "pronunciation": "/ˈtrænzɪt ɑːrt/ (TRAN-zit art)",
+    "definition": "Transit comes from Latin 'transire', meaning 'to go across'. Transit Art refers to artworks installed in public transportation spaces such as subways and bus stations."
+},
+{
+    "word": "Tributary Art",
+    "pronunciation": "/ˈtrɪbjʊˌtɛri ɑːrt/ (TRIB-yoo-ter-ee art)",
+    "definition": "Tributary comes from Latin 'tributarius', meaning 'paying tribute'. Tributary Art is created to honour a person, event, or tradition."
+},
+{
+    "word": "Tribal Art",
+    "pronunciation": "/ˈtraɪbəl ɑːrt/ (TRY-buhl art)",
+    "definition": "Tribal comes from Latin 'tribus', meaning 'clan' or 'group'. Tribal Art refers to traditional art created by indigenous or tribal communities, often tied to rituals and daily life."
+},
+{
+    "word": "Trilinear Perspective",
+    "pronunciation": "/ˌtraɪˈlɪniər pərˈspɛktɪv/ (try-LIN-ee-er per-SPEK-tiv)",
+    "definition": "Perspective comes from Latin 'perspectiva', meaning 'to see through'. Trilinear Perspective is a drawing method that uses three vanishing points to depict depth."
+},
+{
+    "word": "Tribal Mask",
+    "pronunciation": "/ˈtraɪbəl mæsk/ (TRY-buhl mask)",
+    "definition": "Mask comes from Arabic 'maskhara', meaning 'buffoon' or 'jester'. A Tribal Mask is a traditional mask made for ceremonies, rituals, or performances, often decorated with symbolic patterns."
+},
+{
+    "word": "Trois crayons",
+    "pronunciation": "/trwɑː krɛɪˈjɒ̃/ (TRWA kray-YON)",
+    "definition": "Trois crayons is French for 'three pencils'. It is a drawing technique using three colours of chalk or crayon—typically black, red, and white."
+},
+{
+    "word": "Tactile Illusion",
+    "pronunciation": "/ˈtæktaɪl ɪˈluːʒən/ (TAK-tyle il-LOO-zhun)",
+    "definition": "Illusion comes from Latin 'illudere', meaning 'to mock or trick'. A Tactile Illusion in art is when a surface looks like it has texture but is actually smooth."
+},
+{
+    "word": "Ukiyo-e",
+    "pronunciation": "/ˌuːkiˈjoʊ eɪ/ (oo-kee-YOH-ay)",
+    "definition": "Ukiyo-e is Japanese for 'pictures of the floating world'. It is a genre of Japanese woodblock prints from the 17th–19th centuries showing city life, nature, and theatre."
+},
+{
+    "word": "Underdrawing",
+    "pronunciation": "/ˈʌndərˌdrɔːɪŋ/ (UN-der-draw-ing)",
+    "definition": "Underdrawing comes from 'under' and 'drawing'. It refers to the initial sketch made on a surface before painting is applied."
+},
+{
+    "word": "Underpainting",
+    "pronunciation": "/ˈʌndərˌpeɪntɪŋ/ (UN-der-payn-ting)",
+    "definition": "Underpainting comes from 'under' and 'painting'. It is the first layer of paint used to establish tones and composition before adding final colours."
+},
+{
+    "word": "Unity",
+    "pronunciation": "/ˈjuːnɪti/ (YOO-ni-tee)",
+    "definition": "Unity comes from Latin 'unitas', meaning 'oneness'. In art, unity is the sense of harmony and wholeness created when all elements work together."
+},
+{
+    "word": "Urban Art",
+    "pronunciation": "/ˈɜːrbən ɑːrt/ (UR-ban art)",
+    "definition": "Urban comes from Latin 'urbanus', meaning 'of the city'. Urban Art refers to modern art forms created in public city spaces, including graffiti, murals, and street installations."
+},
+{
+    "word": "Uplight",
+    "pronunciation": "/ˈʌplaɪt/ (UP-lyt)",
+    "definition": "Uplight comes from 'up' and 'light'. In art and design, it refers to light directed upward to highlight a subject or create dramatic effects."
+},
+{
+    "word": "Ultramarine",
+    "pronunciation": "/ˌʌltrəməˈriːn/ (UL-truh-mah-reen)",
+    "definition": "Ultramarine comes from Latin 'ultra' meaning 'beyond' and 'mare' meaning 'sea'. It is a deep blue pigment originally made from lapis lazuli imported from Afghanistan."
+},
+{
+    "word": "Undulation in Art",
+    "pronunciation": "/ˌʌndʒəˈleɪʃən ɪn ɑːrt/ (UN-juh-lay-shun in art)",
+    "definition": "Undulation comes from Latin 'undula', meaning 'a small wave'. In art, undulation refers to wave-like patterns or flowing movement in forms."
+},
+{
+    "word": "Unfinished Work",
+    "pronunciation": "/ʌnˈfɪnɪʃt wɜːrk/ (un-FIN-isht work)",
+    "definition": "Unfinished comes from 'un-' (not) and 'finish'. An Unfinished Work is an artwork left incomplete, sometimes intentionally to reveal process."
+},
+{
+    "word": "Uplift in Sculpture",
+    "pronunciation": "/ˈʌplɪft ɪn ˈskʌlptʃər/ (UP-lift in SKULP-chur)",
+    "definition": "Uplift comes from 'up' and 'lift'. In sculpture, uplift refers to forms that rise or seem to float upward, giving a sense of elevation."
+},
+{
+    "word": "Utensil Art",
+    "pronunciation": "/juːˈtɛnsəl ɑːrt/ (yoo-TEN-suhl art)",
+    "definition": "Utensil comes from Latin 'utensilia', meaning 'tools'. Utensil Art uses everyday tools or objects as the medium or inspiration for creative works."
+},
+{
+    "word": "Universal Style",
+    "pronunciation": "/ˌjuːnɪˈvɜːrsəl staɪl/ (YOO-ni-ver-suhl style)",
+    "definition": "Universal comes from Latin 'universus', meaning 'whole' or 'entire'. Universal Style in art refers to a design approach that appeals to people across cultures and contexts."
+},
+{
+    "word": "Utopia in Art",
+    "pronunciation": "/juːˈtoʊpiə ɪn ɑːrt/ (yoo-TOE-pee-uh in art)",
+    "definition": "Utopia comes from Greek 'ou' meaning 'not' and 'topos' meaning 'place'. In art, Utopia refers to idealised worlds or imagined perfect societies."
+},
+{
+    "word": "Upper Paleolithic Art",
+    "pronunciation": "/ˈʌpər ˌpeɪliəˈlɪθɪk ɑːrt/ (UP-er PAY-lee-oh-lith-ik art)",
+    "definition": "Paleolithic comes from Greek 'palaios' meaning 'ancient' and 'lithos' meaning 'stone'. Upper Paleolithic Art includes cave paintings, carvings, and sculptures made 40,000–10,000 years ago."
+},
+{
+    "word": "Unconventional Materials",
+    "pronunciation": "/ˌʌnkənˈvɛnʃənəl məˈtɪriəlz/ (un-kon-VEN-shun-al ma-TEER-ee-uhlz)",
+    "definition": "Unconventional comes from 'un-' (not) and 'conventional' (usual). In art, it refers to using unusual materials like recycled items, plastic, or found objects in artworks."
+},
+{
+    "word": "Unilateral Composition",
+    "pronunciation": "/ˌjuːnɪˈlætərəl ˌkɑːmpəˈzɪʃən/ (YOO-ni-LAT-er-al com-po-ZISH-un)",
+    "definition": "Unilateral comes from Latin 'uni' (one) and 'latus' (side). A Unilateral Composition is an artwork where visual weight is concentrated on one side of the piece."
+},
+{
+    "word": "Underglaze",
+    "pronunciation": "/ˈʌndərˌɡleɪz/ (UN-der-glayz)",
+    "definition": "Glaze comes from Old English 'glas', meaning 'glass'. An Underglaze is colour applied to pottery before the final glassy glaze is added."
+},
+{
+    "word": "Unstable Balance",
+    "pronunciation": "/ʌnˈsteɪbəl ˈbæləns/ (un-STAY-buhl BAL-uhns)",
+    "definition": "Unstable comes from 'un-' (not) and 'stable'. In art, Unstable Balance is a composition where elements seem to be about to fall or move, creating tension."
+},
+{
+    "word": "Unrealistic Art",
+    "pronunciation": "/ˌʌnriːəˈlɪstɪk ɑːrt/ (un-ree-uh-LIS-tik art)",
+    "definition": "Unrealistic comes from 'un-' (not) and 'realistic'. Unrealistic Art exaggerates, distorts, or invents forms rather than showing them as they are in real life."
+},
+{
+    "word": "Utility Design",
+    "pronunciation": "/juːˈtɪləti dɪˈzaɪn/ (yoo-TIL-i-tee diz-INE)",
+    "definition": "Utility comes from Latin 'utilis', meaning 'useful'. Utility Design focuses on practical function in art and design objects."
+},
+{
+    "word": "Ukiyo-e Revival",
+    "pronunciation": "/ˌuːkiˈjoʊ eɪ rɪˈvaɪvəl/ (oo-kee-YOH-ay ree-VY-vuhl)",
+    "definition": "Revival comes from Latin 'revivere', meaning 'to live again'. Ukiyo-e Revival refers to the 20th-century rediscovery and influence of Japanese woodblock prints on modern art movements."
+},
+{
+    "word": "Unism",
+    "pronunciation": "/ˈjuːnɪzəm/ (YOO-niz-um)",
+    "definition": "Unism comes from Latin 'unus', meaning 'one'. It is a modern art theory by Polish artist Władysław Strzemiński, which argued that a painting should be a single, unified whole without separate parts."
+},
+{
+    "word": "Unpainted Sculpture",
+    "pronunciation": "/ʌnˈpeɪntɪd ˈskʌlptʃər/ (un-PAYN-tid SKULP-chur)",
+    "definition": "Unpainted comes from 'un-' (not) and 'painted'. Unpainted Sculpture refers to statues or carvings left in their raw material state without added colour."
+},
+{
+    "word": "Urban Graffiti",
+    "pronunciation": "/ˈɜːrbən ɡrəˈfiːti/ (UR-ban gra-FEE-tee)",
+    "definition": "Graffiti comes from Italian 'graffio', meaning 'scratch'. Urban Graffiti is writing or drawing on public walls, often as a form of self-expression or protest."
+},
+{
+    "word": "Urban Mural",
+    "pronunciation": "/ˈɜːrbən ˈmjʊərəl/ (UR-ban MYUR-uhl)",
+    "definition": "Mural comes from Latin 'murus', meaning 'wall'. An Urban Mural is a large painting made directly on city walls or buildings."
+},
+{
+    "word": "Utopian Design",
+    "pronunciation": "/juːˈtoʊpiən dɪˈzaɪn/ (yoo-TOE-pee-uhn diz-INE)",
+    "definition": "Utopian comes from Greek 'ou' (not) and 'topos' (place). Utopian Design imagines idealised or futuristic environments that promote harmony and perfection."
+},
+{
+    "word": "Unfolding Art",
+    "pronunciation": "/ʌnˈfoʊldɪŋ ɑːrt/ (un-FOAL-ding art)",
+    "definition": "Unfolding comes from 'un-' (reverse) and 'fold'. Unfolding Art refers to interactive or dynamic works that reveal themselves gradually over time or through movement."
+},
+{
+    "word": "Undulating Line",
+    "pronunciation": "/ˈʌndjʊˌleɪtɪŋ laɪn/ (UN-dyu-lay-ting line)",
+    "definition": "Undulating comes from Latin 'unda', meaning 'wave'. An Undulating Line is a smooth, wavy line used in drawing and design to suggest rhythm and movement."
+},
+{
+    "word": "Unconscious Symbolism",
+    "pronunciation": "/ʌnˈkɒnʃəs ˈsɪmbəˌlɪzəm/ (un-KON-shus SIM-buh-lizm)",
+    "definition": "Unconscious comes from Latin 'un-' (not) and 'conscire' (to be aware). Unconscious Symbolism refers to hidden meanings or themes that appear in an artist's work without their deliberate planning."
+},
+{
+    "word": "User-Centred Design",
+    "pronunciation": "/ˈjuːzər ˈsɛntərd dɪˈzaɪn/ (YOO-zer SEN-terd diz-INE)",
+    "definition": "User comes from Latin 'usus', meaning 'use'. User-Centred Design is an approach in art and design that prioritises the needs and experiences of the audience or user."
+},
+{
+    "word": "Value",
+    "pronunciation": "/ˈvæljuː/ (VAL-yoo)",
+    "definition": "Value comes from Latin 'valere', meaning 'to be strong or worth'. In art, value is the lightness or darkness of a colour, used to create depth, contrast, and emphasis."
+},
+{
+    "word": "Vanishing Point",
+    "pronunciation": "/ˈvænɪʃɪŋ pɔɪnt/ (VAN-ish-ing point)",
+    "definition": "Vanishing comes from Latin 'vanescere', meaning 'to disappear'. In perspective drawing, the vanishing point is where parallel lines appear to converge in the distance."
+},
+{
+    "word": "Vanitas",
+    "pronunciation": "/ˈvænɪtæs/ (VAN-i-tass)",
+    "definition": "Vanitas comes from Latin 'vanitas', meaning 'emptiness' or 'futility'. It is a type of still-life painting symbolising the transience of life, often with skulls, clocks, or decaying objects."
+},
+{
+    "word": "Varnish",
+    "pronunciation": "/ˈvɑːrnɪʃ/ (VAR-nish)",
+    "definition": "Varnish comes from Latin 'vernix', meaning 'odorous resin'. In art, varnish is a clear coating applied to paintings for protection and to enhance colours."
+},
+{
+    "word": "Vector Art",
+    "pronunciation": "/ˈvɛktər ɑːrt/ (VEK-ter art)",
+    "definition": "Vector comes from Latin 'vehere', meaning 'to carry'. Vector Art is created using mathematical paths instead of pixels, allowing images to be scaled without losing quality."
+},
+{
+    "word": "Verism",
+    "pronunciation": "/ˈvɛrɪzəm/ (VEH-rizm)",
+    "definition": "Verism comes from Latin 'verus', meaning 'true'. It is an art style that emphasises realism and the truthful, sometimes unflattering, depiction of subjects."
+},
+{
+    "word": "Vernacular Art",
+    "pronunciation": "/vərˈnækjələr ɑːrt/ (ver-NAK-yuh-lar art)",
+    "definition": "Vernacular comes from Latin 'vernaculus', meaning 'native'. Vernacular Art is art made by self-taught or local artists, often reflecting everyday culture and traditions."
+},
+{
+    "word": "Verona School",
+    "pronunciation": "/vəˈroʊnə skuːl/ (veh-ROH-nuh skool)",
+    "definition": "Verona is an Italian city. The Verona School refers to a group of Renaissance painters from Verona, Italy, known for their rich colours and expressive styles."
+},
+{
+    "word": "Verso",
+    "pronunciation": "/ˈvɜːrsoʊ/ (VER-so)",
+    "definition": "Verso comes from Latin 'vertere', meaning 'to turn'. In art, verso refers to the back side of a painting, drawing, or printed page."
+},
+{
+    "word": "Vertical Balance",
+    "pronunciation": "/ˈvɜːrtɪkəl ˈbæləns/ (VER-ti-kul BAL-uhns)",
+    "definition": "Vertical comes from Latin 'vertex', meaning 'highest point'. Vertical Balance in art is when elements are arranged to create harmony along a vertical axis."
+},
+{
+    "word": "Video Art",
+    "pronunciation": "/ˈvɪdioʊ ɑːrt/ (VID-ee-oh art)",
+    "definition": "Video comes from Latin 'videre', meaning 'to see'. Video Art is art created using moving images, often shown in galleries or public installations."
+},
+{
+    "word": "Viewfinder",
+    "pronunciation": "/ˈvjuːˌfaɪndər/ (VYOO-fyne-der)",
+    "definition": "View comes from Latin 'videre', meaning 'to see'. A Viewfinder is a tool that helps artists or photographers frame and plan their compositions."
+},
+{
+    "word": "Villa of Mysteries",
+    "pronunciation": "/ˈvɪlə əv ˈmɪstəriz/ (VIL-uh of MIS-ter-eez)",
+    "definition": "Villa comes from Latin 'villa', meaning 'country house'. The Villa of Mysteries is an ancient Roman site in Pompeii famous for its wall paintings depicting mysterious rituals."
+},
+{
+    "word": "Vinyl Art",
+    "pronunciation": "/ˈvaɪnəl ɑːrt/ (VY-nuhl art)",
+    "definition": "Vinyl comes from Latin 'vinum', meaning 'wine', later related to chemical compounds. Vinyl Art uses vinyl records or vinyl sheets as a medium for creative works."
+},
+{
+    "word": "Visual Balance",
+    "pronunciation": "/ˈvɪʒuəl ˈbæləns/ (VIZH-oo-uhl BAL-uhns)",
+    "definition": "Visual comes from Latin 'videre', meaning 'to see'. Visual Balance is the arrangement of elements so that no part of an artwork feels heavier than another."
+},
+{
+    "word": "Visual Hierarchy",
+    "pronunciation": "/ˈvɪʒuəl ˈhaɪərɑːrki/ (VIZH-oo-uhl HYE-er-ar-kee)",
+    "definition": "Hierarchy comes from Greek 'hierarkhia', meaning 'rule of a high priest'. Visual Hierarchy is the organisation of elements to guide the viewer’s eye in order of importance."
+},
+{
+    "word": "Visual Metaphor",
+    "pronunciation": "/ˈvɪʒuəl ˈmɛtəfɔːr/ (VIZH-oo-uhl MET-uh-for)",
+    "definition": "Metaphor comes from Greek 'metaphora', meaning 'transfer'. A Visual Metaphor is when an image is used to represent an idea or concept beyond its literal meaning."
+},
+{
+    "word": "Visual Noise",
+    "pronunciation": "/ˈvɪʒuəl nɔɪz/ (VIZH-oo-uhl noy-z)",
+    "definition": "Noise comes from Latin 'nausea', meaning 'seasickness'. Visual Noise refers to cluttered or distracting elements in a design that reduce clarity."
+},
+{
+    "word": "Visual Rhythm",
+    "pronunciation": "/ˈvɪʒuəl ˈrɪðəm/ (VIZH-oo-uhl RITH-um)",
+    "definition": "Rhythm comes from Greek 'rhythmos', meaning 'measured flow'. Visual Rhythm is the repetition of elements to create movement or pattern in a composition."
+},
+{
+    "word": "Vitruvian Man",
+    "pronunciation": "/vɪˈtruːviən mæn/ (vi-TROO-vee-an man)",
+    "definition": "Vitruvian comes from the Roman architect Vitruvius. The Vitruvian Man is Leonardo da Vinci’s famous drawing showing ideal human body proportions based on geometry."
+},
+{
+    "word": "Vitreous Enamel",
+    "pronunciation": "/ˈvɪtriəs ɪˈnæməl/ (VIT-ree-us ih-NAM-uhl)",
+    "definition": "Vitreous comes from Latin 'vitrum', meaning 'glass'. Vitreous Enamel is a glassy coating fused onto metal, used for decoration in jewellery and art objects."
+},
+{
+    "word": "Vogue Art",
+    "pronunciation": "/voʊɡ ɑːrt/ (VOHG art)",
+    "definition": "Vogue comes from French 'vogue', meaning 'fashion'. Vogue Art refers to artwork inspired by fashion trends and popular culture."
+},
+{
+    "word": "Void",
+    "pronunciation": "/vɔɪd/ (VOYD)",
+    "definition": "Void comes from Latin 'vocivus', meaning 'empty'. In art, void refers to empty space within or around an artwork, often used to highlight form."
+},
+{
+    "word": "Volume",
+    "pronunciation": "/ˈvɒljuːm/ (VOL-yoom)",
+    "definition": "Volume comes from Latin 'volumen', meaning 'roll' or 'something turned'. In art, volume refers to the three-dimensional space taken up by a form."
+},
+{
+    "word": "Votive Art",
+    "pronunciation": "/ˈvoʊtɪv ɑːrt/ (VOH-tiv art)",
+    "definition": "Votive comes from Latin 'votum', meaning 'vow'. Votive Art refers to objects or artworks offered as gifts to gods or spirits in fulfilment of a vow or as devotion."
+},
+{
+    "word": "Vulgar Style",
+    "pronunciation": "/ˈvʌlɡər staɪl/ (VULL-gur style)",
+    "definition": "Vulgar comes from Latin 'vulgaris', meaning 'common'. Vulgar Style refers to art considered crude, gaudy, or lacking refinement, often appealing to popular taste."
+},
+{
+    "word": "Vulnerability in Art",
+    "pronunciation": "/ˌvʌlnərəˈbɪləti ɪn ɑːrt/ (VUL-ner-uh-bil-i-tee in art)",
+    "definition": "Vulnerability comes from Latin 'vulnerare', meaning 'to wound'. In art, vulnerability is the expression of raw human emotions and openness, often exploring themes of fragility."
+},
+{
+    "word": "Vibrancy",
+    "pronunciation": "/ˈvaɪbrənsi/ (VY-bruhn-see)",
+    "definition": "Vibrancy comes from Latin 'vibrare', meaning 'to shake or move rapidly'. In art, vibrancy refers to the intensity and liveliness of colours."
+},
+{
+    "word": "Visual Culture",
+    "pronunciation": "/ˈvɪʒuəl ˈkʌltʃər/ (VIZH-oo-uhl KUL-chur)",
+    "definition": "Culture comes from Latin 'cultura', meaning 'to cultivate'. Visual Culture is the study of how visual images, artworks, and media shape societies and communication."
+},
+{
+    "word": "Visual Literacy",
+    "pronunciation": "/ˈvɪʒuəl ˈlɪtərəsi/ (VIZH-oo-uhl LIT-er-uh-see)",
+    "definition": "Literacy comes from Latin 'littera', meaning 'letter'. Visual Literacy is the ability to read, interpret, and create meaning from images and visual symbols."
+},
+{
+    "word": "Visual Weight",
+    "pronunciation": "/ˈvɪʒuəl weɪt/ (VIZH-oo-uhl wayt)",
+    "definition": "Weight comes from Old English 'wiht', meaning 'thing or load'. Visual Weight is the perceived importance or heaviness of an element in a composition."
+},
+{
+    "word": "Visionary Art",
+    "pronunciation": "/ˈvɪʒəˌnɛri ɑːrt/ (VIZH-uh-nair-ee art)",
+    "definition": "Visionary comes from Latin 'visionem', meaning 'sight'. Visionary Art depicts mystical, dreamlike, or spiritual experiences, often inspired by imagination or altered states."
+},
+{
+    "word": "Vignette",
+    "pronunciation": "/vɪnˈjɛt/ (vin-YET)",
+    "definition": "Vignette comes from French 'vigne', meaning 'vine'. In art, a vignette is a small illustration or design that fades into the background without a defined border."
+},
+{
+    "word": "Virtual Reality Art",
+    "pronunciation": "/ˈvɜːrtʃuəl riˈælɪti ɑːrt/ (VUR-choo-uhl ree-AL-i-tee art)",
+    "definition": "Virtual comes from Latin 'virtus', meaning 'power'. Virtual Reality Art uses digital technology to create immersive, interactive art experiences in simulated environments."
+},
+{
+    "word": "Vibrato in Art",
+    "pronunciation": "/vɪˈbrɑːtoʊ ɪn ɑːrt/ (vih-BRAH-toh in art)",
+    "definition": "Vibrato comes from Italian 'vibrare', meaning 'to vibrate'. In visual arts, vibrato is used metaphorically to describe vibrating or shimmering colour effects."
+},
+{
+    "word": "Volute",
+    "pronunciation": "/vəˈluːt/ (vuh-LOOT)",
+    "definition": "Volute comes from Latin 'voluta', meaning 'spiral'. In architecture and art, a volute is a spiral scroll shape, commonly seen in Ionic columns."
+},
+{
+    "word": "Van Gogh Style",
+    "pronunciation": "/væn ɡoʊ staɪl/ (van-GOH style)",
+    "definition": "Named after Vincent van Gogh (1853–1890), a Dutch painter known for expressive brushstrokes and bold colours. Van Gogh Style refers to artworks inspired by his techniques."
+},
+{
+    "word": "Vaulting",
+    "pronunciation": "/ˈvɔːltɪŋ/ (VAWL-ting)",
+    "definition": "Vaulting comes from Old French 'voute', meaning 'arched structure'. In art and architecture, vaulting refers to arched ceilings or structures that create grandeur and rhythm."
+},
+{
+    "word": "Velázquez Technique",
+    "pronunciation": "/vəˈlæskwɛz tɛkˈniːk/ (vuh-LAS-kwez tek-NEEK)",
+    "definition": "Named after Diego Velázquez (1599–1660), a Spanish Baroque painter. His technique is known for loose, expressive brushwork that creates lifelike portraits."
+},
+{
+    "word": "Votive Candle Art",
+    "pronunciation": "/ˈvoʊtɪv ˈkændl ɑːrt/ (VOH-tiv KAN-dul art)",
+    "definition": "Votive comes from Latin 'votum', meaning 'vow'. Votive Candle Art uses candles arranged or carved artistically, often for ritual or devotional purposes."
+},
+{
+    "word": "Warm Colours",
+    "pronunciation": "/wɔːrm ˈkʌlərz/ (WARM cul-urz)",
+    "definition": "Warm comes from Old English 'wearm', meaning 'hot'. Warm Colours include reds, oranges, and yellows, which create a feeling of warmth and energy in art."
+},
+{
+    "word": "Wash",
+    "pronunciation": "/wɒʃ/ (WOSH)",
+    "definition": "Wash comes from Old English 'wæscan', meaning 'to clean with water'. In painting, a wash is a thin, transparent layer of diluted colour spread across a surface."
+},
+{
+    "word": "Watercolour",
+    "pronunciation": "/ˈwɔːtərkʌlər/ (WAW-ter-cul-er)",
+    "definition": "Water comes from Old English 'wæter' and colour from Latin 'color'. Watercolour is a painting method using pigments mixed with water for transparent effects."
+},
+{
+    "word": "Weaving",
+    "pronunciation": "/ˈwiːvɪŋ/ (WEE-ving)",
+    "definition": "Weaving comes from Old English 'wefan', meaning 'to weave'. It is the art of interlacing threads or fibres to create fabric or decorative patterns."
+},
+{
+    "word": "Woodcut",
+    "pronunciation": "/ˈwʊdkʌt/ (WOOD-cut)",
+    "definition": "Woodcut comes from 'wood' and 'cut'. It is a printmaking technique where designs are carved into a wooden block, inked, and pressed onto paper."
+},
+{
+    "word": "Workshop",
+    "pronunciation": "/ˈwɜːrkʃɒp/ (WURK-shop)",
+    "definition": "Workshop comes from Old English 'weorc' (work) and 'sceoppa' (shed). In art, a workshop is a space where artists create, teach, or collaborate."
+},
+{
+    "word": "Wood Engraving",
+    "pronunciation": "/ˈwʊd ɪnˌɡreɪvɪŋ/ (WOOD in-GRAY-ving)",
+    "definition": "Engraving comes from Old French 'engraver', meaning 'to carve'. Wood Engraving is a printmaking method using fine tools to cut detailed designs into wood."
+},
+{
+    "word": "Wire Sculpture",
+    "pronunciation": "/ˈwaɪər ˈskʌlptʃər/ (WY-er SKULP-chur)",
+    "definition": "Wire comes from Old English 'wir', meaning 'metal thread'. Wire Sculpture is the art of shaping wire into three-dimensional forms and figures."
+},
+{
+    "word": "Woven Art",
+    "pronunciation": "/ˈwoʊvən ɑːrt/ (WOH-ven art)",
+    "definition": "Woven comes from Old English 'wefan', meaning 'to weave'. Woven Art refers to artworks created by weaving threads, fibres, or other materials into patterns or images."
+},
+{
+    "word": "Wall Painting",
+    "pronunciation": "/wɔːl ˈpeɪntɪŋ/ (WALL payn-ting)",
+    "definition": "Wall comes from Old English 'weall', meaning 'fortification'. Wall Painting is painting applied directly onto walls, common in murals and frescoes."
+},
+{
+    "word": "Washi Paper",
+    "pronunciation": "/ˈwɑːʃi ˈpeɪpər/ (WAH-shee pay-per)",
+    "definition": "Washi comes from Japanese 'wa' (Japanese) and 'shi' (paper). Washi Paper is a traditional handmade Japanese paper used in art and crafts."
+},
+{
+    "word": "Wax Resist",
+    "pronunciation": "/wæks rɪˈzɪst/ (WAKS ri-ZIST)",
+    "definition": "Wax comes from Old English 'weax'. Wax Resist is a technique where wax is applied to areas of a surface to repel paint or dye, creating patterns."
+},
+{
+    "word": "White Space",
+    "pronunciation": "/waɪt speɪs/ (WYT spays)",
+    "definition": "White comes from Old English 'hwīt'. White Space refers to empty or unmarked areas in a design that help balance and focus attention on the main elements."
+},
+{
+    "word": "Whiplash Line",
+    "pronunciation": "/ˈwɪplæʃ laɪn/ (WIP-lash line)",
+    "definition": "Whiplash comes from 'whip' and 'lash'. In Art Nouveau, a Whiplash Line is a sinuous, flowing curve used in decorative design."
+},
+{
+    "word": "Woodblock Printing",
+    "pronunciation": "/ˈwʊdblɒk ˈprɪntɪŋ/ (WOOD-blok PRINT-ing)",
+    "definition": "Woodblock comes from 'wood' and 'block'. Woodblock Printing is an ancient technique where carved wooden blocks are inked and pressed to make prints."
+},
+{
+    "word": "Wet-on-Wet",
+    "pronunciation": "/wɛt ɒn wɛt/ (WET on WET)",
+    "definition": "Wet comes from Old English 'wæt'. Wet-on-Wet is a painting technique where layers of wet paint are applied on top of each other for soft blending."
+},
+{
+    "word": "Winged Figure",
+    "pronunciation": "/wɪŋd ˈfɪɡjər/ (WINGD FIG-yer)",
+    "definition": "Wing comes from Old Norse 'vængr'. A Winged Figure is a human or creature depicted with wings, common in religious and mythological art."
+},
+{
+    "word": "Woodcarving",
+    "pronunciation": "/ˈwʊdˌkɑːrvɪŋ/ (WOOD-kar-ving)",
+    "definition": "Woodcarving comes from 'wood' and 'carve'. It is the art of shaping wood with tools to create decorative or sculptural works."
+},
+{
+    "word": "Wire Weaving",
+    "pronunciation": "/ˈwaɪər ˈwiːvɪŋ/ (WY-er WEE-ving)",
+    "definition": "Wire comes from Old English 'wir'. Wire Weaving is a jewellery-making and art technique where thin wire is woven together to form intricate patterns."
+},
+{
+    "word": "Wunderkammer",
+    "pronunciation": "/ˈvʊndərkɑːmər/ (VOON-der-kah-mer)",
+    "definition": "Wunderkammer is German for 'cabinet of wonders'. It refers to collections of curious objects, artworks, and natural specimens displayed in early modern Europe."
+},
+{
+    "word": "Wall Relief",
+    "pronunciation": "/wɔːl rɪˈliːf/ (WALL ri-LEEF)",
+    "definition": "Relief comes from Old French 'relever', meaning 'to raise'. Wall Relief is a sculptural technique where figures are carved so they project slightly from a flat wall surface."
+},
+{
+    "word": "Warp and Weft",
+    "pronunciation": "/wɔːrp ənd wɛft/ (WARP and WEFT)",
+    "definition": "Warp comes from Old English 'wearp', meaning 'that which is thrown', and Weft comes from Old English 'wefan', meaning 'to weave'. In weaving, warp threads run lengthwise while weft threads are woven across them."
+},
+{
+    "word": "Water Gilding",
+    "pronunciation": "/ˈwɔːtər ˈɡɪldɪŋ/ (WAW-ter GIL-ding)",
+    "definition": "Gilding comes from Old English 'gyldan', meaning 'to cover with gold'. Water Gilding is a technique where gold leaf is applied to a surface using water and adhesive."
+},
+{
+    "word": "Watermark",
+    "pronunciation": "/ˈwɔːtərmɑːrk/ (WAW-ter-mark)",
+    "definition": "Watermark comes from 'water' and 'mark'. In art, a watermark is a faint design made in paper during production, visible when held against light, often used as a signature or authentication mark."
+},
+{
+    "word": "Wax Casting",
+    "pronunciation": "/wæks ˈkæstɪŋ/ (WAKS KAST-ing)",
+    "definition": "Casting comes from Old Norse 'kasta', meaning 'to throw'. Wax Casting (lost-wax technique) is a sculptural process where a wax model is melted away to form a mould for metal casting."
+},
+{
+    "word": "Wax Sculpture",
+    "pronunciation": "/wæks ˈskʌlptʃər/ (WAKS SKULP-chur)",
+    "definition": "Wax comes from Old English 'weax'. Wax Sculpture is the art of shaping wax into figures, portraits, or decorative objects."
+},
+{
+    "word": "Weathering in Art",
+    "pronunciation": "/ˈwɛðərɪŋ ɪn ɑːrt/ (WETH-er-ing in art)",
+    "definition": "Weathering comes from Old English 'weder', meaning 'air or storm'. In art, weathering is the intentional use of wear, corrosion, or natural decay effects for aesthetic purposes."
+},
+{
+    "word": "Wedding Portrait",
+    "pronunciation": "/ˈwɛdɪŋ ˈpɔːrtrɪt/ (WED-ing POR-trit)",
+    "definition": "Wedding comes from Old English 'weddian', meaning 'to pledge'. A Wedding Portrait is a painting or photograph created to commemorate a marriage ceremony."
+},
+{
+    "word": "Welded Sculpture",
+    "pronunciation": "/ˈwɛldɪd ˈskʌlptʃər/ (WEL-did SKULP-chur)",
+    "definition": "Welded comes from Old English 'wealdan', meaning 'to control or govern'. Welded Sculpture is a three-dimensional artwork made by fusing pieces of metal together."
+},
+{
+    "word": "Wet-on-Dry",
+    "pronunciation": "/wɛt ɒn draɪ/ (WET on DRY)",
+    "definition": "In painting, Wet-on-Dry means applying wet paint onto a dry surface. This technique allows for sharp edges and controlled brushstrokes."
+},
+{
+    "word": "Whittling",
+    "pronunciation": "/ˈwɪtlɪŋ/ (WIT-ling)",
+    "definition": "Whittle comes from Old English 'hwitan', meaning 'to cut away'. Whittling is carving wood by shaving small pieces off with a knife."
+},
+{
+    "word": "Wood Stain",
+    "pronunciation": "/wʊd steɪn/ (WOOD stayn)",
+    "definition": "Stain comes from Old Norse 'steina', meaning 'to mark or colour'. Wood Stain is a liquid used to colour and highlight the natural grain of wood."
+},
+{
+    "word": "Wood Turning",
+    "pronunciation": "/wʊd ˈtɜːrnɪŋ/ (WOOD TURN-ing)",
+    "definition": "Turning comes from Old English 'turnian', meaning 'to rotate'. Wood Turning is shaping wood on a lathe to create symmetrical forms like bowls or furniture parts."
+},
+{
+    "word": "World Art",
+    "pronunciation": "/wɜːrld ɑːrt/ (WORLD art)",
+    "definition": "World comes from Old English 'weorold', meaning 'human existence'. World Art refers to artistic traditions and works from diverse cultures across the globe."
+},
+{
+    "word": "Worship Art",
+    "pronunciation": "/ˈwɜːrʃɪp ɑːrt/ (WUR-ship art)",
+    "definition": "Worship comes from Old English 'weorthscipe', meaning 'worthiness or honour'. Worship Art includes artworks created for religious devotion, such as icons, altarpieces, or statues."
+},
+{
+    "word": "Woven Tapestry",
+    "pronunciation": "/ˈwoʊvən ˈtæpəstri/ (WOH-ven TAP-es-tree)",
+    "definition": "Tapestry comes from Old French 'tapisserie', meaning 'carpet'. A Woven Tapestry is a textile artwork made by weaving coloured threads to create images or designs."
+},
+{
+    "word": "Writing in Art",
+    "pronunciation": "/ˈraɪtɪŋ ɪn ɑːrt/ (RYE-ting in art)",
+    "definition": "Writing comes from Old English 'writan', meaning 'to inscribe'. Writing in Art refers to the integration of words, letters, or texts into visual artworks."
+},
+{
+    "word": "Wrought Iron Art",
+    "pronunciation": "/rɔːt ˈaɪərn ɑːrt/ (RAW-t EYE-urn art)",
+    "definition": "Wrought comes from Old English 'wyrcan', meaning 'to work'. Wrought Iron Art includes decorative and functional objects crafted from forged iron."
+},
+{
+    "word": "Wuxia Painting",
+    "pronunciation": "/ˈwuːʃiːə ˈpeɪntɪŋ/ (WOO-shee-uh PAYN-ting)",
+    "definition": "Wuxia is Chinese for 'martial heroes'. Wuxia Painting depicts heroic figures and legendary scenes from Chinese martial arts literature and folklore."
+},
+{
+    "word": "Wycinanki",
+    "pronunciation": "/vɪtʃɪˈnæŋki/ (vi-chi-NAN-kee)",
+    "definition": "Wycinanki is Polish for 'cut-outs'. It is a traditional Polish folk art of making decorative paper designs by cutting patterns into folded paper."
+},
+{
+    "word": "X-Acto Knife",
+    "pronunciation": "/ɛks ˈæktoʊ naɪf/ (EX-AK-toh nyf)",
+    "definition": "X-Acto comes from 'exact'. An X-Acto Knife is a precision cutting tool often used in art, design, and model making for detailed cuts."
+},
+{
+    "word": "Xenography",
+    "pronunciation": "/zɛˈnɒɡrəfi/ (zen-OG-ruh-fee)",
+    "definition": "Xeno comes from Greek 'xenos', meaning 'foreign'. Xenography in art refers to the depiction or exploration of foreign, alien, or unfamiliar cultures and ideas."
+},
+{
+    "word": "Xerography",
+    "pronunciation": "/zɪˈrɒɡrəfi/ (zee-ROG-ruh-fee)",
+    "definition": "Xero comes from Greek 'xeros', meaning 'dry'. Xerography is a dry photocopying and printing process sometimes used creatively in experimental art."
+},
+{
+    "word": "Xerox Art",
+    "pronunciation": "/ˈzɪərɒks ɑːrt/ (ZEER-ox art)",
+    "definition": "Named after the Xerox photocopier brand. Xerox Art is a form of copy art where photocopiers are used to create experimental images and collages."
+},
+{
+    "word": "Xieyi Painting",
+    "pronunciation": "/ʃiːˈiː ˈpeɪntɪŋ/ (SHEE-ee PAYN-ting)",
+    "definition": "Xieyi comes from Chinese, meaning 'writing ideas'. Xieyi Painting is a Chinese brush painting style that emphasises expressive, freehand brushwork rather than detailed realism."
+},
+{
+    "word": "Xilography",
+    "pronunciation": "/ksaɪˈlɒɡrəfi/ (zy-LOG-ruh-fee)",
+    "definition": "Xilo comes from Greek 'xylon', meaning 'wood'. Xilography (or Xylography) is the art of engraving on wood for printing designs or illustrations."
+},
+{
+    "word": "Xinghua Painting",
+    "pronunciation": "/ˈʃɪŋhwɑː ˈpeɪntɪŋ/ (SHING-hwa PAYN-ting)",
+    "definition": "Xinghua is a Chinese painting style originating in the Jiangsu province. It is known for delicate lines, floral motifs, and cultural symbolism."
+},
+{
+    "word": "X-ray Art",
+    "pronunciation": "/ˈɛks reɪ ɑːrt/ (EX-ray art)",
+    "definition": "X-ray comes from German 'X-Strahlen', meaning 'X-rays'. X-ray Art involves creating images that show internal structures, either through actual radiographs or artistic imitation of transparency."
+},
+{
+    "word": "Xuan Paper",
+    "pronunciation": "/ʃwɑːn ˈpeɪpər/ (SHWAN pay-per)",
+    "definition": "Xuan Paper (also called rice paper) is a traditional Chinese paper known for its smooth surface and absorbency, used in calligraphy and painting."
+},
+{
+    "word": "Xylography",
+    "pronunciation": "/ˈzaɪləˌɡræfi/ (ZY-lo-grah-fee)",
+    "definition": "Xylo comes from Greek 'xylon', meaning 'wood', and 'graphia', meaning 'writing'. Xylography is the art of printing from woodblocks, one of the oldest printing techniques."
+},
+{
+    "word": "Yarn Bombing",
+    "pronunciation": "/jɑːrn ˈbɒmɪŋ/ (YARN BOM-ing)",
+    "definition": "Yarn comes from Old English 'garn', meaning 'thread', and bombing from slang meaning 'to cover quickly'. Yarn Bombing is a form of street art where knitted or crocheted yarn is used to decorate public spaces."
+},
+{
+    "word": "Yellow Ochre",
+    "pronunciation": "/ˈjɛloʊ ˈoʊkər/ (YEL-oh OH-ker)",
+    "definition": "Ochre comes from Greek 'ōkhra', meaning 'pale yellow'. Yellow Ochre is a natural earth pigment used since ancient times in painting and decoration."
+},
+{
+    "word": "Yin and Yang in Art",
+    "pronunciation": "/jɪn ənd jæŋ ɪn ɑːrt/ (YIN and YANG in art)",
+    "definition": "Yin and Yang come from Chinese philosophy, representing balance between opposites. In art, Yin and Yang symbolise harmony through contrasting elements like light and dark."
+},
+{
+    "word": "Youth Art",
+    "pronunciation": "/juːθ ɑːrt/ (YOOTH art)",
+    "definition": "Youth comes from Old English 'geoguð', meaning 'young people'. Youth Art refers to creative works made by young artists, often reflecting personal growth and contemporary issues."
+},
+{
+    "word": "Yoruba Art",
+    "pronunciation": "/ˈjɒrʊbə ɑːrt/ (YOR-oo-bah art)",
+    "definition": "Yoruba is a West African ethnic group. Yoruba Art includes sculpture, beadwork, textiles, and ritual objects that reflect Yoruba cultural and spiritual traditions."
+},
+{
+    "word": "Yosegi",
+    "pronunciation": "/joʊˈseɪɡi/ (yo-SAY-gee)",
+    "definition": "Yosegi is Japanese for 'joined wood'. It is a traditional Japanese marquetry technique that creates intricate geometric patterns from different woods."
+},
+{
+    "word": "Yamato-e",
+    "pronunciation": "/jɑːˈmɑːtoʊ eɪ/ (yah-MAH-toh ay)",
+    "definition": "Yamato-e means 'Japanese painting' and originated in the Heian period. It is a classical Japanese painting style depicting Japanese themes, landscapes, and narratives."
+},
+{
+    "word": "Yugen",
+    "pronunciation": "/ˈjuːɡɛn/ (YOO-gen)",
+    "definition": "Yugen is a Japanese aesthetic concept meaning 'mysterious grace' or 'subtle profundity'. In art, it describes works that evoke depth, beauty, and the unseen."
+},
+{
+    "word": "Young British Artists (YBAs)",
+    "pronunciation": "/jʌŋ ˈbrɪtɪʃ ˈɑːrtɪsts/ (YUNG BRIT-ish AR-tists)",
+    "definition": "The term refers to a group of young artists in 1990s Britain, including Damien Hirst and Tracey Emin, known for bold, provocative, and experimental artworks."
+},
+{
+    "word": "Yose Painting",
+    "pronunciation": "/ˈjoʊseɪ ˈpeɪntɪŋ/ (YOH-say PAYN-ting)",
+    "definition": "Yose is Japanese for 'gathering'. Yose Painting is a form of art where multiple motifs or stories are gathered into a single composition, often narrative in nature."
+},
+{
+    "word": "Zen Art",
+    "pronunciation": "/zɛn ɑːrt/ (ZEN art)",
+    "definition": "Zen comes from Chinese 'Chan', meaning 'meditation'. Zen Art is influenced by Zen Buddhism and focuses on simplicity, mindfulness, and natural forms, often seen in ink painting and gardens."
+},
+{
+    "word": "Zentangle",
+    "pronunciation": "/ˈzɛnˌtæŋɡəl/ (ZEN-tang-gul)",
+    "definition": "Zentangle comes from 'zen' (meditation) and 'tangle'. It is a drawing method using structured, repetitive patterns to create intricate abstract designs."
+},
+{
+    "word": "Zigzag Pattern",
+    "pronunciation": "/ˈzɪɡzæɡ ˈpætərn/ (ZIG-zag PAT-urn)",
+    "definition": "Zigzag imitates rapid, angular lines. In art, Zigzag Patterns are decorative lines or designs that move back and forth sharply to create rhythm and energy."
+},
+{
+    "word": "Ziggurat",
+    "pronunciation": "/ˈzɪɡʊræt/ (ZIG-oo-rat)",
+    "definition": "Ziggurat comes from Akkadian 'ziqqurratu', meaning 'high or raised up'. In art and architecture, a ziggurat is a stepped temple tower from ancient Mesopotamia."
+},
+{
+    "word": "Zinc Plate",
+    "pronunciation": "/zɪŋk pleɪt/ (ZINK playt)",
+    "definition": "Zinc comes from German 'Zink'. In printmaking, a Zinc Plate is used for etching and engraving because of its smooth surface and durability."
+},
+{
+    "word": "Zine",
+    "pronunciation": "/ziːn/ (ZEEN)",
+    "definition": "Zine is short for 'magazine'. In art, Zines are small, self-published booklets often used by artists to share experimental, independent, or activist content."
+},
+{
+    "word": "Zoomorphism",
+    "pronunciation": "/zuːˈmɔːrfɪzəm/ (ZOO-mor-fiz-um)",
+    "definition": "Zoomorphism comes from Greek 'zōion' (animal) and 'morphē' (form). It is the artistic use of animal forms or characteristics in human figures, objects, or decoration."
+},
+{
+    "word": "Zorn Palette",
+    "pronunciation": "/zɔːrn ˈpælɪt/ (ZORN PAL-it)",
+    "definition": "Named after Anders Zorn, a Swedish painter. The Zorn Palette is a limited set of four colours (white, black, red, and yellow ochre) used for creating naturalistic paintings."
+},
+{
+    "word": "Zouave Style",
+    "pronunciation": "/zuːˈɑːv staɪl/ (zoo-AHV style)",
+    "definition": "Zouave refers to North African soldiers in French service, known for their bright uniforms. Zouave Style in art and costume design reflects their colourful and exotic dress."
+},
+{
+    "word": "Zweifel Perspective",
+    "pronunciation": "/ˈtsvaɪfəl pərˈspɛktɪv/ (TSVY-fel per-SPEK-tiv)",
+    "definition": "Named after Hans Zweifel, an artist and theorist. Zweifel Perspective explores complex spatial illusions and overlapping planes in modern art."
+}
+
 ]
