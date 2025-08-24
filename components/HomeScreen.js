@@ -49,110 +49,131 @@ const HomeScreen = ({ navigation }) => {
 
 
   return (
-    <View style={{ flex: 1, width: '100%' }}>
-      
-    <View >
-      {/*<TouchableOpacity
-        style={styles.floatingButton}
-        onPress={() => navigation.navigate('About')}
-      >
-        <FontAwesome5 name="info-circle" size={50} color="purple" />
-      </TouchableOpacity>*/}
-
+    <View style={styles.container}>
+      {/* Removed custom header to avoid duplicate headers */}
       <View style={styles.search_view}>
-      
         <View style={styles.searchBar}>
-          <TextInput placeholder='Type a word to search'
-            clearButtonMode='always'
+          <TextInput
+            placeholder="Type a word to search"
+            clearButtonMode="always"
             autoCorrect={false}
             style={styles.search_bar}
             value={searchTerm}
             onChangeText={handleSearch}
           />
-
-          {buttonVisible && ( // Show the clear button only if there's search text
+          {buttonVisible && (
             <TouchableOpacity style={styles.clearButton} onPress={handleClearSearch}>
               <FontAwesome5 name="times-circle" size={20} color="#999" />
             </TouchableOpacity>
           )}
         </View>
-        
-        <FlatList showsVerticalScrollIndicator={true}
-          nestedScrollEnabled={true}
-          data={sortedData}
-          renderItem={({ item }) => (
-            <TouchableOpacity onPress={() => navigation.navigate('WordDetail', item)} style={{
-              borderWidth: 1,
-              borderColor: 'rgba(128, 128, 128, 0.1)',
-              borderRadius: 8,
-              marginBottom: 2
-
-            }}>
-              <Text style={{ fontWeight: "bold", margin: 10 }}>{item.word}</Text>
-
-            </TouchableOpacity>
-            
-            
-          )}
-          keyExtractor={item => (item.word)}
-          style={{ marginTop: 10, marginBottom:50}}
-
-          
-        />
-        
-        
-        
+        {sortedData.length === 0 ? (
+          <View style={styles.emptyState}>
+            <FontAwesome5 name="search" size={48} color="#ccc" />
+            <Text style={styles.emptyText}>No words found.</Text>
+          </View>
+        ) : (
+          <FlatList
+            showsVerticalScrollIndicator={false}
+            nestedScrollEnabled={true}
+            data={sortedData}
+            renderItem={({ item }) => (
+              <TouchableOpacity
+                onPress={() => navigation.navigate('WordDetail', item)}
+                style={styles.wordCard}
+              >
+                <Text style={styles.wordText}>{item.word}</Text>
+              </TouchableOpacity>
+            )}
+            keyExtractor={item => item.word}
+            style={{ marginTop: 10, marginBottom: 50 }}
+          />
+        )}
       </View>
-      
     </View>
-  {/* Google Ads removed */}
-    </View>
-    
   )
 }
 
 export default HomeScreen;
 
 const styles = StyleSheet.create({
-
-  search_view: {
-    marginHorizontal: 10,
-    marginTop: 10,
-    marginBottom: 60
+  container: {
+    flex: 1,
+    backgroundColor: '#f8f8fc',
   },
-
-  search_bar: {
-    paddingHorizontal: 20,
-    paddingVertical: 10,
-    borderBottomColor: 'black',
-    borderRadius: 5,
-    borderWidth: 1
-  },
-
-  floatingButton: {
-    position: 'absolute',
-    bottom: 20,
-    right: 10,
-    backgroundColor: 'transparent', // Green button color
-    margin: 10,
-    padding: 2,
-    elevation: 2,
-    borderRadius: 50,
-    fontWeight: 'bold',
+  header: {
+    backgroundColor: '#6c3fc7',
+    paddingVertical: 32,
     alignItems: 'center',
-    justifyContent: 'center',
-    zIndex: 1 // Add shadow
+    borderBottomLeftRadius: 24,
+    borderBottomRightRadius: 24,
+    marginBottom: 10,
+    elevation: 4,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 8,
   },
-  buttonText: {
-    color: 'white',
-    textAlign: 'center',
+  headerText: {
+    color: '#fff',
+    fontSize: 28,
+    fontWeight: 'bold',
+    letterSpacing: 2,
+  },
+  search_view: {
+    marginHorizontal: 16,
+    marginTop: 10,
+    marginBottom: 60,
+  },
+  searchBar: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: '#fff',
+    borderRadius: 16,
+    paddingHorizontal: 16,
+    paddingVertical: 8,
+    elevation: 2,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 1 },
+    shadowOpacity: 0.08,
+    shadowRadius: 2,
+    marginBottom: 10,
+  },
+  search_bar: {
+    flex: 1,
     fontSize: 16,
+    paddingVertical: 8,
+    color: '#333',
   },
-
   clearButton: {
-    position: 'absolute',
-    padding: 10,
-    right: 10,
-
-  }
-})
+    padding: 6,
+    marginLeft: 8,
+  },
+  wordCard: {
+    backgroundColor: '#fff',
+    borderRadius: 12,
+    paddingVertical: 16,
+    paddingHorizontal: 20,
+    marginBottom: 10,
+    elevation: 2,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 1 },
+    shadowOpacity: 0.08,
+    shadowRadius: 2,
+  },
+  wordText: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    color: '#6c3fc7',
+    letterSpacing: 1,
+  },
+  emptyState: {
+    alignItems: 'center',
+    marginTop: 40,
+  },
+  emptyText: {
+    color: '#888',
+    fontSize: 18,
+    marginTop: 12,
+  },
+});

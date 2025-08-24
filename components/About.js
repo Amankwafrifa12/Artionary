@@ -1,31 +1,103 @@
-import { StyleSheet, Text, TouchableOpacity, View, TextInput, FlatList } from 'react-native'
-import React, { useState, useEffect } from 'react';
-import aboutApp from '../app.json';
+import React from 'react';
+import { View, Text, StyleSheet, TouchableOpacity, Linking, Share } from 'react-native';
+import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
+import appConfig from '../app.json';
 
-const About = ({ navigation }) => {
+const APP_VERSION = appConfig.expo.version || '1.0.0';
+const DEVELOPER = 'GenieDev';
+const PHONE = '0507808202';
+const EMAIL = 'geniehivecollective@gmail.com';
+const UPDATE_LINK = 'https://play.google.com/store/apps/details?id=com.genielab.Artionary';
+const SHARE_MESSAGE = `Check out Artionary by GenieDev! Your ultimate art dictionary app. Download now: ${UPDATE_LINK}`;
+
+const About = () => {
+  const handleUpdate = () => {
+    Linking.openURL(UPDATE_LINK);
+  };
+  const handleShare = async () => {
+    try {
+      await Share.share({ message: SHARE_MESSAGE });
+    } catch (error) {
+      // handle error
+    }
+  };
   return (
-    <View style={{ flex: 1 }}>
-      
-
-        
-        <FlatList showsVerticalScrollIndicator={true}
-          nestedScrollEnabled={true}
-          data={aboutApp}
-          renderItem={({ item }) => (
-            <View><Text>Version: {item.version}</Text></View>
-            )}
-            keyExtractor={item => (item.version)}
-          style={{ marginTop: 10 }}
-        />
-      
+    <View style={styles.container}>
+  <Text style={styles.title}>About Artionary</Text>
+  <Text style={styles.description}>Artionary (Art + Dictionary) is an ultimate dictionary of art words.</Text>
+      <Text style={styles.info}>Version: <Text style={styles.bold}>{APP_VERSION}</Text></Text>
+      <Text style={styles.info}>Developer: <Text style={styles.bold}>{DEVELOPER}</Text></Text>
+      <TouchableOpacity style={styles.infoRow} onPress={() => Linking.openURL(`tel:${PHONE}`)}>
+        <FontAwesome5 name="phone" size={20} color="#6c3fc7" style={styles.icon} />
+        <Text style={styles.info}><Text style={styles.bold}>{PHONE}</Text></Text>
+      </TouchableOpacity>
+      <TouchableOpacity style={styles.infoRow} onPress={() => Linking.openURL(`mailto:${EMAIL}`)}>
+        <FontAwesome5 name="envelope" size={20} color="#6c3fc7" style={styles.icon} />
+        <Text style={styles.info}><Text style={styles.bold}>{EMAIL}</Text></Text>
+      </TouchableOpacity>
+      <View style={styles.buttonRow}>
+        <TouchableOpacity style={styles.button} onPress={handleUpdate}>
+          <Text style={styles.buttonText}>Update App</Text>
+        </TouchableOpacity>
+        <TouchableOpacity style={styles.button} onPress={handleShare}>
+          <Text style={styles.buttonText}>Share App</Text>
+        </TouchableOpacity>
+      </View>
     </View>
-  )
-}
-export default About
+  );
+};
 
 const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        padding: 20,
-      }
-})
+  container: {
+    flex: 1,
+    backgroundColor: '#f8f8fc',
+    padding: 24,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  title: {
+    fontSize: 28,
+    fontWeight: 'bold',
+    color: '#6c3fc7',
+    marginBottom: 18,
+    textAlign: 'center',
+  },
+  info: {
+    fontSize: 18,
+    color: '#333',
+    marginBottom: 8,
+    textAlign: 'center',
+  },
+  bold: {
+    fontWeight: 'bold',
+    color: '#6c3fc7',
+  },
+  infoRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginBottom: 8,
+    justifyContent: 'center',
+  },
+  icon: {
+    marginRight: 8,
+  },
+  buttonRow: {
+    flexDirection: 'row',
+    marginTop: 24,
+  },
+  button: {
+    backgroundColor: '#6c3fc7',
+    paddingVertical: 12,
+    paddingHorizontal: 20,
+    borderRadius: 24,
+    marginHorizontal: 8,
+    elevation: 2,
+  },
+  buttonText: {
+    color: '#fff',
+    fontSize: 16,
+    fontWeight: 'bold',
+  },
+});
+
+export default About;

@@ -14,9 +14,10 @@ const WordDetailScreen = ({ route, navigation }) => {
     <View style={styles.container}>
       <TouchableOpacity
         style={styles.floatingButton}
-        onPress={() => Speech.speak(word, {pitch:0.8, rate: 0.8})}
+        onPress={() => Speech.speak(word, { pitch: 0.8, rate: 0.8 })}
+        activeOpacity={0.7}
       >
-        <FontAwesome5 name="volume-up" size={40} color="purple" />
+        <FontAwesome5 name="volume-up" size={28} color="#fff" />
       </TouchableOpacity>
       <View style={styles.wordDetails}>
         <Text style={styles.word}>{word}</Text>
@@ -37,43 +38,49 @@ export default WordDetailScreen;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: '#f8f8fc',
     padding: 20,
   },
-  header: {
-    backgroundColor: '#f0f0f0',
-    padding: 10,
-    marginBottom: 10,
-  },
-  backButton: {
-    fontSize: 16,
-  },
   wordDetails: {
-    marginTop: 10,
+    marginTop: 40,
+    backgroundColor: '#fff',
+    borderRadius: 16,
+    padding: 24,
+    elevation: 4,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 8,
+    alignItems: 'center',
   },
   word: {
-    fontSize: 24,
+    fontSize: 32,
     fontWeight: 'bold',
-    marginBottom: 10,
-    color: 'purple'
+    marginBottom: 8,
+    color: '#6c3fc7',
+    textAlign: 'center',
   },
   definition: {
     fontSize: 18,
+    color: '#333',
+    textAlign: 'center',
+    marginBottom: 8,
   },
   floatingButton: {
     position: 'absolute',
-    bottom: 20,
-    right: 10,
-    width: 70,
-    height: 70,
-    backgroundColor: 'white', // Green button color
-    margin: 10,
-    padding: 10,
-    elevation: 2,
-    borderRadius: 50,
-    fontWeight: 'bold',
+    bottom: 40,
+    right: 30,
+    width: 56,
+    height: 56,
+    backgroundColor: '#6c3fc7',
     alignItems: 'center',
     justifyContent: 'center',
-    zIndex: 1 // Add shadow
+    borderRadius: 28,
+    elevation: 6,
+    shadowColor: '#6c3fc7',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.18,
+    shadowRadius: 6,
   }
 });
 
