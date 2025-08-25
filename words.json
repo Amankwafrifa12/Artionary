@@ -3008,6 +3008,179 @@
     "word": "Noise",
     "pronunciation": "/nɔɪz/ (NOYZ)",
     "definition": "In digital art, unwanted random pixels or grain that appear in images, often due to low resolution, compression, or poor lighting in photography."
+},
+{
+    "word": "Non Finito",
+    "pronunciation": "/ˌnɒn fɪˈniːtoʊ/ (non fi-NEE-toh)",
+    "definition": "An Italian term meaning 'not finished,' used in art to describe sculptures or paintings intentionally left incomplete, emphasizing process over polish."
+},
+{
+    "word": "Non-Destructive Editing",
+    "pronunciation": "/nɒn dɪˈstrʌktɪv ˈɛdɪtɪŋ/ (non di-STRUK-tiv ED-it-ing)",
+    "definition": "A digital editing method that preserves the original file or image, allowing changes (like filters, adjustments, or masks) without permanent alteration."
+},
+{
+    "word": "Non-Representational",
+    "pronunciation": "/nɒn ˌrɛprɪzɛnˈteɪʃənəl/ (non rep-ri-zen-TAY-shuh-nl)",
+    "definition": "Art that does not depict recognizable subjects from the real world, focusing instead on colors, shapes, and forms (often abstract art)."
+},
+{
+    "word": "Notan",
+    "pronunciation": "/ˈnoʊtɑːn/ (NOH-tahn)",
+    "definition": "A Japanese design concept emphasizing the harmony between light and dark elements in a composition."
+},
+{
+    "word": "Nuance",
+    "pronunciation": "/ˈnuːɑːns/ (NOO-ahns)",
+    "definition": "A subtle difference in color, tone, or meaning that adds depth and complexity to an artwork."
+},
+{
+    "word": "Odilon Redon",
+    "pronunciation": "/ˈoʊdɪlɒn rəˈdɒn/ (OH-di-lon reh-DON)",
+    "definition": "A French Symbolist painter and printmaker (1840–1916) known for his dreamlike and fantastical imagery using pastels, lithographs, and oils."
+},
+{
+    "word": "Offset Printing",
+    "pronunciation": "/ˈɒfsɛt ˈprɪntɪŋ/ (OFF-set PRINT-ing)",
+    "definition": "A widely used printing technique where inked images are transferred from a plate to a rubber blanket, then onto paper or another surface."
+},
+{
+    "word": "Oil Paint",
+    "pronunciation": "/ɔɪl peɪnt/ (OYL paynt)",
+    "definition": "A slow-drying paint made of pigments suspended in oil (usually linseed), prized for its richness of color and blending qualities."
+},
+{
+    "word": "Oil Painting",
+    "pronunciation": "/ɔɪl ˈpeɪntɪŋ/ (OYL paynt-ing)",
+    "definition": "A painting technique using oil-based pigments applied to canvas, wood, or other surfaces, allowing detailed textures and luminous effects."
+},
+{
+    "word": "Opacity",
+    "pronunciation": "/oʊˈpæsɪti/ (oh-PASS-i-tee)",
+    "definition": "The degree to which an object or layer blocks light or visibility; in digital art, it controls transparency."
+},
+{
+    "word": "Orientation",
+    "pronunciation": "/ˌɔːriənˈteɪʃən/ (OR-ee-en-TAY-shun)",
+    "definition": "The positioning of a page, canvas, or image, usually described as portrait (vertical) or landscape (horizontal)."
+},
+{
+    "word": "Orphan",
+    "pronunciation": "/ˈɔːrfən/ (OR-fuhn)",
+    "definition": "In typography, a single word or very short line that appears at the beginning or end of a column or page, disrupting readability."
+},
+{
+    "word": "Outline",
+    "pronunciation": "/ˈaʊtlaɪn/ (OUT-line)",
+    "definition": "The line that defines the outer edges of a shape or form in a drawing or design."
+},
+{
+    "word": "Output Resolution",
+    "pronunciation": "/ˈaʊtpʊt ˌrɛzəˈluːʃən/ (OUT-put rez-uh-LOO-shun)",
+    "definition": "The level of detail in a printed or displayed image, measured in dots per inch (DPI) or pixels per inch (PPI)."
+},
+{
+    "word": "Overlap",
+    "pronunciation": "/ˌoʊvərˈlæp/ (OH-vur-lap)",
+    "definition": "A design technique where shapes, objects, or layers cover part of one another, creating depth and spatial relationships."
+},
+{
+    "word": "Overlapping",
+    "pronunciation": "/ˌoʊvərˈlæpɪŋ/ (OH-vur-lap-ing)",
+    "definition": "The arrangement of elements where one part covers another, often used to create depth, perspective, or emphasis."
+},
+{
+    "word": "Overprint",
+    "pronunciation": "/ˈoʊvərˌprɪnt/ (OH-vur-print)",
+    "definition": "A printing technique where one color is printed directly over another, often used to create special effects or prevent gaps in registration."
+},
+{
+    "word": "P.O.P",
+    "pronunciation": "/piː.oʊ.piː/ (Pee-Oh-Pee)",
+    "definition": "An abbreviation for 'Point of Purchase' or 'Point of Presence,' referring to marketing displays or artworks designed to attract attention at the place of sale."
 }
-
+,
+{
+    "word": "POP",
+    "pronunciation": "/ˈplæstər əv ˈpærɪs/ (PLAS-ter of PAR-iss)",
+    "definition": "A quick-setting material made by heating gypsum to about 150°C (300°F). It is commonly used for casting, molding, making decorative elements, and as a base in sculpture and construction. When mixed with water, POP forms a paste that hardens rapidly, making it ideal for creating fine details in art and craft."
+}
+,
+  {
+    "word": "Pablo Picasso",
+    "pronunciation": "/ˈpɑːbloʊ pɪˈkɑːsoʊ/ (PAH-bloh pee-KAH-soh)",
+    "definition": "A Spanish painter, sculptor, and co-founder of Cubism, widely regarded as one of the most influential artists of the 20th century. His works include 'Les Demoiselles d’Avignon' and 'Guernica'."
+  },
+  {
+    "word": "Package",
+    "pronunciation": "/ˈpækɪdʒ/ (PAK-ij)",
+    "definition": "A container or wrapping in which a product is sold or delivered. In design, it refers to both the physical structure and the visual graphics applied to it."
+  },
+  {
+    "word": "Package Design",
+    "pronunciation": "/ˈpækɪdʒ dɪˈzaɪn/ (PAK-ij dih-ZAHYN)",
+    "definition": "The process of creating the exterior of a product package, including form, structure, materials, colors, and graphics. It serves both protective and marketing functions."
+  },
+  {
+    "word": "Packaging",
+    "pronunciation": "/ˈpækɪdʒɪŋ/ (PAK-ij-ing)",
+    "definition": "The technology and art of enclosing or protecting products for distribution, storage, sale, and use. Often considered a crucial part of branding and consumer experience."
+  },
+  {
+    "word": "Padding",
+    "pronunciation": "/ˈpædɪŋ/ (PAD-ing)",
+    "definition": "Material used to protect or cushion objects, or in digital design, the space between content and its border. In web and graphic design, padding is an essential CSS property."
+  },
+  {
+    "word": "Paint",
+    "pronunciation": "/peɪnt/ (PAYNT)",
+    "definition": "A colored substance applied to a surface in liquid form that dries to leave a thin decorative or protective coating. It is composed of pigment, binder, and solvent."
+  },
+  {
+    "word": "Painter",
+    "pronunciation": "/ˈpeɪntər/ (PAYN-ter)",
+    "definition": "An artist who applies paint to surfaces, usually creating artworks on canvas, walls, or other materials. The term can also refer to a tradesperson who applies paint decoratively or protectively."
+  },
+  {
+    "word": "Painting",
+    "pronunciation": "/ˈpeɪntɪŋ/ (PAYNT-ing)",
+    "definition": "The practice or act of applying paint, pigment, or color to a surface to create an artistic image or decorative finish. Painting is one of the oldest forms of art, ranging from cave paintings to modern digital painting."
+  },
+  {
+    "word": "Palette Knife",
+    "pronunciation": "/ˈpælɪt naɪf/ (PAL-it nife)",
+    "definition": "A flat, blunt tool used for mixing paints or applying them thickly onto a canvas. It is commonly used in impasto techniques for textured effects."
+  },
+  {
+    "word": "Pantone",
+    "pronunciation": "/ˈpænˌtoʊn/ (PAN-tone)",
+    "definition": "A standardized color matching system widely used in printing, design, and manufacturing to ensure color consistency. It is known for the Pantone Matching System (PMS) and the annual 'Color of the Year'."
+  },
+  {
+    "word": "Paper Marble",
+    "pronunciation": "/ˈpeɪpər ˈmɑːrbl/ (PAY-per MAR-bl)",
+    "definition": "A decorative paper design created by floating colors on water or a viscous solution and transferring them to paper. It is often used in bookbinding and luxury packaging."
+  },
+  {
+    "word": "Papier-mâché",
+    "pronunciation": "/ˌpæpiˌeɪ məˈʃeɪ/ (PAP-ee-ay mah-SHAY)",
+    "definition": "A sculptural material made of paper pieces or pulp bound with glue, starch, or wallpaper paste. It is used for crafts, masks, and lightweight sculptures."
+  },
+  {
+    "word": "Pastel",
+    "pronunciation": "/pæsˈtɛl/ (pa-STEHL) or /ˈpæstl/ (PAS-tl)",
+    "definition": "A stick of powdered pigment bound with gum used as a medium for drawing, or soft, pale colors associated with the medium. Types include soft, hard, and oil pastels."
+  },
+  {
+    "word": "Patch Tool",
+    "pronunciation": "/pætʃ tuːl/ (PACH tool)",
+    "definition": "A digital photo-editing tool used to repair or blend selected areas of an image with surrounding pixels. It is commonly found in Adobe Photoshop."
+  },
+  {
+    "word": "Path",
+    "pronunciation": "/pæθ/ (PATH)",
+    "definition": "A vector line defined by anchor points and segments used in digital design and illustration. Paths can be open or closed and are fundamental in programs like Illustrator."
+  }
 ]
+
+
