@@ -3180,6 +3180,1039 @@
     "word": "Path",
     "pronunciation": "/pæθ/ (PATH)",
     "definition": "A vector line defined by anchor points and segments used in digital design and illustration. Paths can be open or closed and are fundamental in programs like Illustrator."
+  },
+  
+  {
+    "word": "Pathfinder",
+    "pronunciation": "/ˈpæθˌfaɪndər/ (PATH-fine-der)",
+    "definition": "A set of tools in vector graphic software, such as Adobe Illustrator, used to combine, divide, or manipulate shapes to create complex vector forms."
+  },
+  {
+    "word": "Patina",
+    "pronunciation": "/ˈpætɪnə/ (PAT-i-nuh)",
+    "definition": "A surface effect that develops on materials such as metal, wood, or stone over time due to age, exposure, or chemical treatments. Artists and designers sometimes create artificial patinas for aesthetic purposes."
+  },
+  {
+    "word": "Pattern",
+    "pronunciation": "/ˈpætərn/ (PAT-ern)",
+    "definition": "A repeated decorative design or motif used in art, textiles, and design. Patterns can be geometric, organic, or abstract and often create rhythm and visual interest."
+  },
+  {
+    "word": "Paul Cézanne",
+    "pronunciation": "/poʊl seɪˈzæn/ (pohl say-ZAN)",
+    "definition": "A French Post-Impressionist painter known as the 'father of modern art.' His exploration of form and color influenced Cubism and modern painting."
+  },
+  {
+    "word": "Paul Gauguin",
+    "pronunciation": "/poʊl ɡoʊˈɡæ̃/ (pohl go-GAN)",
+    "definition": "A French Post-Impressionist artist famous for his bold use of color, symbolism, and depictions of Tahitian life. His work had a major influence on modern art movements."
+  },
+  {
+    "word": "PDF",
+    "pronunciation": "/ˌpiː diː ˈɛf/ (pee-dee-EF)",
+    "definition": "Portable Document Format, a file type developed by Adobe that preserves fonts, images, and layouts across devices and platforms. Widely used in design and publishing for reliable file sharing."
+  },
+  {
+    "word": "Pedestal",
+    "pronunciation": "/ˈpɛdɪstəl/ (PED-i-stuhl)",
+    "definition": "A base or support on which a sculpture, statue, or decorative object is placed. It enhances the visibility and significance of the artwork."
+  },
+  {
+    "word": "Pencil Drawing",
+    "pronunciation": "/ˈpɛnsl ˈdrɔːɪŋ/ (PEN-sil DRAW-ing)",
+    "definition": "An artwork created using graphite or colored pencils on paper. Pencil drawing is often used for sketches, studies, or detailed finished works."
+  },
+  {
+    "word": "Photographer",
+    "pronunciation": "/fəˈtɒɡrəfər/ (fuh-TOG-ruh-fer)",
+    "definition": "A person who captures images using a camera, either as an artist, journalist, or professional in commercial and creative fields."
+  },
+  {
+    "word": "Photography",
+    "pronunciation": "/fəˈtɒɡrəfi/ (fuh-TOG-ruh-fee)",
+    "definition": "The art and practice of capturing images with a camera through the recording of light. It includes genres such as portrait, landscape, documentary, and fashion photography."
+  },
+  {
+    "word": "Photorealism",
+    "pronunciation": "/ˌfoʊtoʊˈriːəlɪzəm/ (FOH-toh-ree-uh-liz-um)",
+    "definition": "An art movement in which paintings and drawings are created with such precision that they resemble high-resolution photographs."
+  },
+  {
+    "word": "Photoshop",
+    "pronunciation": "/ˈfoʊtoʊˌʃɒp/ (FOH-toh-shop)",
+    "definition": "A digital image-editing software developed by Adobe, widely used for photo manipulation, graphic design, digital painting, and web design."
+  },
+  {
+    "word": "Picasso",
+    "pronunciation": "/pɪˈkɑːsoʊ/ (pee-KAH-soh)",
+    "definition": "Refers to Pablo Picasso, the Spanish painter, sculptor, and co-founder of Cubism. His name is often used as shorthand for his distinctive style and influence in 20th-century art."
+  },
+  {
+    "word": "Pigment",
+    "pronunciation": "/ˈpɪɡmənt/ (PIG-ment)",
+    "definition": "A substance that imparts color to paint, ink, dye, or other materials. Pigments can be natural or synthetic and are mixed with a binder to form usable art mediums."
+  },
+  {
+    "word": "Pixel Art",
+    "pronunciation": "/ˈpɪksl ɑːrt/ (PIK-sel art)",
+    "definition": "A digital art style created using small, individual pixels arranged to form an image, often associated with retro video games and low-resolution graphics."
+  },
+  {
+    "word": "Pixelation",
+    "pronunciation": "/ˌpɪksəˈleɪʃən/ (pik-suh-LAY-shun)",
+    "definition": "A visual effect where an image is displayed at such a low resolution that its individual pixels become visible, often resulting in a blocky appearance."
+  }
+,
+{
+    "word": "Pixels",
+    "pronunciation": "/ˈpɪksəlz/ (PIK-suhlz)",
+    "definition": "The smallest unit of a digital image or display, representing a single point of color. Together, pixels form the full image seen on screens or in digital artwork."
+  },
+  {
+    "word": "Placeholder",
+    "pronunciation": "/ˈpleɪshoʊldər/ (PLAY-shohl-der)",
+    "definition": "A temporary element, such as text, image, or shape, used in design layouts to indicate where final content will be placed."
+  },
+  {
+    "word": "Plain Weave",
+    "pronunciation": "/pleɪn wiːv/ (PLANE weev)",
+    "definition": "The simplest weaving technique where warp and weft threads cross alternately, producing a checkerboard-like pattern. Commonly used in basic fabrics."
+  },
+  {
+    "word": "Plaiting",
+    "pronunciation": "/ˈpleɪtɪŋ/ (PLAY-ting)",
+    "definition": "An interlacing technique, often used in basketry or textiles, involving braiding or weaving strands together."
+  },
+  {
+    "word": "Plastic Clay",
+    "pronunciation": "/ˈplæstɪk kleɪ/ (PLAS-tik clay)",
+    "definition": "A stage of clay that is soft, moist, and easily moldable, making it ideal for shaping in pottery and sculpture."
+  },
+  {
+    "word": "Plinth",
+    "pronunciation": "/plɪnθ/ (plinth)",
+    "definition": "A heavy base or platform used to support a sculpture, statue, or column, often elevating it for display."
+  },
+  {
+    "word": "PNG",
+    "pronunciation": "/ˌpiː ɛn ˈdʒiː/ (P-N-G)",
+    "definition": "Portable Network Graphics, a raster image format that supports lossless compression and transparent backgrounds, widely used in digital design."
+  },
+  {
+    "word": "Pointillism",
+    "pronunciation": "/ˈpwæ̃tɪˌlɪzəm/ (PWAN-ti-liz-um)",
+    "definition": "A painting technique developed by Georges Seurat and Paul Signac in which small dots of pure color are applied to a canvas to form an image when viewed from a distance."
+  },
+  {
+    "word": "Polyurethane",
+    "pronunciation": "/ˌpɒliˈjʊərəˌθeɪn/ (pol-ee-YUR-uh-thane)",
+    "definition": "A versatile synthetic resin used as a coating, adhesive, or foam. In art and design, it is often applied as a protective finish on wood or other surfaces."
+  },
+  {
+    "word": "Pop Art",
+    "pronunciation": "/pɒp ɑːrt/ (pop art)",
+    "definition": "An art movement of the mid-20th century that drew inspiration from popular culture, advertising, and mass media. Famous figures include Andy Warhol and Roy Lichtenstein."
+  },
+  {
+    "word": "Portrait",
+    "pronunciation": "/ˈpɔːrtrɪt/ (POR-trit)",
+    "definition": "An artwork representing a person, focusing on the face and expression to capture likeness, personality, or mood."
+  },
+  {
+    "word": "Poster Design",
+    "pronunciation": "/ˈpoʊstər dɪˌzaɪn/ (POH-ster di-ZINE)",
+    "definition": "The art and practice of creating posters that combine text and images to communicate a message, advertise, or promote events."
+  },
+  {
+    "word": "Posterisation",
+    "pronunciation": "/ˌpoʊstərəˈzeɪʃən/ (POH-stuh-rye-ZAY-shun)",
+    "definition": "A visual effect that reduces the number of tones or colors in an image, creating abrupt changes between color areas. Often used as a stylistic choice in digital art."
+  },
+  {
+    "word": "PPI",
+    "pronunciation": "/ˌpiː piː ˈaɪ/ (P-P-I)",
+    "definition": "Pixels Per Inch, a measure of image resolution that describes the pixel density of a digital display or image. Higher PPI indicates greater detail and clarity."
+  },
+  {
+    "word": "Primary Colours",
+    "pronunciation": "/ˈpraɪmɛri ˈkʌlərz/ (PRY-mair-ee KUH-lurz)",
+    "definition": "The three base colours—red, blue, and yellow—from which all other colours can be mixed. In digital media, the primary colours are red, green, and blue (RGB)."
+  },
+  {
+    "word": "Print Ready",
+    "pronunciation": "/prɪnt ˈrɛdi/ (print RED-ee)",
+    "definition": "A digital file prepared to meet all technical requirements for professional printing, such as correct resolution, colour mode (CMYK), bleed, and margins."
+  },
+  {
+    "word": "Printmaking",
+    "pronunciation": "/ˈprɪntˌmeɪkɪŋ/ (PRINT-may-king)",
+    "definition": "An artistic process of creating multiple copies of an image by transferring ink from a matrix (such as wood, metal, or stone) onto paper or fabric."
+  },
+  {
+    "word": "Profile Drawing",
+    "pronunciation": "/ˈproʊfaɪl ˈdrɔːɪŋ/ (PROH-fyle DRAW-ing)",
+    "definition": "A drawing of a subject viewed from the side, often focusing on the outline of the face or body."
+  },
+  {
+    "word": "Prong",
+    "pronunciation": "/prɒŋ/ (prong)",
+    "definition": "A pointed metal projection used in jewelry or metalwork to hold a gem, stone, or decorative element in place."
+  },
+  {
+    "word": "Prong Setting",
+    "pronunciation": "/prɒŋ ˈsɛtɪŋ/ (prong SET-ing)",
+    "definition": "A common jewelry setting where small metal prongs secure a gemstone, allowing maximum light to enter and enhance brilliance."
+  },
+  {
+    "word": "Proof",
+    "pronunciation": "/pruːf/ (proof)",
+    "definition": "A trial print or draft version of a design or publication used to check for errors, accuracy, and quality before final production."
+  },
+  {
+    "word": "Proportion",
+    "pronunciation": "/prəˈpɔːrʃən/ (pro-POR-shun)",
+    "definition": "The relative size and scale of elements within a composition. Good proportion creates harmony and balance in art and design."
+  },
+  {
+    "word": "PSD",
+    "pronunciation": "/ˌpiː ɛs ˈdiː/ (P-S-D)",
+    "definition": "Photoshop Document, Adobe Photoshop’s native file format that supports layers, transparency, text, and effects for editable design work."
+  },
+  {
+    "word": "Punch",
+    "pronunciation": "/pʌntʃ/ (punch)",
+    "definition": "A tool used to cut, indent, or perforate material such as paper, leather, or metal in crafting and design processes."
+  },
+  {
+    "word": "Px",
+    "pronunciation": "/piː ɛks/ (P-X)",
+    "definition": "Short for 'pixel', the smallest unit of a digital image. Used as a measurement unit for screen resolution and digital design dimensions."
+  },
+  {
+    "word": "Pyrography",
+    "pronunciation": "/paɪˈrɒɡrəfi/ (pie-ROG-ruh-fee)",
+    "definition": "The art of decorating wood, leather, or other materials by burning designs into the surface using a heated tool."
+  },
+  {
+    "word": "Quads",
+    "pronunciation": "/kwɒdz/ (kwahdz)",
+    "definition": "In typography, spaces used to adjust alignment and layout. In design, 'quad' can also refer to quadrilateral shapes or layout divisions."
+  },
+  {
+    "word": "Quality",
+    "pronunciation": "/ˈkwɒləti/ (KWAH-luh-tee)",
+    "definition": "The standard of visual or technical excellence in artwork, printing, or design, often judged by clarity, durability, and craftsmanship."
+  },
+  {
+    "word": "Quarter Fold",
+    "pronunciation": "/ˈkwɔːrtər foʊld/ (KWOR-ter fold)",
+    "definition": "A printing fold where a sheet is folded in half twice at right angles, resulting in four panels (eight pages). Common in newsletters and programs."
+  },
+  {
+    "word": "Quick Mask",
+    "pronunciation": "/kwɪk mæsk/ (kwik mask)",
+    "definition": "A temporary editing mode in Photoshop and similar software that allows users to create or refine selections using painting tools."
+  },
+  {
+    "word": "Quick Selection Tool",
+    "pronunciation": "/kwɪk səˈlɛkʃən tuːl/ (kwik suh-LEK-shun tool)",
+    "definition": "A digital tool, commonly in Photoshop, used to quickly select areas of an image by detecting and following edges."
+  },
+  {
+    "word": "Quirky Typeface",
+    "pronunciation": "/ˈkwɜːrki ˈtaɪpfeɪs/ (KWUR-kee TYPE-face)",
+    "definition": "A playful, unusual, or whimsical typeface that breaks traditional design rules to create a distinctive personality in text."
+  },
+  {
+    "word": "Quotation Marks",
+    "pronunciation": "/kwoʊˈteɪʃən mɑːrks/ (kwoh-TAY-shun marks)",
+    "definition": "Punctuation marks (“ ” or ‘ ’) used to enclose direct speech, quotations, or titles of works."
+  },
+  {
+    "word": "Raster Image",
+    "pronunciation": "/ˈræstər ˈɪmɪdʒ/ (RAS-ter IM-ij)",
+    "definition": "An image made up of pixels arranged in a grid, where each pixel has a defined colour value. Common formats include JPEG, PNG, and GIF."
+  },
+  {
+    "word": "Realism",
+    "pronunciation": "/ˈriːəˌlɪzəm/ (REE-uh-liz-um)",
+    "definition": "An art movement and style that aims to depict subjects truthfully, without exaggeration or stylization."
+  },
+  {
+    "word": "Reed Cutters",
+    "pronunciation": "/riːd ˈkʌtərz/ (reed KUT-urz)",
+    "definition": "Craft or sculpting tools with sharp edges, often used in ceramics or printmaking to carve lines or shapes into clay, wood, or linoleum."
+  },
+  {
+    "word": "Regenerated Fibers",
+    "pronunciation": "/rɪˈʤɛnəreɪtɪd ˈfaɪbərz/ (rih-JEN-uh-ray-tid FYE-burz)",
+    "definition": "Fibers made by chemically transforming natural materials such as cellulose into a usable textile, e.g., rayon or viscose."
+  },
+  {
+    "word": "Relief",
+    "pronunciation": "/rɪˈliːf/ (rih-LEEF)",
+    "definition": "A sculptural technique where figures or patterns are raised above a flat background. Also used in printmaking to describe a surface from which ink is applied."
+  },
+  {
+    "word": "Relief Sculpture",
+    "pronunciation": "/rɪˈliːf ˈskʌlptʃər/ (rih-LEEF SKULP-chur)",
+    "definition": "A sculpture where the design projects outward from a flat background, varying in depth from low relief (bas-relief) to high relief."
+  },
+  {
+    "word": "Renaissance Art",
+    "pronunciation": "/ˈrɛnəˌsɑːns ɑːrt/ (REN-uh-sahns art)",
+    "definition": "Art from the European Renaissance (14th–17th centuries) emphasizing realism, perspective, humanism, and classical themes."
+  },
+  {
+    "word": "Repetition",
+    "pronunciation": "/ˌrɛpɪˈtɪʃən/ (reh-pi-TISH-un)",
+    "definition": "A design principle where elements are repeated to create rhythm, consistency, and unity within a composition."
+  },
+  {
+    "word": "Resin",
+    "pronunciation": "/ˈrɛzɪn/ (REZ-in)",
+    "definition": "A synthetic or natural substance used in art, crafts, and jewelry making, often hardened into a durable, glossy finish."
+  },
+  {
+    "word": "Resist",
+    "pronunciation": "/rɪˈzɪst/ (rih-ZIST)",
+    "definition": "A technique in printmaking, textiles, or ceramics where a material is applied to block certain areas from receiving paint, dye, or glaze."
+  },
+  {
+    "word": "Resolution",
+    "pronunciation": "/ˌrɛzəˈluːʃən/ (rez-uh-LOO-shun)",
+    "definition": "The clarity of an image, defined by the number of pixels per inch (PPI) or dots per inch (DPI). Higher resolution means greater detail."
+  },
+  {
+    "word": "Responsive Design",
+    "pronunciation": "/rɪˈspɒnsɪv dɪˈzaɪn/ (rih-SPON-siv di-ZYNE)",
+    "definition": "A web design approach that ensures websites adapt fluidly to different screen sizes and devices for optimal usability."
+  },
+  {
+    "word": "RGB",
+    "pronunciation": "/ˌɑːr dʒiː ˈbiː/ (R-G-B)",
+    "definition": "A colour model based on red, green, and blue light. Used in digital displays, where colours are formed by mixing different intensities of these primaries."
+  },
+  {
+    "word": "Rim Filler",
+    "pronunciation": "/rɪm ˈfɪlər/ (rim FIL-er)",
+    "definition": "A material applied in ceramics or pottery to fill cracks or smooth the rim of a vessel before final finishing."
+  },
+  {
+    "word": "Rite of Passage",
+    "pronunciation": "/raɪt əv ˈpæsɪdʒ/ (ryte of PASS-ij)",
+    "definition": "A ceremonial or symbolic event marking a significant transition in a person’s life, often reflected in cultural or artistic traditions."
+  },
+  {
+    "word": "Rivet",
+    "pronunciation": "/ˈrɪvɪt/ (RIV-it)",
+    "definition": "A metal fastener used in leatherwork, textiles, and sculpture to join materials together securely."
+  },
+{
+    "word": "Rococo",
+    "pronunciation": "/roʊˈkoʊkoʊ/ (roh-KOH-koh)",
+    "definition": "An 18th-century artistic style characterized by ornate decoration, light colors, asymmetrical designs, and playful themes."
+  },
+  {
+    "word": "Romanesque",
+    "pronunciation": "/ˌroʊməˈnɛsk/ (ROH-muh-nesk)",
+    "definition": "An architectural style of medieval Europe characterized by semi-circular arches, thick walls, and sturdy pillars."
+  },
+  {
+    "word": "Roman Typeface",
+    "pronunciation": "/ˈroʊmən ˈtaɪpfeɪs/ (ROH-muhn TYPE-face)",
+    "definition": "A style of typeface characterized by its serifed letters, inspired by ancient Roman inscriptions."
+  },
+  {
+    "word": "Romanticism",
+    "pronunciation": "/roʊˈmæntɪˌsɪzəm/ (roh-MAN-ti-siz-um)",
+    "definition": "An artistic and literary movement of the late 18th and early 19th centuries emphasizing emotion, imagination, nature, and individualism over rationalism and order."
+  },
+  {
+    "word": "Rotary Punch",
+    "pronunciation": "/ˈroʊtəri pʌnʧ/ (ROH-tuh-ree punch)",
+    "definition": "A hand tool with a rotating wheel fitted with different punch sizes, commonly used to make holes in leather, fabric, or paper."
+  },
+  {
+    "word": "Rule of Thirds",
+    "pronunciation": "/ruːl əv θɜːrdz/ (rool of thurdz)",
+    "definition": "A compositional guideline in art and photography that divides an image into a 3x3 grid to position focal points along the lines or intersections for balance and interest."
+  },
+  {
+    "word": "Ruler",
+    "pronunciation": "/ˈruːlər/ (ROO-lur)",
+    "definition": "A straight measuring tool marked with units, used for drawing lines, measuring distances, or guiding cuts in art and design."
+  },
+  {
+    "word": "Sans-Serif",
+    "pronunciation": "/sænz ˈsɛrɪf/ (sanz SER-if)",
+    "definition": "A style of typeface without the small decorative strokes (serifs) at the ends of letters. Often considered modern and clean in design."
+  },
+  {
+    "word": "Satin Weave",
+    "pronunciation": "/ˈsætən wiːv/ (SAT-in weev)",
+    "definition": "A fabric weave pattern that produces a smooth, lustrous surface by floating warp or weft threads over several others."
+  },
+  {
+    "word": "Scissors",
+    "pronunciation": "/ˈsɪzərz/ (SIZ-urz)",
+    "definition": "A handheld cutting tool with two pivoted blades, used in art, textiles, and crafts to cut paper, fabric, or other materials."
+  },
+  {
+    "word": "Scouring",
+    "pronunciation": "/ˈskaʊərɪŋ/ (SKOW-er-ing)",
+    "definition": "A process in textile preparation where fibers or fabrics are cleaned to remove oils, waxes, and impurities before dyeing or finishing."
+  },
+  {
+    "word": "Screen Printing",
+    "pronunciation": "/skriːn ˈprɪntɪŋ/ (skreen PRIN-ting)",
+    "definition": "A printing technique where ink is pressed through a mesh stencil (screen) onto a surface such as fabric, paper, or plastic."
+  },
+  {
+    "word": "Scribble",
+    "pronunciation": "/ˈskrɪbəl/ (SKRIB-ul)",
+    "definition": "A quick, loose, or messy drawing consisting of random lines, often used in brainstorming or expressive art."
+  },
+  {
+    "word": "Scribbling",
+    "pronunciation": "/ˈskrɪblɪŋ/ (SKRIB-ling)",
+    "definition": "The act of making uncontrolled or freehand marks, often as a preliminary stage of drawing or as expressive art."
+  },
+  {
+    "word": "Script Typeface",
+    "pronunciation": "/skrɪpt ˈtaɪpfeɪs/ (skript TYPE-face)",
+    "definition": "A decorative typeface that mimics the fluid strokes of handwriting or calligraphy."
+  },
+  {
+    "word": "Sculpture",
+    "pronunciation": "/ˈskʌlptʃər/ (SKULP-chur)",
+    "definition": "A three-dimensional artwork created by carving, modeling, casting, or assembling materials such as stone, clay, wood, or metal."
+  },
+  {
+    "word": "Sculpture in the Round",
+    "pronunciation": "/ˈskʌlptʃər ɪn ðə raʊnd/ (SKULP-chur in the rownd)",
+    "definition": "A freestanding sculpture designed to be viewed from all sides, not attached to a background surface."
+  },
+  {
+    "word": "Scumbling",
+    "pronunciation": "/ˈskʌmblɪŋ/ (SKUM-bling)",
+    "definition": "A painting technique where a thin or broken layer of colour is applied over another to create texture or soften tones."
+  },
+  {
+    "word": "Secondary Colours",
+    "pronunciation": "/ˈsɛkənˌdɛri ˈkʌlərz/ (SEK-un-der-ee KUL-urz)",
+    "definition": "Colours created by mixing two primary colours: orange (red + yellow), green (blue + yellow), and purple (red + blue)."
+  },
+  {
+    "word": "Self-Rim",
+    "pronunciation": "/sɛlf rɪm/ (self rim)",
+    "definition": "In pottery, a rim that is formed from the same clay body as the vessel itself, rather than being added separately."
+  },
+  {
+    "word": "Selvage",
+    "pronunciation": "/ˈsɛlvɪdʒ/ (SEL-vij)",
+    "definition": "The tightly woven edge of a fabric that prevents it from fraying or unraveling, often used as a guide in sewing and tailoring."
+  },
+  {
+    "word": "Selvedge",
+    "pronunciation": "/ˈsɛlvɪdʒ/ (SEL-vej)",
+    "definition": "Alternate spelling of selvage, referring to the finished edge of fabric that resists fraying and ensures durability."
+  },
+  {
+    "word": "Sequential Art",
+    "pronunciation": "/sɪˈkwɛnʃəl ɑːrt/ (si-KWEN-shul art)",
+    "definition": "A form of visual storytelling that uses a sequence of images, often with text, such as comics, graphic novels, or storyboards."
+  },
+  {
+    "word": "Serif",
+    "pronunciation": "/ˈsɛrɪf/ (SER-if)",
+    "definition": "A small decorative stroke or extension added to the ends of letters in certain typefaces, associated with tradition and readability in print."
+  },
+  {
+    "word": "Serigraph",
+    "pronunciation": "/ˈsɛrɪɡræf/ (SERI-graf)",
+    "definition": "A fine art print made using the screen printing technique, often involving multiple layers of colour for artistic effect."
+  },
+  {
+    "word": "Serigraphy",
+    "pronunciation": "/sɛˈrɪɡrəfi/ (seh-RIG-ruh-fee)",
+    "definition": "Another term for screen printing, particularly when used in fine art to create high-quality prints."
+  },
+  {
+    "word": "Sgraffito",
+    "pronunciation": "/skrəˈfiːtoʊ/ (skra-FEE-toh)",
+    "definition": "A decorative technique where a surface layer (such as plaster or slip) is scratched away to reveal a contrasting colour beneath."
+  },
+  {
+    "word": "Shading",
+    "pronunciation": "/ˈʃeɪdɪŋ/ (SHAY-ding)",
+    "definition": "The use of light and dark tones in drawing or painting to create the illusion of depth, form, and texture."
+  },
+  {
+    "word": "Signature",
+    "pronunciation": "/ˈsɪɡnətʃər/ (SIG-nuh-chur)",
+    "definition": "A person’s handwritten name or mark used for identification; in printing, it may also refer to a folded sheet forming part of a book."
+  },
+  {
+    "word": "Signature Mark",
+    "pronunciation": "/ˈsɪɡnətʃər mɑːrk/ (SIG-nuh-chur mark)",
+    "definition": "A small symbol, word, or number printed on the first page of a book’s section to help with assembling the folded sheets correctly."
+  },
+  {
+    "word": "Silhouette",
+    "pronunciation": "/ˌsɪluːˈɛt/ (SILL-oo-ett)",
+    "definition": "A solid, dark shape or outline of an object, person, or figure, often shown against a lighter background."
+  },
+  {
+    "word": "Sketch",
+    "pronunciation": "/skɛtʃ/ (skech)",
+    "definition": "A quick or unfinished drawing that captures the essential form, composition, or idea of a subject."
+  },
+  {
+    "word": "Skin",
+    "pronunciation": "/skɪn/ (skin)",
+    "definition": "In digital design, refers to the external appearance or interface design of software or devices; in painting, it can also describe a thin surface layer of paint."
+  },
+  {
+    "word": "Slab Serif",
+    "pronunciation": "/slæb ˈsɛrɪf/ (slab SER-if)",
+    "definition": "A typeface style with thick, block-like serifs, often used for bold and attention-grabbing designs."
+  },
+  {
+    "word": "Slake",
+    "pronunciation": "/sleɪk/ (slayk)",
+    "definition": "In ceramics, the process of mixing water with dry clay to break it down into a slurry or slip."
+  },
+  {
+    "word": "Slip",
+    "pronunciation": "/slɪp/ (slip)",
+    "definition": "A liquid mixture of clay and water used in ceramics for joining pieces, casting, or surface decoration."
+  },
+  {
+    "word": "Smart Objects",
+    "pronunciation": "/smɑːrt ˈɑːbdʒɛkts/ (smart OB-jekts)",
+    "definition": "In Photoshop, a layer that preserves an image’s source data, allowing non-destructive editing and scaling without losing quality."
+  },
+  {
+    "word": "Smudging",
+    "pronunciation": "/ˈsmʌdʒɪŋ/ (SMUJ-ing)",
+    "definition": "A drawing or painting technique where pigment is blurred or smeared to soften edges or create gradients and textures."
+  },
+  {
+    "word": "Sound Sculpture",
+    "pronunciation": "/saʊnd ˈskʌlpʧər/ (sound SKULP-chur)",
+    "definition": "An artwork that incorporates sound as a primary material, often interactive or environmental in nature."
+  },
+  {
+    "word": "Spine",
+    "pronunciation": "/spaɪn/ (spine)",
+    "definition": "The bound edge of a book where the pages are held together, often displaying the title and author’s name."
+  },
+  {
+    "word": "Splattering",
+    "pronunciation": "/ˈsplætərɪŋ/ (SPLAT-er-ing)",
+    "definition": "A painting technique where paint is flicked or thrown onto a surface to create a random, textured effect."
+  },
+  {
+    "word": "Spoke Weight",
+    "pronunciation": "/spoʊk weɪt/ (spohk wayt)",
+    "definition": "A type of weight used in textile weaving to maintain tension on spokes or threads during the weaving process."
+  },
+  {
+    "word": "Spokes",
+    "pronunciation": "/spoʊks/ (spohks)",
+    "definition": "The radial supports extending from the center to the edge of a wheel or circular frame; in weaving, they serve as the foundational structure of circular looms."
+  },
+  {
+    "word": "Squeegee",
+    "pronunciation": "/ˈskwiːdʒi/ (skwee-jee)",
+    "definition": "A tool with a flat, smooth rubber blade used to spread ink evenly across a screen in screen printing or to remove excess liquid from surfaces."
+  },
+  {
+    "word": "Stake Weight",
+    "pronunciation": "/steɪk weɪt/ (stayk wayt)",
+    "definition": "A heavy object or device attached to stakes to keep them firmly in place, often used in textile or leatherwork processes."
+  },
+  {
+    "word": "Stakes",
+    "pronunciation": "/steɪks/ (stayks)",
+    "definition": "Pointed supports driven into the ground or base material to secure frames, looms, or other working surfaces in crafts and construction."
+  },
+  {
+    "word": "Stamp",
+    "pronunciation": "/stæmp/ (stamp)",
+    "definition": "A tool or design pressed onto a surface to create a relief or inked impression; widely used in printmaking, crafts, and branding."
+  },
+  {
+    "word": "Staple Fiber",
+    "pronunciation": "/ˈsteɪpəl ˈfaɪbər/ (STAY-puhl FY-ber)",
+    "definition": "Short lengths of natural or synthetic fibers that are spun together to form yarn or thread, common in textile production."
+  },
+  {
+    "word": "Statuette",
+    "pronunciation": "/ˌstætʃuˈɛt/ (stach-oo-ET)",
+    "definition": "A small sculpture, often decorative, representing a figure, object, or animal."
+  },
+  {
+    "word": "Stencil",
+    "pronunciation": "/ˈstɛnsəl/ (STEN-suhl)",
+    "definition": "A template with cut-out designs used to apply patterns, shapes, or text onto surfaces by brushing, rolling, or spraying paint or ink through the openings."
+  },
+  {
+    "word": "Still Life Drawing",
+    "pronunciation": "/stɪl laɪf ˈdrɔːɪŋ/ (still life DRAW-ing)",
+    "definition": "An artistic practice of drawing inanimate objects, such as fruit, flowers, or household items, arranged for composition and study."
+  },
+  {
+    "word": "Stippling",
+    "pronunciation": "/ˈstɪplɪŋ/ (STIP-ling)",
+    "definition": "A drawing or painting technique using small dots to create shading, texture, and tonal variation."
+  },
+  {
+    "word": "Stitch Slant",
+    "pronunciation": "/stɪtʃ slænt/ (stitch slant)",
+    "definition": "The angle or direction of stitches in sewing or embroidery, which affects the overall appearance and texture of the work."
+  },
+  {
+    "word": "Stock Images",
+    "pronunciation": "/stɑk ˈɪmɪdʒɪz/ (stok IM-ij-iz)",
+    "definition": "Pre-shot photographs, illustrations, or graphics licensed for commercial or creative use in design projects."
+  },
+  {
+    "word": "Storyboard",
+    "pronunciation": "/ˈstɔːrɪˌbɔːrd/ (STOR-ee-bord)",
+    "definition": "A sequence of drawings or images arranged to visualize the flow of a film, animation, advertisement, or design project."
+  },
+  {
+    "word": "Straight-Tipped Packer",
+    "pronunciation": "/streɪt tɪpt ˈpækər/ (strayt tipt PAK-er)",
+    "definition": "A leatherworking tool with a straight tip, used to press, crease, or finish edges and seams."
+  },
+  {
+    "word": "Strap",
+    "pronunciation": "/stræp/ (strap)",
+    "definition": "A narrow strip of material, such as leather, fabric, or synthetic fiber, used for fastening, carrying, or decoration in design and crafts."
+  },
+  {
+    "word": "Studio",
+    "pronunciation": "/ˈstjuːdiˌoʊ/ (STOO-dee-oh)",
+    "definition": "A workspace or environment where artists, designers, or photographers create and develop their work."
+  },
+    {
+        "word": "Subtractive Colour Mixing",
+        "pronunciation": "/səbˈtræktɪv ˈkʌlər ˈmɪksɪŋ/ (sub-TRAK-tiv KUL-er MIX-ing)",
+        "definition": "A colour mixing method where colours are created by combining pigments that absorb (subtract) certain wavelengths of light, typically using cyan, magenta, and yellow."
+    },
+    {
+        "word": "Surrealism",
+        "pronunciation": "/səˈriːəlɪzəm/ (suh-REE-uh-liz-um)",
+        "definition": "An artistic and literary movement that explores the unconscious mind, dreams, and fantastical imagery, often combining unexpected elements."
+    },
+    {
+        "word": "Symmetry",
+        "pronunciation": "/ˈsɪmətri/ (SIM-uh-tree)",
+        "definition": "A balanced and harmonious arrangement of elements on either side of a central axis, creating a mirror-like effect in art and design."
+    },
+    {
+        "word": "Synthetic Fibers",
+        "pronunciation": "/sɪnˈθɛtɪk ˈfaɪbərz/ (sin-THET-ik FY-burz)",
+        "definition": "Man-made fibers created from chemical processes, often used in textiles for their durability, elasticity, and resistance to wrinkles."
+    },
+    {
+    "word": "Style",
+    "pronunciation": "/staɪl/ (stahyl)",
+    "definition": "A distinctive manner of expression in art, design, or literature, characterized by techniques, themes, or aesthetics that differentiate one creator or movement from another."
+  },
+  {
+    "word": "Subject",
+    "pronunciation": "/ˈsʌbdʒɪkt/ (SUB-jikt)",
+    "definition": "The main theme, focus, or object depicted in a work of art, such as a person, landscape, or abstract idea."
+  },
+  {
+    "word": "Sublimation Ink",
+    "pronunciation": "/ˌsʌbləˈmeɪʃən ɪŋk/ (sub-luh-MAY-shun ink)",
+    "definition": "A special dye-based ink that turns into gas when heated and bonds with polyester or polymer-coated materials in sublimation printing."
+  },
+  {
+    "word": "Sublimation Paper",
+    "pronunciation": "/ˌsʌbləˈmeɪʃən ˈpeɪpər/ (sub-luh-MAY-shun pay-per)",
+    "definition": "A specially coated paper used to hold sublimation ink before it is heat-transferred onto fabric, ceramics, or other coated materials."
+  },
+  {
+    "word": "Subtractive",
+    "pronunciation": "/səbˈtræktɪv/ (sub-TRAK-tiv)",
+    "definition": "A color mixing process where colors are created by subtracting light using pigments, dyes, or inks; the primary subtractive colors are cyan, magenta, and yellow."
+  },
+  {
+    "word": "Subtractive Drawing",
+    "pronunciation": "/səbˈtræktɪv ˈdrɔːɪŋ/ (sub-TRAK-tiv DRAW-ing)",
+    "definition": "An art technique where an artist covers a surface with medium and then removes parts of it to create highlights, shapes, or details."
+  },
+  {
+    "word": "Symbolism",
+    "pronunciation": "/ˈsɪmbəˌlɪzəm/ (SIM-buh-liz-uhm)",
+    "definition": "An art movement and technique where symbols, metaphors, and imagery are used to represent deeper meanings, emotions, or abstract concepts."
+  },
+  {
+    "word": "Sympathetic Magic",
+    "pronunciation": "/ˌsɪmpəˈθɛtɪk ˈmædʒɪk/ (sim-puh-THET-ik MAJ-ik)",
+    "definition": "A belief or practice in which objects or images are thought to influence reality because of their resemblance or symbolic connection, often seen in ritualistic art and ancient practices."
+  },
+  {
+    "word": "Synthetic Fibers",
+    "pronunciation": "/sɪnˈθɛtɪk ˈfaɪbərz/ (sin-THET-ik FY-berz)",
+    "definition": "Man-made fibers produced from chemical substances such as polyester, nylon, or acrylic, widely used in textiles for durability and versatility."
+  },
+  {
+    "word": "Tactile Texture",
+    "pronunciation": "/ˈtæktaɪl ˈtɛkstʃər/ (TAK-tyl TEK-sher)",
+    "definition": "The physical feel or surface quality of a material that can be touched, such as roughness, smoothness, or softness."
+  },
+  {
+    "word": "Tail",
+    "pronunciation": "/teɪl/ (tayl)",
+    "definition": "In typography, the descending stroke of a letter such as 'Q' or 'g'; in textiles, it can also refer to the loose end of a thread or fabric."
+  },
+  {
+    "word": "Tape Measure",
+    "pronunciation": "/teɪp ˈmɛʒər/ (tayp MEH-zher)",
+    "definition": "A flexible ruler made of cloth, plastic, or metal, used in art, design, and tailoring for measuring lengths and dimensions."
+  },
+  {
+    "word": "Tapestry",
+    "pronunciation": "/ˈtæpəstri/ (TAP-uh-stree)",
+    "definition": "A textile art form created by weaving colored threads to produce images or decorative patterns, often used as wall hangings."
+  },
+  {
+    "word": "Technique",
+    "pronunciation": "/tɛkˈniːk/ (tek-NEEK)",
+    "definition": "A specific method or skill applied in art, design, or craftsmanship to achieve a desired effect or result."
+  },
+  {
+    "word": "Tempera",
+    "pronunciation": "/ˈtɛmpərə/ (TEM-puh-ruh)",
+    "definition": "A fast-drying painting medium made by mixing colored pigments with a water-soluble binder such as egg yolk, widely used before the invention of oil paint."
+  },
+  {
+    "word": "Terracotta",
+    "pronunciation": "/ˌtɛrəˈkɒtə/ (ter-uh-KOT-uh)",
+    "definition": "A type of earthenware clay that is reddish-brown in color, often used for sculptures, pottery, and architectural elements."
+  },
+  {
+    "word": "Terry Cloth",
+    "pronunciation": "/ˈtɛri klɔθ/ (TARE-ee klawth)",
+    "definition": "A soft, absorbent fabric woven with loops, commonly used for towels, robes, and similar textile products."
+  },
+  {
+    "word": "Tertiary Colours",
+    "pronunciation": "/ˈtɜːrʃiˌɛri ˈkʌlərz/ (TER-shee-air-ee KUL-ers)",
+    "definition": "Colors created by mixing a primary color with a secondary color, such as red-orange, blue-green, or yellow-purple."
+  },
+  {
+    "word": "Texture",
+    "pronunciation": "/ˈtɛkstʃər/ (TEK-sher)",
+    "definition": "The perceived surface quality of an artwork or object, which can be tactile (felt) or visual (seen), adding depth and interest."
+  },
+  {
+    "word": "Thermoplastic",
+    "pronunciation": "/ˌθɜːrmoʊˈplæstɪk/ (thur-moh-PLAS-tik)",
+    "definition": "A type of plastic material that becomes soft and moldable when heated and hardens upon cooling, commonly used in sculpture, design, and industrial applications."
+  },
+  {
+    "word": "Thonging Chisel",
+    "pronunciation": "/ˈθɒŋɪŋ ˈtʃɪzəl/ (THONG-ing CHIZ-uhl)",
+    "definition": "A leatherworking tool with pronged ends used to punch evenly spaced holes for thonging or lacing leather pieces together."
+  },
+  {
+    "word": "Thread Count",
+    "pronunciation": "/θrɛd kaʊnt/ (thred kownt)",
+    "definition": "The number of threads woven into one square inch of fabric, indicating its fineness, quality, and durability."
+  },
+  {
+    "word": "Three-Strand Twine",
+    "pronunciation": "/θriː-strænd twaɪn/ (three-strand twine)",
+    "definition": "A strong cord made by twisting three individual strands together, often used in crafts, textiles, or tying materials."
+  },
+  {
+    "word": "Thumbnail",
+    "pronunciation": "/ˈθʌmˌneɪl/ (THUM-nayl)",
+    "definition": "A small, scaled-down version of an image or design, used for previewing or organizing artworks and digital files."
+  },
+  {
+    "word": "Thumbnail Sketch",
+    "pronunciation": "/ˈθʌmˌneɪl skɛtʃ/ (THUM-nayl sketch)",
+    "definition": "A quick, small drawing used to explore composition, layout, and ideas before creating a final artwork or design."
+  },
+  {
+    "word": "Tie and Dye",
+    "pronunciation": "/taɪ ənd daɪ/ (tie and dye)",
+    "definition": "A fabric dyeing technique where sections of cloth are tied or folded to resist dye, creating colorful patterns and textures."
+  },
+  {
+    "word": "Timeline",
+    "pronunciation": "/ˈtaɪmˌlaɪn/ (TYME-lyne)",
+    "definition": "In design and multimedia, a graphical representation of events or sequences arranged in chronological order, often used in animation and video editing."
+  },
+  {
+    "word": "Tint",
+    "pronunciation": "/tɪnt/ (tint)",
+    "definition": "A lighter version of a color created by adding white to it, often used to create soft or pastel shades in art and design."
+  },
+  {
+    "word": "Tonal Value",
+    "pronunciation": "/ˈtoʊnəl ˈvæljuː/ (TOH-nuhl VAL-yoo)",
+    "definition": "The lightness or darkness of a color or shade, essential in creating depth, contrast, and emphasis in artwork."
+  },
+  {
+    "word": "Tone",
+    "pronunciation": "/toʊn/ (tohn)",
+    "definition": "The quality of color defined by its lightness, darkness, or intensity, often achieved by mixing a hue with gray."
+  },
+  {
+    "word": "Toner",
+    "pronunciation": "/ˈtoʊnər/ (TOH-ner)",
+    "definition": "A fine powder used in laser printers and photocopiers to form printed text and images; in art, also refers to a liquid that modifies or adjusts color intensity."
+  },
+  {
+    "word": "Tracing",
+    "pronunciation": "/ˈtreɪsɪŋ/ (TRAY-sing)",
+    "definition": "The process of copying an image, design, or outline by placing a transparent sheet over it and redrawing the lines."
+  },
+  {
+    "word": "Tracking",
+    "pronunciation": "/ˈtrækɪŋ/ (TRAK-ing)",
+    "definition": "In typography, the consistent adjustment of spacing across an entire block of text, affecting overall density and readability."
+  },
+  {
+    "word": "Transition",
+    "pronunciation": "/trænˈzɪʃən/ (tran-ZISH-uhn)",
+    "definition": "A gradual change from one state, element, or visual effect to another, often used in design, art, and multimedia."
+  },
+  {
+    "word": "Triad",
+    "pronunciation": "/ˈtraɪˌæd/ (TRY-ad)",
+    "definition": "A color scheme based on three colors evenly spaced on the color wheel, such as red, yellow, and blue, creating strong visual contrast and harmony."
+  },
+  {
+    "word": "Turpentine",
+    "pronunciation": "/ˈtɜːrpənˌtaɪn/ (TUR-pən-tyne)",
+    "definition": "A solvent distilled from pine resin, commonly used to thin oil paints and clean brushes in traditional painting."
+  },
+  {
+    "word": "Twill Weave",
+    "pronunciation": "/twɪl wiːv/ (twil weev)",
+    "definition": "A type of textile weave pattern characterized by diagonal lines, created by passing the weft thread over one or more warp threads in a staggered sequence."
+  },
+  {
+    "word": "Twining",
+    "pronunciation": "/ˈtwaɪnɪŋ/ (TWY-ning)",
+    "definition": "A basketry and textile technique in which two or more strands are twisted around vertical supports to create a woven structure."
+  },
+  {
+    "word": "Typeface",
+    "pronunciation": "/ˈtaɪpˌfeɪs/ (TYPE-face)",
+    "definition": "A specific design of lettering that includes variations in size, weight, and style, such as Times New Roman or Helvetica."
+  },
+  {
+    "word": "Typesetter",
+    "pronunciation": "/ˈtaɪpˌsɛtər/ (TYPE-set-er)",
+    "definition": "A person or machine responsible for arranging and setting type for printing, traditionally in publishing and graphic design."
+  },
+  {
+    "word": "Typesetting",
+    "pronunciation": "/ˈtaɪpˌsɛtɪŋ/ (TYPE-set-ing)",
+    "definition": "The process of arranging text and symbols for printing or digital display, ensuring proper readability, alignment, and design."
+  },
+  {
+    "word": "Typography",
+    "pronunciation": "/taɪˈpɒɡrəfi/ (ty-POG-ruh-fee)",
+    "definition": "The art and technique of arranging type to make written language visually appealing and readable, involving font choice, spacing, and layout."
+  },
+  {
+    "word": "UI",
+    "pronunciation": "/juː-aɪ/ (U-I)",
+    "definition": "Short for User Interface, it refers to the design of the visual and interactive elements through which a user interacts with a digital product."
+  },
+  {
+    "word": "UI Kit",
+    "pronunciation": "/juː-aɪ kɪt/ (U-I kit)",
+    "definition": "A collection of pre-designed user interface elements, such as buttons, icons, and menus, used to speed up the design of apps or websites."
+  },
+  {
+    "word": "Umberto Boccioni",
+    "pronunciation": "/umˈbɛrto boˈtʃoːni/ (oom-BER-to boh-CHOH-nee)",
+    "definition": "An Italian painter and sculptor (1882–1916) associated with Futurism, known for his dynamic works that emphasized movement and modern life."
+  },
+  {
+    "word": "Underpainting",
+    "pronunciation": "/ˈʌndərˌpeɪntɪŋ/ (UN-der-payn-ting)",
+    "definition": "An initial layer of paint applied to a canvas or panel, used as a base to establish tones and values before the final layers of paint."
+  },
+  {
+    "word": "UX",
+    "pronunciation": "/juː-ɛks/ (U-X)",
+    "definition": "Short for User Experience, it refers to the overall experience and satisfaction a person has when interacting with a digital product or system."
+  },
+  {
+    "word": "Value",
+    "pronunciation": "/ˈvæljuː/ (VAL-yoo)",
+    "definition": "The relative lightness or darkness of a color or tone, crucial in creating depth, emphasis, and contrast in visual art."
+  },
+  {
+    "word": "Vanishing Point",
+    "pronunciation": "/ˈvænɪʃɪŋ pɔɪnt/ (VAN-ish-ing point)",
+    "definition": "In perspective drawing, the point on the horizon line where parallel lines appear to converge, creating the illusion of depth."
+  },
+  {
+    "word": "Varnish",
+    "pronunciation": "/ˈvɑːrnɪʃ/ (VAR-nish)",
+    "definition": "A transparent protective coating applied to paintings, wood, or other surfaces to enhance durability and gloss."
+  },
+  {
+    "word": "Vase",
+    "pronunciation": "/veɪs/ or /vɑːz/ (vays or vahz)",
+    "definition": "A decorative container, often used to hold flowers, commonly made of ceramic, glass, or metal."
+  },
+  {
+    "word": "Velvet",
+    "pronunciation": "/ˈvɛlvɪt/ (VEL-vit)",
+    "definition": "A soft, luxurious fabric with a dense pile, often used in fashion and upholstery."
+  },
+  {
+    "word": "Vincent van Gogh",
+    "pronunciation": "/ˈvɪnsənt væn ɡoʊ/ (VIN-sent van GO)",
+    "definition": "A Dutch Post-Impressionist painter (1853–1890) known for expressive brushwork and vibrant color in works like *Starry Night* and *Sunflowers*."
+  },
+  {
+    "word": "Volume",
+    "pronunciation": "/ˈvɒljuːm/ (VOL-yoom)",
+    "definition": "In art, the perception of three-dimensionality or mass in a form, often created through shading and perspective."
+  },
+  {
+    "word": "VR",
+    "pronunciation": "/viː-ɑr/ (V-R)",
+    "definition": "Short for Virtual Reality, a simulated 3D environment experienced through digital devices like headsets, often used in art, design, and gaming."
+  },
+  {
+    "word": "Warm Colours",
+    "pronunciation": "/wɔːrm ˈkʌlərz/ (warm cul-ers)",
+    "definition": "Colors that evoke warmth, such as reds, oranges, and yellows, often associated with energy and passion."
+  },
+  {
+    "word": "Warp",
+    "pronunciation": "/wɔːrp/ (warp)",
+    "definition": "In weaving, the vertical threads held in tension on a loom through which the weft threads are woven."
+  },
+  {
+    "word": "Wash",
+    "pronunciation": "/wɒʃ/ (wosh)",
+    "definition": "A thin, transparent layer of diluted paint or ink applied to a surface to create soft tones or backgrounds."
+  },
+  {
+    "word": "Watermark",
+    "pronunciation": "/ˈwɔːtərˌmɑːrk/ (WAW-ter-mark)",
+    "definition": "A faint design or text embedded into paper or digital images to indicate authenticity or copyright protection."
+  },
+  {
+    "word": "Wax",
+    "pronunciation": "/wæks/ (waks)",
+    "definition": "A pliable substance used in art for encaustic painting, batik, or as a resist in textile design."
+  },
+  {
+    "word": "Wedging",
+    "pronunciation": "/ˈwɛdʒɪŋ/ (WEJ-ing)",
+    "definition": "The process of kneading clay to remove air bubbles and achieve a consistent texture before sculpting or throwing."
+  },
+  {
+    "word": "Weft",
+    "pronunciation": "/wɛft/ (weft)",
+    "definition": "In weaving, the horizontal threads that are interlaced through the vertical warp threads."
+  },
+  {
+    "word": "Wet Clay",
+    "pronunciation": "/wɛt kleɪ/ (wet klay)",
+    "definition": "Clay that contains sufficient moisture to be pliable and workable, used for shaping in ceramics."
+  },
+  {
+    "word": "Wire Weaving",
+    "pronunciation": "/ˈwaɪər ˈwiːvɪŋ/ (WY-er WEEV-ing)",
+    "definition": "A craft technique of twisting and interlacing metal wires to create jewelry, sculptures, or decorative art."
+  },
+  {
+    "word": "Wood",
+    "pronunciation": "/wʊd/ (wood)",
+    "definition": "A natural material from trees, commonly used in sculpture, carving, furniture, and construction."
+  },
+  {
+    "word": "Woodblock",
+    "pronunciation": "/ˈwʊdˌblɒk/ (WOOD-block)",
+    "definition": "A block of wood carved in relief for printing images or text, especially in traditional printmaking."
+  },
+  {
+    "word": "Woodcut",
+    "pronunciation": "/ˈwʊdˌkʌt/ (WOOD-cut)",
+    "definition": "A printmaking technique where an image is carved into a wooden block, inked, and pressed onto paper to produce prints."
+  },
+  
+  {
+    "word": "Word Spacing",
+    "pronunciation": "/wɜːrd ˈspeɪsɪŋ/ (word SPAY-sing)",
+    "definition": "The amount of space between words in typography, which affects readability and visual balance of text."
+  },
+  {
+    "word": "Workspace Switcher",
+    "pronunciation": "/ˈwɜːrkˌspeɪs ˈswɪtʃər/ (WORK-space SWICH-er)",
+    "definition": "A feature in digital design software that allows users to change between different preset or custom layouts of tools and panels."
+  },
+  {
+    "word": "Xylography",
+    "pronunciation": "/zaɪˈlɒɡrəfi/ (zai-LOG-ruh-fee)",
+    "definition": "The art of engraving on wood, often used for woodcut prints."
+  },
+  {
+    "word": "Yamato-e",
+    "pronunciation": "/ˈjɑːmətoʊ-eɪ/ (yah-mah-toh-eh)",
+    "definition": "A classical Japanese painting style from the Heian period, characterized by narrative scenes, delicate colors, and emphasis on Japanese themes."
+  },
+  {
+    "word": "Yarn",
+    "pronunciation": "/jɑrn/ (yarn)",
+    "definition": "A continuous strand of twisted fibers used in weaving, knitting, and textile production."
+  },
+  {
+    "word": "Yellow Book",
+    "pronunciation": "/ˈjɛloʊ bʊk/ (YEL-oh book)",
+    "definition": "An influential 1890s British art and literary periodical associated with the Aesthetic and Decadent movements, known for its bold cover designs."
+  },
+  {
+    "word": "Yielding Lines",
+    "pronunciation": "/ˈjiːldɪŋ laɪnz/ (YEEL-ding lines)",
+    "definition": "Soft, flowing lines in drawing or design that suggest flexibility, grace, and movement."
+  },
+  {
+    "word": "Yinka Shonibare",
+    "pronunciation": "/ˈjɪŋkə ˈʃɒnɪˌbɑːreɪ/ (YIN-ka SHO-ni-bar-ay)",
+    "definition": "A contemporary British-Nigerian artist known for exploring themes of colonialism, identity, and globalization using vibrant Dutch wax fabrics."
+  },
+  {
+    "word": "Ziggurat",
+    "pronunciation": "/ˈzɪɡʊˌræt/ (ZIG-uh-rat)",
+    "definition": "A terraced pyramid-like structure from ancient Mesopotamia, used as a temple or religious center."
+  },
+  {
+    "word": "Zigzag",
+    "pronunciation": "/ˈzɪɡˌzæɡ/ (ZIG-zag)",
+    "definition": "A line or pattern made up of sharp turns in alternating directions, often used decoratively or symbolically."
+  },
+  {
+    "word": "Zinc",
+    "pronunciation": "/zɪŋk/ (zingk)",
+    "definition": "A bluish-white metal often used in printmaking plates, sculpture casting, and as a pigment base in paints."
+  },
+  {
+    "word": "Zoomorphic",
+    "pronunciation": "/ˌzuːəˈmɔːrfɪk/ (zoo-uh-MOR-fik)",
+    "definition": "Art or design that represents or takes the form of animals, often used symbolically in cultural and decorative contexts."
   }
 ]
 
