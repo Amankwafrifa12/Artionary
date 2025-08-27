@@ -92,6 +92,14 @@ const HomeScreen = ({ navigation }) => {
           />
         )}
       </View>
+      {/* Floating AI button only on HomeScreen */}
+      <TouchableOpacity
+        style={styles.floatingButton}
+        onPress={() => navigation.navigate('GenieAI')}
+        activeOpacity={0.7}
+      >
+        <FontAwesome5 name="robot" size={28} color="#fff" />
+      </TouchableOpacity>
     </View>
   )
 }
@@ -177,5 +185,22 @@ const styles = StyleSheet.create({
     color: '#888',
     fontSize: 18,
     marginTop: 12,
+  },
+  floatingButton: {
+    position: 'absolute',
+    bottom: 40,
+    right: 30,
+    width: 56,
+    height: 56,
+    backgroundColor: '#6c3fc7',
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderRadius: 28,
+    elevation: 6, // Android shadow
+    shadowColor: '#6c3fc7', // iOS shadow
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.18,
+    shadowRadius: 6,
+    zIndex: 100, // keep above everything
   },
 });
