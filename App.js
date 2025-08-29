@@ -28,15 +28,21 @@ const App = () => {
               screenOptions={({ navigation, route }) => ({
                 header: (props) => {
                   let title = route.name;
-                  if (route.name === 'WordDetail' || route.name === 'GenieAI') {
+                  let showAboutIcon = true;
+                  if (route.name === 'WordDetail') {
                     title = 'Artionary';
+                  } else if (route.name === 'GenieAI') {
+                    title = 'GenieAI';
                   } else if (route.name === 'Artionary') {
                     title = 'Artionary';
+                  } else if (route.name === 'About') {
+                    showAboutIcon = false;
                   }
                   return (
                     <CustomHeader
                       navigation={navigation}
                       title={title}
+                      showAboutIcon={showAboutIcon}
                     />
                   );
                 },

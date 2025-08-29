@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, Image, TouchableOpacity, StyleSheet } from 'react-native';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 
-const CustomHeader = ({ navigation, title }) => {
+const CustomHeader = ({ navigation, title, showAboutIcon = true }) => {
   return (
     <View style={styles.headerContainer}>
       <View style={styles.leftSection}>
@@ -15,9 +15,11 @@ const CustomHeader = ({ navigation, title }) => {
         <Text style={styles.title}>{title}</Text>
       </View>
       <View style={styles.rightSection}>
-        <TouchableOpacity onPress={() => navigation.navigate('About')} style={styles.actionButton}>
-          <FontAwesome5 name="info-circle" size={22} color="#fff" />
-        </TouchableOpacity>
+        {showAboutIcon && (
+          <TouchableOpacity onPress={() => navigation.navigate('About')} style={styles.actionButton}>
+            <FontAwesome5 name="info-circle" size={22} color="#fff" />
+          </TouchableOpacity>
+        )}
       </View>
     </View>
   );
