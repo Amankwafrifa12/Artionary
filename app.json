@@ -2,7 +2,7 @@
   "expo": {
     "name": "Artionary",
     "slug": "Artionary",
-  "version": "1.8.0",
+  "version": "1.9.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -20,7 +20,8 @@
         "backgroundColor": "#ffffff"
       },
       "package": "com.genielab.Artionary",
-  "versionCode": 9
+  "versionCode": 10,
+  "targetSdkVersion": 35
     },
     "web": {
       "favicon": "./assets/favicon.png"
