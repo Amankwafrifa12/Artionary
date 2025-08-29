@@ -8,6 +8,7 @@ import CustomHeader from './components/CustomHeader';
 import { StatusBar } from 'react-native';
 import AnimatedSplash from './components/AnimatedSplash';
 import GenieAIScreen from './components/GenieAIScreen';
+import SettingsScreen from './components/SettingsScreen';
 
 
 const Stack = createNativeStackNavigator();
@@ -52,6 +53,7 @@ const App = () => {
               <Stack.Screen name="WordDetail" component={WordDetailScreen} />
               <Stack.Screen name="About" component={About} />
               <Stack.Screen name="GenieAI" component={GenieAIScreen} />
+              <Stack.Screen name="Settings" component={SettingsScreen} />
             </Stack.Navigator>
           </NavigationContainer>
         </>
