@@ -5,11 +5,11 @@ import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 import appConfig from '../app.json';
 
 const APP_VERSION = appConfig.expo.version || '1.0.0';
-const DEVELOPER = 'GenieDev';
+const DEVELOPER = 'GenieHive Collective';
 const PHONE = '0507808202';
 const EMAIL = 'geniehivecollective@gmail.com';
 const UPDATE_LINK = 'https://play.google.com/store/apps/details?id=com.genielab.Artionary';
-const SHARE_MESSAGE = `Check out Artionary by GenieDev! Your ultimate art dictionary app. Download now: ${UPDATE_LINK}`;
+const SHARE_MESSAGE = `Check out Artionary by GenieHive Collective! Your ultimate art dictionary app. Download now: ${UPDATE_LINK}`;
 
 const About = () => {
   const handleUpdate = () => {
