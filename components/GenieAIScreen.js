@@ -9,8 +9,8 @@ const GenieAIScreen = () => {
   return (
     <View style={styles.container}>
       <FontAwesome5 name="robot" size={64} color="#6c3fc7" style={styles.icon} />
-      <Text style={[styles.title, { fontSize: appliedFontSize + 6 }]}>GenieAI</Text>
-      <Text style={[styles.text, { fontSize: appliedFontSize }]}>Ask GenieAI anything about art terms, techniques, or history!</Text>
+      <Text style={[styles.title, { fontSize: appliedFontSize + 6 }]}>GenieAI Coming soon</Text>
+      
     </View>
   );
 };
