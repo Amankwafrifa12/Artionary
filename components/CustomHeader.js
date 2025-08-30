@@ -1,10 +1,16 @@
-import React, { useContext } from 'react';
-import { View, Text, Image, TouchableOpacity, StyleSheet } from 'react-native';
+import React, { useContext, useState } from 'react';
+import { View, Text, Image, TouchableOpacity, StyleSheet, Modal, Pressable } from 'react-native';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 import { FontSizeContext } from '../context/FontSizeContext';
 
 const CustomHeader = ({ navigation, title, showMenu = true }) => {
   const { appliedFontSize } = useContext(FontSizeContext);
+  const [dropdownVisible, setDropdownVisible] = useState(false);
+
+  const handleNavigate = (screen) => {
+    setDropdownVisible(false);
+    navigation.navigate(screen);
+  };
 
   return (
     <View style={styles.headerContainer}>
@@ -18,13 +24,37 @@ const CustomHeader = ({ navigation, title, showMenu = true }) => {
         <Text style={[styles.title, { fontSize: appliedFontSize + 2 }]}>{title}</Text>
       </View>
       <View style={styles.rightSection}>
-        <TouchableOpacity style={styles.actionButton} onPress={() => navigation.navigate('Favorites')}>
-          <FontAwesome5 name="heart" size={22} color="#fff" />
-        </TouchableOpacity>
-        <TouchableOpacity onPress={() => navigation.navigate('Settings')} style={styles.actionButton}>
-          <FontAwesome5 name="cog" size={22} color="#fff" />
+        <TouchableOpacity style={styles.actionButton} onPress={() => setDropdownVisible(true)}>
+          <FontAwesome5 name="ellipsis-v" size={22} color="#fff" />
         </TouchableOpacity>
       </View>
+      <Modal
+        visible={dropdownVisible}
+        transparent
+        animationType="fade"
+        onRequestClose={() => setDropdownVisible(false)}
+      >
+        <Pressable style={styles.modalOverlay} onPress={() => setDropdownVisible(false)}>
+          <View style={styles.dropdownMenu}>
+            <TouchableOpacity style={styles.dropdownItem} onPress={() => handleNavigate('Favorites')}>
+              <FontAwesome5 name="heart" size={18} color="#6c3fc7" style={{ marginRight: 8 }} />
+              <Text style={styles.dropdownText}>Favorites</Text>
+            </TouchableOpacity>
+            <TouchableOpacity style={styles.dropdownItem} onPress={() => handleNavigate('Settings')}>
+              <FontAwesome5 name="cog" size={18} color="#6c3fc7" style={{ marginRight: 8 }} />
+              <Text style={styles.dropdownText}>Settings</Text>
+            </TouchableOpacity>
+            <TouchableOpacity style={styles.dropdownItem} onPress={() => handleNavigate('History')}>
+              <FontAwesome5 name="history" size={18} color="#6c3fc7" style={{ marginRight: 8 }} />
+              <Text style={styles.dropdownText}>History</Text>
+            </TouchableOpacity>
+            <TouchableOpacity style={styles.dropdownItem} onPress={() => handleNavigate('About')}>
+              <FontAwesome5 name="info-circle" size={18} color="#6c3fc7" style={{ marginRight: 8 }} />
+              <Text style={styles.dropdownText}>About</Text>
+            </TouchableOpacity>
+          </View>
+        </Pressable>
+      </Modal>
     </View>
   );
 };
@@ -73,6 +103,36 @@ const styles = StyleSheet.create({
   },
   backButton: {
     marginRight: 10,
+  },
+  modalOverlay: {
+    flex: 1,
+    backgroundColor: 'rgba(0,0,0,0.15)',
+    justifyContent: 'flex-start',
+    alignItems: 'flex-end',
+  },
+  dropdownMenu: {
+    backgroundColor: '#fff',
+    borderRadius: 12,
+    paddingVertical: 8,
+    paddingHorizontal: 16,
+    marginTop: 56,
+    marginRight: 20,
+    elevation: 8,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.18,
+    shadowRadius: 8,
+    minWidth: 160,
+  },
+  dropdownItem: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingVertical: 10,
+  },
+  dropdownText: {
+    fontSize: 16,
+    color: '#6c3fc7',
+    fontWeight: 'bold',
   },
 });
 

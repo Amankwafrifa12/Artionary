@@ -1,14 +1,13 @@
 import React, { useContext } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, Alert, Linking, ScrollView, Share } from 'react-native';
-import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 import appConfig from '../app.json';
 import words from '../words.json';
 import { FontSizeContext } from '../context/FontSizeContext';
 import { HistoryContext } from '../context/FontSizeContext';
+import * as Speech from 'expo-speech';
 
 const SettingsScreen = ({ navigation }) => {
   const { fontSize, setFontSize, appliedFontSize } = useContext(FontSizeContext);
-  const { history, clearHistory } = useContext(HistoryContext);
 
   const handleClearHistory = () => {
     Alert.alert('Search history cleared!');
@@ -35,7 +34,7 @@ const SettingsScreen = ({ navigation }) => {
   return (
     <ScrollView contentContainerStyle={styles.scrollContent}>
       <View style={styles.container}>
-        
+        {/* Font Size Section */}
         <View style={styles.card}>
           <Text style={[styles.label, { fontSize: appliedFontSize }]}>Font Size</Text>
           <View style={styles.fontSizeOptions}>
@@ -50,82 +49,8 @@ const SettingsScreen = ({ navigation }) => {
             ))}
           </View>
         </View>
-        <View style={styles.card}>
-          <Text style={[styles.label, { fontSize: appliedFontSize }]}>History</Text>
-          {history.length === 0 ? (
-            <Text style={{ color: '#888', fontSize: appliedFontSize - 2 }}>No history yet.</Text>
-          ) : (
-            <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 8, marginVertical: 8 }}>
-              {history.map((item, idx) => {
-                const wordObj = words.find(w => w.word === item);
-                return (
-                  <TouchableOpacity
-                    key={idx}
-                    onPress={() => navigation.navigate('WordDetail', wordObj)}
-                    style={{
-                      backgroundColor: '#eee',
-                      borderRadius: 16,
-                      paddingVertical: 6,
-                      paddingHorizontal: 14,
-                      marginBottom: 6,
-                      marginRight: 6,
-                    }}
-                  >
-                    <Text style={{ color: '#6c3fc7', fontSize: appliedFontSize - 2, fontWeight: 'bold' }}>{item}</Text>
-                  </TouchableOpacity>
-                );
-              })}
-            </View>
-          )}
-          <TouchableOpacity style={styles.clearButton} onPress={clearHistory}>
-            <Text style={styles.clearButtonText}>Clear History</Text>
-          </TouchableOpacity>
-        </View>
-        
-        <View style={styles.card}>
-          <Text style={[styles.label, { fontSize: appliedFontSize }]}>Version</Text>
-          <Text style={{ fontSize: appliedFontSize - 2, color: '#333' }}><Text style={{ fontWeight: 'bold', color: '#6c3fc7' }}>{APP_VERSION}</Text></Text>
-        </View>
-        <View style={styles.card}>
-          <Text style={[styles.label, { fontSize: appliedFontSize }]}>Company</Text>
-          <Text style={{ fontSize: appliedFontSize - 2, color: '#6c3fc7', fontWeight: 'bold' }}>GenieHive Collective</Text>
-        </View>
-        <View style={styles.card}>
-          <Text style={[styles.label, { fontSize: appliedFontSize }]}>Developer</Text>
-          <TouchableOpacity onPress={() => navigation.navigate('AboutMe')}>
-            <Text style={{ fontSize: appliedFontSize - 2, color: '#6c3fc7', fontWeight: 'bold' }}>Kwame Amankwah Afrifa</Text>
-          </TouchableOpacity>
-        </View>
-        <View style={styles.card}>
-          <Text style={[styles.label, { fontSize: appliedFontSize }]}>Contact</Text>
-          <TouchableOpacity style={{ flexDirection: 'row', alignItems: 'center', marginBottom: 4, justifyContent: 'flex-start' }} onPress={() => Linking.openURL(`tel:${PHONE}`)}>
-            <FontAwesome5 name="phone" size={18} color="#6c3fc7" style={{ marginRight: 8 }} />
-            <Text style={{ fontSize: appliedFontSize - 2, color: '#333' }}><Text style={{ fontWeight: 'bold', color: '#6c3fc7' }}>{PHONE}</Text></Text>
-          </TouchableOpacity>
-          <TouchableOpacity style={{ flexDirection: 'row', alignItems: 'center', marginBottom: 4, justifyContent: 'flex-start' }} onPress={() => Linking.openURL(`mailto:${EMAIL}`)}>
-            <FontAwesome5 name="envelope" size={18} color="#6c3fc7" style={{ marginRight: 8 }} />
-            <Text style={{ fontSize: appliedFontSize - 2, color: '#333' }}><Text style={{ fontWeight: 'bold', color: '#6c3fc7' }}>{EMAIL}</Text></Text>
-          </TouchableOpacity>
-        </View>
-        
-        <View style={styles.card}>
-          <Text style={[styles.label, { fontSize: appliedFontSize }]}>About</Text>
-          <Text style={{ fontSize: appliedFontSize - 2, color: '#333', marginBottom: 8 }}>
-            <Text style={{ fontWeight: 'bold', color: '#6c3fc7' }}>Artionary</Text> is a student-friendly visual art dictionary app. Discover and learn <Text style={{ fontWeight: 'bold', color: '#6c3fc7' }}>{words.length}</Text> art terms. Perfect for art students, teachers, and enthusiasts.
-          </Text>
-        </View>
-        <View style={styles.card}>
-          <View style={{ flexDirection: 'row', marginTop: 8 }}>
-            <TouchableOpacity style={styles.button} onPress={handleUpdate}>
-              <Text style={styles.buttonText}>Update App</Text>
-            </TouchableOpacity>
-            <TouchableOpacity style={styles.button} onPress={handleShare}>
-              <Text style={styles.buttonText}>Share App</Text>
-            </TouchableOpacity>
-          </View>
-        </View>
+        {/* Remove Speech Character Section */}
       </View>
-      
     </ScrollView>
   );
 };
