@@ -28,7 +28,13 @@ const CustomHeader = ({ navigation, title, showMenu = true }) => {
           </TouchableOpacity>
         )}
         <Image source={require('../assets/icon.png')} style={styles.logo} />
-        <Text style={[styles.title, { fontSize: appliedFontSize + 2 }]}>{title}</Text>
+        <Text
+          style={[styles.title, { fontSize: appliedFontSize + 2 }]} 
+          numberOfLines={1}
+          ellipsizeMode="tail"
+        >
+          {title}
+        </Text>
       </View>
       <View style={styles.rightSection}>
         <TouchableOpacity style={styles.actionButton} onPress={() => setDropdownVisible(true)}>
@@ -105,9 +111,11 @@ const styles = StyleSheet.create({
     borderColor: '#eee',
   },
   title: {
-    color: '#fff',
-    fontWeight: 'bold',
-    letterSpacing: 1.5,
+  color: '#fff',
+  fontWeight: 'bold',
+  letterSpacing: 1.5,
+  maxWidth: 180,
+  overflow: 'hidden',
   },
   rightSection: {
     flexDirection: 'row',

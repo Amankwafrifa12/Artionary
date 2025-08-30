@@ -4,9 +4,10 @@ import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 
 const AboutMe = () => (
   <ScrollView contentContainerStyle={styles.container}>
-    <Image source={require('../assets/about.png')} style={styles.aboutImage} />
+  <Image source={require('../assets/about.png')} style={styles.aboutImage} />
+  <View style={styles.primaryLine} />
     <Text style={styles.title}>Kwame Amankwah Afrifa</Text>
-    <Text style={styles.info}>Founder & Lead Developer, GenieHive Collective</Text>
+    <Text style={styles.info}>Founder GenieLab & GenieHive Collective</Text>
     <View style={{ width: '100%' }}>
       <Text style={[styles.bio, { textAlign: 'left', marginBottom: 12 }]}>
         I am <Text style={{ color: '#6c3fc7', fontWeight: 'bold' }}>Kwame Amankwah Afrifa</Text>, a Graphic Designer, UI/UX Designer, and Fullstack Web Developer. I hold a Diploma in Art (Distinction) from UEW and am currently pursuing a BA in Art Education.
@@ -49,6 +50,14 @@ const AboutMe = () => (
 );
 
 const styles = StyleSheet.create({
+  primaryLine: {
+    width: 60,
+    height: 4,
+    backgroundColor: '#6c3fc7',
+    borderRadius: 2,
+    alignSelf: 'center',
+    marginBottom: 16,
+  },
   aboutImage: {
     width: 100,
     height: 100,
