@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import { View, Animated, StyleSheet, Image } from 'react-native';
+import { View, Animated, StyleSheet, Image, SafeAreaView, StatusBar } from 'react-native';
 import * as SplashScreen from 'expo-splash-screen';
 
 const AnimatedSplash = ({ onFinish }) => {
@@ -63,20 +63,27 @@ const AnimatedSplash = ({ onFinish }) => {
   });
 
   return (
-    <View style={styles.container}>
-      <Animated.View style={{ opacity: fadeAnim, transform: [{ scale: scaleAnim }, { rotate }] }}>
-        <Image source={require('../assets/icon.png')} style={styles.logo} />
-      </Animated.View>
-    </View>
+    <SafeAreaView style={styles.safeArea}>
+      <StatusBar backgroundColor="#6c3fc7" barStyle="light-content" translucent={true} />
+      <View style={styles.container}>
+        <Animated.View style={{ opacity: fadeAnim, transform: [{ scale: scaleAnim }, { rotate }] }}>
+          <Image source={require('../assets/icon.png')} style={styles.logo} />
+        </Animated.View>
+      </View>
+    </SafeAreaView>
   );
 };
 
 const styles = StyleSheet.create({
-  container: {
+  safeArea: {
     flex: 1,
     backgroundColor: '#6c3fc7',
+  },
+  container: {
+    flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
+    backgroundColor: '#6c3fc7',
   },
   logo: {
     width: 120,
