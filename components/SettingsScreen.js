@@ -74,6 +74,13 @@ const SettingsScreen = () => {
             <Text style={{ fontSize: appliedFontSize - 2, color: '#333' }}><Text style={{ fontWeight: 'bold', color: '#6c3fc7' }}>{EMAIL}</Text></Text>
           </TouchableOpacity>
         </View>
+        
+        <View style={styles.card}>
+          <Text style={[styles.label, { fontSize: appliedFontSize }]}>About</Text>
+          <Text style={{ fontSize: appliedFontSize - 2, color: '#333', marginBottom: 8 }}>
+            <Text style={{ fontWeight: 'bold', color: '#6c3fc7' }}>Artionary</Text> is a student-friendly visual art dictionary app. Discover and learn <Text style={{ fontWeight: 'bold', color: '#6c3fc7' }}>{words.length}</Text> art terms. Perfect for art students, teachers, and enthusiasts.
+          </Text>
+        </View>
         <View style={styles.card}>
           <View style={{ flexDirection: 'row', marginTop: 8 }}>
             <TouchableOpacity style={styles.button} onPress={handleUpdate}>
@@ -84,13 +91,8 @@ const SettingsScreen = () => {
             </TouchableOpacity>
           </View>
         </View>
-        <View style={styles.card}>
-          <Text style={[styles.label, { fontSize: appliedFontSize }]}>About</Text>
-          <Text style={{ fontSize: appliedFontSize - 2, color: '#333', marginBottom: 8 }}>
-            <Text style={{ fontWeight: 'bold', color: '#6c3fc7' }}>Artionary</Text> is a student-friendly visual art dictionary app. Discover and learn <Text style={{ fontWeight: 'bold', color: '#6c3fc7' }}>{words.length}</Text> art terms. Perfect for art students, teachers, and enthusiasts.
-          </Text>
-        </View>
       </View>
+      
     </ScrollView>
   );
 };
