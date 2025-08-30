@@ -14,7 +14,7 @@ const SettingsScreen = () => {
 
   return (
     <View style={styles.container}>
-      <Text style={[styles.header, { fontSize: appliedFontSize + 6 }]}>Settings</Text>
+      
       <View style={styles.card}>
         <Text style={[styles.label, { fontSize: appliedFontSize }]}>Font Size</Text>
         <View style={styles.fontSizeOptions}>
