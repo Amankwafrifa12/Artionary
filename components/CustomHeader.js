@@ -45,27 +45,27 @@ const CustomHeader = ({ navigation, title, showMenu = true }) => {
           <View style={styles.dropdownMenu}>
             <TouchableOpacity style={styles.dropdownItem} onPress={() => handleNavigate('Favorites')}>
               <FontAwesome5 name="heart" size={18} color="#6c3fc7" style={{ marginRight: 8 }} />
-              <Text style={styles.dropdownText}>Favorites</Text>
+              <Text style={[styles.dropdownText, { fontSize: appliedFontSize }]}>Favorites</Text>
             </TouchableOpacity>
             <TouchableOpacity style={styles.dropdownItem} onPress={() => handleNavigate('Settings')}>
               <FontAwesome5 name="cog" size={18} color="#6c3fc7" style={{ marginRight: 8 }} />
-              <Text style={styles.dropdownText}>Settings</Text>
+              <Text style={[styles.dropdownText, { fontSize: appliedFontSize }]}>Settings</Text>
             </TouchableOpacity>
             <TouchableOpacity style={styles.dropdownItem} onPress={() => handleNavigate('History')}>
               <FontAwesome5 name="history" size={18} color="#6c3fc7" style={{ marginRight: 8 }} />
-              <Text style={styles.dropdownText}>History</Text>
+              <Text style={[styles.dropdownText, { fontSize: appliedFontSize }]}>History</Text>
             </TouchableOpacity>
             <TouchableOpacity style={styles.dropdownItem} onPress={() => handleNavigate('About')}>
               <FontAwesome5 name="info-circle" size={18} color="#6c3fc7" style={{ marginRight: 8 }} />
-              <Text style={styles.dropdownText}>About</Text>
+              <Text style={[styles.dropdownText, { fontSize: appliedFontSize }]}>About</Text>
             </TouchableOpacity>
             <TouchableOpacity style={styles.dropdownItem} onPress={() => { Linking.openURL(UPDATE_LINK); setDropdownVisible(false); }}>
               <FontAwesome5 name="sync-alt" size={18} color="#6c3fc7" style={{ marginRight: 8 }} />
-              <Text style={styles.dropdownText}>Check for Update</Text>
+              <Text style={[styles.dropdownText, { fontSize: appliedFontSize }]}>Check for Update</Text>
             </TouchableOpacity>
             <TouchableOpacity style={styles.dropdownItem} onPress={async () => { await Share.share({ message: SHARE_MESSAGE }); setDropdownVisible(false); }}>
               <FontAwesome5 name="share-alt" size={18} color="#6c3fc7" style={{ marginRight: 8 }} />
-              <Text style={styles.dropdownText}>Share App</Text>
+              <Text style={[styles.dropdownText, { fontSize: appliedFontSize }]}>Share App</Text>
             </TouchableOpacity>
           </View>
         </Pressable>

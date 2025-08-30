@@ -32,28 +32,36 @@ const App = () => {
               <NavigationContainer ref={navigationRef}>
                 <StatusBar backgroundColor="transparent" translucent={true} />
                 <Stack.Navigator
-                  screenOptions={({ navigation, route }) => ({
-                    header: (props) => {
-                      let title = route.name;
-                      let showAboutIcon = true;
-                      if (route.name === 'WordDetail') {
-                        title = 'Artionary';
-                      } else if (route.name === 'GenieAI') {
-                        title = 'GenieAI';
-                      } else if (route.name === 'Artionary') {
-                        title = 'Artionary';
-                      } else if (route.name === 'About') {
-                        showAboutIcon = false;
+                  screenOptions={({ navigation, route }) => {
+                    let title = route.name;
+                    let showAboutIcon = true;
+                    if (route.name === 'WordDetail') {
+                      title = 'Artionary';
+                    } else if (route.name === 'GenieAI') {
+                      title = 'GenieAI';
+                    } else if (route.name === 'Artionary') {
+                      title = 'Artionary';
+                    } else if (route.name === 'About') {
+                      showAboutIcon = false;
+                    } else if (route.name === 'AboutMe') {
+                      // Responsive AboutMe header
+                      const screenWidth = typeof window !== 'undefined' ? window.innerWidth : 400;
+                      if (screenWidth < 400) {
+                        title = 'about the dev...';
+                      } else {
+                        title = 'About The Developer';
                       }
-                      return (
+                    }
+                    return {
+                      header: (props) => (
                         <CustomHeader
                           navigation={navigation}
                           title={title}
                           showAboutIcon={showAboutIcon}
                         />
-                      );
-                    },
-                  })}
+                      ),
+                    };
+                  }}
                 >
                   <Stack.Screen name="Artionary" component={HomeScreen} />
                   <Stack.Screen name="WordDetail" component={WordDetailScreen} />

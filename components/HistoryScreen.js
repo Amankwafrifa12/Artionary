@@ -28,8 +28,8 @@ const History = ({ navigation }) => {
                       borderRadius: 16,
                       paddingVertical: 6,
                       paddingHorizontal: 14,
-                      marginBottom: 8,
-                      marginRight: 8,
+                      marginBottom: 6,
+                      marginRight: 6,
                     }}
                   >
                     <Text style={{ color: '#6c3fc7', fontSize: appliedFontSize - 2, fontWeight: 'bold' }}>{item}</Text>

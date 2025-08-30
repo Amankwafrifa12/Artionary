@@ -32,25 +32,23 @@ const SettingsScreen = ({ navigation }) => {
   };
 
   return (
-    <ScrollView contentContainerStyle={styles.scrollContent}>
-      <View style={styles.container}>
-        {/* Font Size Section */}
-        <View style={styles.card}>
-          <Text style={[styles.label, { fontSize: appliedFontSize }]}>Font Size</Text>
-          <View style={styles.fontSizeOptions}>
-            {['Small', 'Medium', 'Large'].map(size => (
-              <TouchableOpacity
-                key={size}
-                style={[styles.fontSizeButton, fontSize === size && styles.fontSizeSelected]}
-                onPress={() => setFontSize(size)}
-              >
-                <Text style={[styles.fontSizeText, { fontSize: appliedFontSize - 2 }]}>{size}</Text>
-              </TouchableOpacity>
-            ))}
-          </View>
+    <ScrollView contentContainerStyle={styles.container}>
+      {/* Font Size Section */}
+      <View style={styles.card}>
+        <Text style={[styles.label, { fontSize: appliedFontSize }]}>Font Size</Text>
+        <View style={styles.fontSizeOptions}>
+          {['Small', 'Medium', 'Large'].map(size => (
+            <TouchableOpacity
+              key={size}
+              style={[styles.fontSizeButton, fontSize === size && styles.fontSizeSelected]}
+              onPress={() => setFontSize(size)}
+            >
+              <Text style={[styles.fontSizeText, { fontSize: appliedFontSize - 2, color: fontSize === size ? '#fff' : '#333' }]}>{size}</Text>
+            </TouchableOpacity>
+          ))}
         </View>
-        {/* Remove Speech Character Section */}
       </View>
+      {/* Remove Speech Character Section */}
     </ScrollView>
   );
 };
@@ -86,6 +84,7 @@ const styles = StyleSheet.create({
   },
   fontSizeOptions: {
     flexDirection: 'row',
+    flexWrap: 'wrap',
     marginTop: 8,
   },
   fontSizeButton: {
@@ -94,6 +93,7 @@ const styles = StyleSheet.create({
     borderRadius: 16,
     backgroundColor: '#eee',
     marginHorizontal: 4,
+    marginBottom: 8,
   },
   fontSizeSelected: {
     backgroundColor: '#6c3fc7',
