@@ -18,7 +18,7 @@ const CustomHeader = ({ navigation, title, showMenu = true }) => {
         <Text style={[styles.title, { fontSize: appliedFontSize + 2 }]}>{title}</Text>
       </View>
       <View style={styles.rightSection}>
-        <TouchableOpacity style={styles.actionButton}>
+        <TouchableOpacity style={styles.actionButton} onPress={() => navigation.navigate('Favorites')}>
           <FontAwesome5 name="heart" size={22} color="#fff" />
         </TouchableOpacity>
         <TouchableOpacity onPress={() => navigation.navigate('Settings')} style={styles.actionButton}>

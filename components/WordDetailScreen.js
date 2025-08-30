@@ -3,10 +3,13 @@ import { View, Text, TouchableOpacity, StyleSheet, ScrollView } from 'react-nati
 import * as Speech from 'expo-speech';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 import { FontSizeContext } from '../context/FontSizeContext';
+import { FavoritesContext } from '../context/FontSizeContext';
 
 const WordDetailScreen = ({ route }) => {
   const { word, pronunciation, definition } = route.params;
   const { appliedFontSize } = useContext(FontSizeContext);
+  const { favorites, addFavorite, removeFavorite } = useContext(FavoritesContext);
+  const isFavorite = favorites.includes(word);
 
   return (
     <View style={styles.container}>
@@ -28,6 +31,13 @@ const WordDetailScreen = ({ route }) => {
         activeOpacity={0.7}
       >
         <FontAwesome5 name="volume-up" size={28} color="#fff" />
+      </TouchableOpacity>
+      <TouchableOpacity
+        style={[styles.floatingButton, { right: 100, backgroundColor: isFavorite ? '#6c3fc7' : '#eee' }]}
+        onPress={() => isFavorite ? removeFavorite(word) : addFavorite(word)}
+        activeOpacity={0.7}
+      >
+        <FontAwesome5 name="heart" size={28} color={isFavorite ? '#fff' : '#6c3fc7'} solid={isFavorite} />
       </TouchableOpacity>
     </View>
   );

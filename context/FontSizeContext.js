@@ -55,3 +55,36 @@ export const HistoryProvider = ({ children }) => {
     </HistoryContext.Provider>
   );
 };
+
+// Favorites Context
+export const FavoritesContext = createContext();
+
+export const FavoritesProvider = ({ children }) => {
+  const [favorites, setFavorites] = useState([]);
+
+  useEffect(() => {
+    AsyncStorage.getItem('favorites').then(value => {
+      if (value) setFavorites(JSON.parse(value));
+    });
+  }, []);
+
+  const addFavorite = async (item) => {
+    if (!favorites.includes(item)) {
+      const updated = [item, ...favorites];
+      setFavorites(updated);
+      await AsyncStorage.setItem('favorites', JSON.stringify(updated));
+    }
+  };
+
+  const removeFavorite = async (item) => {
+    const updated = favorites.filter(f => f !== item);
+    setFavorites(updated);
+    await AsyncStorage.setItem('favorites', JSON.stringify(updated));
+  };
+
+  return (
+    <FavoritesContext.Provider value={{ favorites, addFavorite, removeFavorite }}>
+      {children}
+    </FavoritesContext.Provider>
+  );
+};
