@@ -1,10 +1,12 @@
+import React, { useContext } from 'react';
 import { View, Text, TouchableOpacity, StyleSheet, ScrollView } from 'react-native';
 import * as Speech from 'expo-speech';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
-import React from 'react';
+import { FontSizeContext } from '../context/FontSizeContext';
 
 const WordDetailScreen = ({ route }) => {
   const { word, pronunciation, definition } = route.params;
+  const { appliedFontSize } = useContext(FontSizeContext);
 
   return (
     <View style={styles.container}>
@@ -13,9 +15,9 @@ const WordDetailScreen = ({ route }) => {
         showsVerticalScrollIndicator={false}
       >
         <View style={styles.wordDetails}>
-          <Text style={styles.word}>{word}</Text>
-          <Text style={styles.definition}>{pronunciation}</Text>
-          <Text style={styles.definition}>{definition}</Text>
+          <Text style={[styles.word, { fontSize: appliedFontSize + 12 }]}>{word}</Text>
+          <Text style={[styles.definition, { fontSize: appliedFontSize }]}>{pronunciation}</Text>
+          <Text style={[styles.definition, { fontSize: appliedFontSize }]}>{definition}</Text>
         </View>
       </ScrollView>
 

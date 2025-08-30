@@ -9,6 +9,7 @@ import { StatusBar } from 'react-native';
 import AnimatedSplash from './components/AnimatedSplash';
 import GenieAIScreen from './components/GenieAIScreen';
 import SettingsScreen from './components/SettingsScreen';
+import { FontSizeProvider } from './context/FontSizeContext';
 
 
 const Stack = createNativeStackNavigator();
@@ -18,7 +19,7 @@ const App = () => {
   const navigationRef = React.useRef();
 
   return (
-    <>
+    <FontSizeProvider>
       {showSplash ? (
         <AnimatedSplash onFinish={() => setShowSplash(false)} />
       ) : (
@@ -58,7 +59,7 @@ const App = () => {
           </NavigationContainer>
         </>
       )}
-    </>
+    </FontSizeProvider>
   );
 };
 

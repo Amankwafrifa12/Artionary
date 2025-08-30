@@ -1,14 +1,12 @@
-import React, { useState } from 'react';
+import React, { useContext } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, Alert, Linking, ScrollView, Share } from 'react-native';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 import appConfig from '../app.json';
 import words from '../words.json';
+import { FontSizeContext } from '../context/FontSizeContext';
 
 const SettingsScreen = () => {
-  const [fontSize, setFontSize] = useState('Medium');
-
-  const fontSizeMap = { Small: 16, Medium: 20, Large: 24 };
-  const appliedFontSize = fontSizeMap[fontSize] || 20;
+  const { fontSize, setFontSize, appliedFontSize } = useContext(FontSizeContext);
 
   const handleClearHistory = () => {
     Alert.alert('Search history cleared!');

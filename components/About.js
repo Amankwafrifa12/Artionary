@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { FontSizeContext } from '../context/FontSizeContext';
 import words from '../words.json';
 import { View, Text, StyleSheet, TouchableOpacity, Linking, Share } from 'react-native';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
@@ -12,6 +13,8 @@ const UPDATE_LINK = 'https://play.google.com/store/apps/details?id=com.genielab.
 const SHARE_MESSAGE = `Check out Artionary by GenieHive Collective! Your ultimate art dictionary app. Download now: ${UPDATE_LINK}`;
 
 const About = () => {
+  const { appliedFontSize } = useContext(FontSizeContext);
+
   const handleUpdate = () => {
     Linking.openURL(UPDATE_LINK);
   };
@@ -24,13 +27,13 @@ const About = () => {
   };
   return (
       <View style={styles.container}>
-        <Text style={styles.title}>About Artionary</Text>
-        <Text style={styles.description}>
+        <Text style={[styles.title, { fontSize: appliedFontSize + 6 }]}>About Artionary</Text>
+        <Text style={[styles.description, { fontSize: appliedFontSize }]}>
           Artionary (Art + Dictionary) is an ultimate dictionary of art words.  
          The dictionary contains <Text style={styles.bold}> {words.length} </Text> art terms to help you understand and explore the world of art.
         </Text>
-      <Text style={styles.info}>Version: <Text style={styles.bold}>{APP_VERSION}</Text></Text>
-      <Text style={styles.info}>Developer: <Text style={styles.bold}>{DEVELOPER}</Text></Text>
+      <Text style={[styles.info, { fontSize: appliedFontSize - 2 }]}>Version: <Text style={styles.bold}>{APP_VERSION}</Text></Text>
+      <Text style={[styles.info, { fontSize: appliedFontSize - 2 }]}>Developer: <Text style={styles.bold}>{DEVELOPER}</Text></Text>
       <TouchableOpacity style={styles.infoRow} onPress={() => Linking.openURL(`tel:${PHONE}`)}>
         <FontAwesome5 name="phone" size={20} color="#6c3fc7" style={styles.icon} />
         <Text style={styles.info}><Text style={styles.bold}>{PHONE}</Text></Text>

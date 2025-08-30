@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { View, Text, Image, TouchableOpacity, StyleSheet } from 'react-native';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
+import { FontSizeContext } from '../context/FontSizeContext';
 
 const CustomHeader = ({ navigation, title, showMenu = true }) => {
+  const { appliedFontSize } = useContext(FontSizeContext);
+
   return (
     <View style={styles.headerContainer}>
       <View style={styles.leftSection}>
@@ -12,7 +15,7 @@ const CustomHeader = ({ navigation, title, showMenu = true }) => {
           </TouchableOpacity>
         )}
         <Image source={require('../assets/icon.png')} style={styles.logo} />
-        <Text style={styles.title}>{title}</Text>
+        <Text style={[styles.title, { fontSize: appliedFontSize + 2 }]}>{title}</Text>
       </View>
       <View style={styles.rightSection}>
         <TouchableOpacity style={styles.actionButton}>
@@ -58,7 +61,6 @@ const styles = StyleSheet.create({
   },
   title: {
     color: '#fff',
-    fontSize: 22,
     fontWeight: 'bold',
     letterSpacing: 1.5,
   },

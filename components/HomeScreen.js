@@ -1,5 +1,6 @@
 import { StyleSheet, Text, TouchableOpacity, View, TextInput, FlatList, Dimensions } from 'react-native'
-import React, { useState, useEffect } from 'react';
+import React, { useContext, useState, useEffect } from 'react';
+import { FontSizeContext } from '../context/FontSizeContext';
 import About from './About';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5'; // Import FontAwesome5 icon library
 import words from '../words.json';
@@ -11,6 +12,7 @@ import words from '../words.json';
 
 const { width } = Dimensions.get('window');
 const HomeScreen = ({ navigation }) => {
+  const { appliedFontSize } = useContext(FontSizeContext);
   const [sortedData, setSortedData] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [buttonVisible, setButtonVisible] = useState(false);
@@ -59,7 +61,7 @@ const HomeScreen = ({ navigation }) => {
             placeholder="Type a word to search"
             clearButtonMode="always"
             autoCorrect={false}
-            style={styles.search_bar}
+            style={[styles.search_bar, { fontSize: appliedFontSize }]}
             value={searchTerm}
             onChangeText={handleSearch}
           />
@@ -84,7 +86,7 @@ const HomeScreen = ({ navigation }) => {
                 onPress={() => navigation.navigate('WordDetail', item)}
                 style={styles.wordCard}
               >
-                <Text style={styles.wordText}>{item.word}</Text>
+                <Text style={[styles.wordText, { fontSize: appliedFontSize }]}>{item.word}</Text>
               </TouchableOpacity>
             )}
             keyExtractor={item => item.word}
