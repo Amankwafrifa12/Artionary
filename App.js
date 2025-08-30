@@ -9,7 +9,7 @@ import { StatusBar } from 'react-native';
 import AnimatedSplash from './components/AnimatedSplash';
 import GenieAIScreen from './components/GenieAIScreen';
 import SettingsScreen from './components/SettingsScreen';
-import { FontSizeProvider } from './context/FontSizeContext';
+import { FontSizeProvider, HistoryProvider } from './context/FontSizeContext';
 
 
 const Stack = createNativeStackNavigator();
@@ -20,45 +20,47 @@ const App = () => {
 
   return (
     <FontSizeProvider>
-      {showSplash ? (
-        <AnimatedSplash onFinish={() => setShowSplash(false)} />
-      ) : (
-        <>
-          <NavigationContainer ref={navigationRef}>
-            <StatusBar backgroundColor="transparent" translucent={true} />
-            <Stack.Navigator
-              screenOptions={({ navigation, route }) => ({
-                header: (props) => {
-                  let title = route.name;
-                  let showAboutIcon = true;
-                  if (route.name === 'WordDetail') {
-                    title = 'Artionary';
-                  } else if (route.name === 'GenieAI') {
-                    title = 'GenieAI';
-                  } else if (route.name === 'Artionary') {
-                    title = 'Artionary';
-                  } else if (route.name === 'About') {
-                    showAboutIcon = false;
-                  }
-                  return (
-                    <CustomHeader
-                      navigation={navigation}
-                      title={title}
-                      showAboutIcon={showAboutIcon}
-                    />
-                  );
-                },
-              })}
-            >
-              <Stack.Screen name="Artionary" component={HomeScreen} />
-              <Stack.Screen name="WordDetail" component={WordDetailScreen} />
-              <Stack.Screen name="About" component={About} />
-              <Stack.Screen name="GenieAI" component={GenieAIScreen} />
-              <Stack.Screen name="Settings" component={SettingsScreen} />
-            </Stack.Navigator>
-          </NavigationContainer>
-        </>
-      )}
+      <HistoryProvider>
+        {showSplash ? (
+          <AnimatedSplash onFinish={() => setShowSplash(false)} />
+        ) : (
+          <>
+            <NavigationContainer ref={navigationRef}>
+              <StatusBar backgroundColor="transparent" translucent={true} />
+              <Stack.Navigator
+                screenOptions={({ navigation, route }) => ({
+                  header: (props) => {
+                    let title = route.name;
+                    let showAboutIcon = true;
+                    if (route.name === 'WordDetail') {
+                      title = 'Artionary';
+                    } else if (route.name === 'GenieAI') {
+                      title = 'GenieAI';
+                    } else if (route.name === 'Artionary') {
+                      title = 'Artionary';
+                    } else if (route.name === 'About') {
+                      showAboutIcon = false;
+                    }
+                    return (
+                      <CustomHeader
+                        navigation={navigation}
+                        title={title}
+                        showAboutIcon={showAboutIcon}
+                      />
+                    );
+                  },
+                })}
+              >
+                <Stack.Screen name="Artionary" component={HomeScreen} />
+                <Stack.Screen name="WordDetail" component={WordDetailScreen} />
+                <Stack.Screen name="About" component={About} />
+                <Stack.Screen name="GenieAI" component={GenieAIScreen} />
+                <Stack.Screen name="Settings" component={SettingsScreen} />
+              </Stack.Navigator>
+            </NavigationContainer>
+          </>
+        )}
+      </HistoryProvider>
     </FontSizeProvider>
   );
 };

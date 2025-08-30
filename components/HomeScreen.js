@@ -1,6 +1,7 @@
 import { StyleSheet, Text, TouchableOpacity, View, TextInput, FlatList, Dimensions } from 'react-native'
 import React, { useContext, useState, useEffect } from 'react';
 import { FontSizeContext } from '../context/FontSizeContext';
+import { HistoryContext } from '../context/FontSizeContext';
 import About from './About';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5'; // Import FontAwesome5 icon library
 import words from '../words.json';
@@ -13,6 +14,7 @@ import words from '../words.json';
 const { width } = Dimensions.get('window');
 const HomeScreen = ({ navigation }) => {
   const { appliedFontSize } = useContext(FontSizeContext);
+  const { addToHistory } = useContext(HistoryContext);
   const [sortedData, setSortedData] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [buttonVisible, setButtonVisible] = useState(false);
@@ -83,7 +85,10 @@ const HomeScreen = ({ navigation }) => {
             data={sortedData}
             renderItem={({ item }) => (
               <TouchableOpacity
-                onPress={() => navigation.navigate('WordDetail', item)}
+                onPress={() => {
+                  addToHistory(item.word);
+                  navigation.navigate('WordDetail', item);
+                }}
                 style={styles.wordCard}
               >
                 <Text style={[styles.wordText, { fontSize: appliedFontSize }]}>{item.word}</Text>

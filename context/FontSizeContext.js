@@ -25,3 +25,33 @@ export const FontSizeProvider = ({ children }) => {
     </FontSizeContext.Provider>
   );
 };
+
+// History Context
+export const HistoryContext = createContext();
+
+export const HistoryProvider = ({ children }) => {
+  const [history, setHistory] = useState([]);
+
+  useEffect(() => {
+    AsyncStorage.getItem('searchHistory').then(value => {
+      if (value) setHistory(JSON.parse(value));
+    });
+  }, []);
+
+  const addToHistory = async (item) => {
+    const updated = [item, ...history.filter(h => h !== item)].slice(0, 20);
+    setHistory(updated);
+    await AsyncStorage.setItem('searchHistory', JSON.stringify(updated));
+  };
+
+  const clearHistory = async () => {
+    setHistory([]);
+    await AsyncStorage.removeItem('searchHistory');
+  };
+
+  return (
+    <HistoryContext.Provider value={{ history, addToHistory, clearHistory }}>
+      {children}
+    </HistoryContext.Provider>
+  );
+};

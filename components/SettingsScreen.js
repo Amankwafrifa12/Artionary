@@ -4,9 +4,11 @@ import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 import appConfig from '../app.json';
 import words from '../words.json';
 import { FontSizeContext } from '../context/FontSizeContext';
+import { HistoryContext } from '../context/FontSizeContext';
 
-const SettingsScreen = () => {
+const SettingsScreen = ({ navigation }) => {
   const { fontSize, setFontSize, appliedFontSize } = useContext(FontSizeContext);
+  const { history, clearHistory } = useContext(HistoryContext);
 
   const handleClearHistory = () => {
     Alert.alert('Search history cleared!');
@@ -50,7 +52,19 @@ const SettingsScreen = () => {
         </View>
         <View style={styles.card}>
           <Text style={[styles.label, { fontSize: appliedFontSize }]}>History</Text>
-          <TouchableOpacity style={styles.clearButton} onPress={handleClearHistory}>
+          {history.length === 0 ? (
+            <Text style={{ color: '#888', fontSize: appliedFontSize - 2 }}>No history yet.</Text>
+          ) : (
+            history.map((item, idx) => {
+              const wordObj = words.find(w => w.word === item);
+              return (
+                <TouchableOpacity key={idx} onPress={() => navigation.navigate('WordDetail', wordObj)}>
+                  <Text style={{ color: '#333', fontSize: appliedFontSize - 2, textDecorationLine: 'underline' }}>{item}</Text>
+                </TouchableOpacity>
+              );
+            })
+          )}
+          <TouchableOpacity style={styles.clearButton} onPress={clearHistory}>
             <Text style={styles.clearButtonText}>Clear History</Text>
           </TouchableOpacity>
         </View>
