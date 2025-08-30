@@ -1,10 +1,8 @@
-import React, { useState } from 'react';
-import { View, Text, Image, TouchableOpacity, StyleSheet, Modal } from 'react-native';
+import React from 'react';
+import { View, Text, Image, TouchableOpacity, StyleSheet } from 'react-native';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 
-const CustomHeader = ({ navigation, title, showAboutIcon = true }) => {
-  const [dropdownVisible, setDropdownVisible] = useState(false);
-
+const CustomHeader = ({ navigation, title, showMenu = true }) => {
   return (
     <View style={styles.headerContainer}>
       <View style={styles.leftSection}>
@@ -17,37 +15,12 @@ const CustomHeader = ({ navigation, title, showAboutIcon = true }) => {
         <Text style={styles.title}>{title}</Text>
       </View>
       <View style={styles.rightSection}>
-        {showAboutIcon && (
-          <View>
-            <TouchableOpacity onPress={() => setDropdownVisible(true)} style={styles.actionButton}>
-              <FontAwesome5 name="ellipsis-v" size={22} color="#fff" />
-            </TouchableOpacity>
-            <Modal
-              visible={dropdownVisible}
-              transparent
-              animationType="fade"
-              onRequestClose={() => setDropdownVisible(false)}
-            >
-              <TouchableOpacity style={styles.modalOverlay} onPress={() => setDropdownVisible(false)} activeOpacity={1}>
-                <View style={styles.dropdownMenuModal}>
-                  <TouchableOpacity onPress={() => { setDropdownVisible(false); navigation.navigate('Settings'); }} style={styles.dropdownItem}>
-                    <View style={styles.dropdownRow}>
-                      <FontAwesome5 name="cog" size={18} color="#6c3fc7" style={styles.dropdownIcon} />
-                      <Text style={styles.dropdownText}>Settings</Text>
-                    </View>
-                  </TouchableOpacity>
-                  <View style={styles.dropdownDivider} />
-                  <TouchableOpacity onPress={() => { setDropdownVisible(false); navigation.navigate('About'); }} style={styles.dropdownItem}>
-                    <View style={styles.dropdownRow}>
-                      <FontAwesome5 name="info-circle" size={18} color="#6c3fc7" style={styles.dropdownIcon} />
-                      <Text style={styles.dropdownText}>About</Text>
-                    </View>
-                  </TouchableOpacity>
-                </View>
-              </TouchableOpacity>
-            </Modal>
-          </View>
-        )}
+        <TouchableOpacity onPress={() => navigation.navigate('Settings')} style={styles.actionButton}>
+          <FontAwesome5 name="cog" size={22} color="#fff" />
+        </TouchableOpacity>
+        <TouchableOpacity style={styles.actionButton}>
+          <FontAwesome5 name="heart" size={22} color="#fff" />
+        </TouchableOpacity>
       </View>
     </View>
   );
@@ -97,55 +70,6 @@ const styles = StyleSheet.create({
     marginLeft: 10,
   },
   backButton: {
-    marginRight: 10,
-  },
-  modalOverlay: {
-    flex: 1,
-    backgroundColor: 'rgba(0,0,0,0.01)',
-    justifyContent: 'flex-start',
-    alignItems: 'flex-end',
-  },
-  dropdownMenuModal: {
-    marginTop: 48,
-    marginRight: 16,
-    backgroundColor: '#fff',
-    borderRadius: 12,
-    borderWidth: 1,
-    borderColor: '#eee',
-    elevation: 16,
-    shadowColor: '#6c3fc7',
-    shadowOffset: { width: 0, height: 4 },
-    shadowOpacity: 0.22,
-    shadowRadius: 12,
-    minWidth: 140,
-    paddingVertical: 10,
-    paddingHorizontal: 8,
-    zIndex: 9999,
-  },
-  dropdownItem: {
-    paddingVertical: 12,
-    paddingHorizontal: 18,
-    borderRadius: 8,
-    marginVertical: 2,
-    backgroundColor: '#f8f8fc',
-  },
-  dropdownText: {
-    color: '#6c3fc7',
-    fontSize: 17,
-    fontWeight: 'bold',
-    letterSpacing: 0.5,
-  },
-  dropdownDivider: {
-    height: 1,
-    backgroundColor: '#eee',
-    marginHorizontal: 8,
-    marginVertical: 2,
-  },
-  dropdownRow: {
-    flexDirection: 'row',
-    alignItems: 'center',
-  },
-  dropdownIcon: {
     marginRight: 10,
   },
 });
