@@ -15,11 +15,11 @@ const CustomHeader = ({ navigation, title, showMenu = true }) => {
         <Text style={styles.title}>{title}</Text>
       </View>
       <View style={styles.rightSection}>
-        <TouchableOpacity onPress={() => navigation.navigate('Settings')} style={styles.actionButton}>
-          <FontAwesome5 name="cog" size={22} color="#fff" />
-        </TouchableOpacity>
         <TouchableOpacity style={styles.actionButton}>
           <FontAwesome5 name="heart" size={22} color="#fff" />
+        </TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate('Settings')} style={styles.actionButton}>
+          <FontAwesome5 name="cog" size={22} color="#fff" />
         </TouchableOpacity>
       </View>
     </View>
