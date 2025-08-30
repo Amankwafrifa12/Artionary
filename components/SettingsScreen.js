@@ -55,14 +55,27 @@ const SettingsScreen = ({ navigation }) => {
           {history.length === 0 ? (
             <Text style={{ color: '#888', fontSize: appliedFontSize - 2 }}>No history yet.</Text>
           ) : (
-            history.map((item, idx) => {
-              const wordObj = words.find(w => w.word === item);
-              return (
-                <TouchableOpacity key={idx} onPress={() => navigation.navigate('WordDetail', wordObj)}>
-                  <Text style={{ color: '#333', fontSize: appliedFontSize - 2, textDecorationLine: 'underline' }}>{item}</Text>
-                </TouchableOpacity>
-              );
-            })
+            <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 8, marginVertical: 8 }}>
+              {history.map((item, idx) => {
+                const wordObj = words.find(w => w.word === item);
+                return (
+                  <TouchableOpacity
+                    key={idx}
+                    onPress={() => navigation.navigate('WordDetail', wordObj)}
+                    style={{
+                      backgroundColor: '#eee',
+                      borderRadius: 16,
+                      paddingVertical: 6,
+                      paddingHorizontal: 14,
+                      marginBottom: 6,
+                      marginRight: 6,
+                    }}
+                  >
+                    <Text style={{ color: '#6c3fc7', fontSize: appliedFontSize - 2, fontWeight: 'bold' }}>{item}</Text>
+                  </TouchableOpacity>
+                );
+              })}
+            </View>
           )}
           <TouchableOpacity style={styles.clearButton} onPress={clearHistory}>
             <Text style={styles.clearButtonText}>Clear History</Text>
@@ -74,8 +87,14 @@ const SettingsScreen = ({ navigation }) => {
           <Text style={{ fontSize: appliedFontSize - 2, color: '#333' }}><Text style={{ fontWeight: 'bold', color: '#6c3fc7' }}>{APP_VERSION}</Text></Text>
         </View>
         <View style={styles.card}>
+          <Text style={[styles.label, { fontSize: appliedFontSize }]}>Company</Text>
+          <Text style={{ fontSize: appliedFontSize - 2, color: '#6c3fc7', fontWeight: 'bold' }}>GenieHive Collective</Text>
+        </View>
+        <View style={styles.card}>
           <Text style={[styles.label, { fontSize: appliedFontSize }]}>Developer</Text>
-          <Text style={{ fontSize: appliedFontSize - 2, color: '#333' }}><Text style={{ fontWeight: 'bold', color: '#6c3fc7' }}>{DEVELOPER}</Text></Text>
+          <TouchableOpacity onPress={() => navigation.navigate('AboutMe')}>
+            <Text style={{ fontSize: appliedFontSize - 2, color: '#6c3fc7', fontWeight: 'bold' }}>Kwame Amankwah Afrifa</Text>
+          </TouchableOpacity>
         </View>
         <View style={styles.card}>
           <Text style={[styles.label, { fontSize: appliedFontSize }]}>Contact</Text>

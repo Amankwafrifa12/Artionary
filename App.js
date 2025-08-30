@@ -9,6 +9,7 @@ import { StatusBar } from 'react-native';
 import AnimatedSplash from './components/AnimatedSplash';
 import GenieAIScreen from './components/GenieAIScreen';
 import SettingsScreen from './components/SettingsScreen';
+import AboutMe from './components/AboutMe';
 import { FontSizeProvider, HistoryProvider } from './context/FontSizeContext';
 
 
@@ -56,6 +57,7 @@ const App = () => {
                 <Stack.Screen name="About" component={About} />
                 <Stack.Screen name="GenieAI" component={GenieAIScreen} />
                 <Stack.Screen name="Settings" component={SettingsScreen} />
+                <Stack.Screen name="AboutMe" component={AboutMe} />
               </Stack.Navigator>
             </NavigationContainer>
           </>
