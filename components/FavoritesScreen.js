@@ -10,7 +10,7 @@ const FavoritesScreen = ({ navigation }) => {
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
-      <Text style={[styles.header, { fontSize: appliedFontSize + 6 }]}>Favorites</Text>
+      
       {favorites.length === 0 ? (
         <Text style={{ color: '#888', fontSize: appliedFontSize - 2 }}>No favorites yet.</Text>
       ) : (
