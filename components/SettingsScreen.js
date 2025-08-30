@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, Text, StyleSheet, TouchableOpacity, Alert, Linking, ScrollView } from 'react-native';
+import { View, Text, StyleSheet, TouchableOpacity, Alert, Linking, ScrollView, Share } from 'react-native';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 import appConfig from '../app.json';
 import words from '../words.json';
@@ -19,7 +19,7 @@ const SettingsScreen = () => {
   const PHONE = '0507808202';
   const EMAIL = 'geniehivecollective@gmail.com';
   const UPDATE_LINK = 'https://play.google.com/store/apps/details?id=com.genielab.Artionary';
-  const SHARE_MESSAGE = `Check out Artionary by GenieHive Collective! Your ultimate art dictionary app. Download now: ${UPDATE_LINK}`;
+  const SHARE_MESSAGE = `🎨 Discover Artionary – the must-have art dictionary app for students, teachers, and enthusiasts! Unlock ${words.length}+ art terms. Notable features: fast search, student-friendly definitions, offline access, and favorites. Upcoming feature: GenieAI – your art terms AI assistant! Download now and elevate your art journey: ${UPDATE_LINK}`;
 
   const handleUpdate = () => {
     Linking.openURL(UPDATE_LINK);
@@ -27,7 +27,9 @@ const SettingsScreen = () => {
   const handleShare = async () => {
     try {
       await Share.share({ message: SHARE_MESSAGE });
-    } catch (error) {}
+    } catch (error) {
+      Alert.alert('Share Error', error?.message || 'Unable to share.');
+    }
   };
 
   return (
@@ -54,18 +56,7 @@ const SettingsScreen = () => {
             <Text style={styles.clearButtonText}>Clear History</Text>
           </TouchableOpacity>
         </View>
-        <View style={styles.card}>
-          <Text style={[styles.label, { fontSize: appliedFontSize }]}>Links</Text>
-          <TouchableOpacity style={styles.linkButton} onPress={() => Linking.openURL('https://github.com/Amankwafrifa12/Artionary')}>
-            <Text style={styles.linkText}>GitHub</Text>
-          </TouchableOpacity>
-        </View>
-        <View style={styles.card}>
-          <Text style={[styles.label, { fontSize: appliedFontSize }]}>About</Text>
-          <Text style={{ fontSize: appliedFontSize - 2, color: '#333', marginBottom: 8 }}>
-            Artionary (Art + Dictionary) is your ultimate dictionary of art words. The dictionary contains <Text style={{ fontWeight: 'bold', color: '#6c3fc7' }}>{words.length}</Text> art terms to help you understand and explore the world of art.
-          </Text>
-        </View>
+        
         <View style={styles.card}>
           <Text style={[styles.label, { fontSize: appliedFontSize }]}>Version</Text>
           <Text style={{ fontSize: appliedFontSize - 2, color: '#333' }}><Text style={{ fontWeight: 'bold', color: '#6c3fc7' }}>{APP_VERSION}</Text></Text>
@@ -94,6 +85,12 @@ const SettingsScreen = () => {
               <Text style={styles.buttonText}>Share App</Text>
             </TouchableOpacity>
           </View>
+        </View>
+        <View style={styles.card}>
+          <Text style={[styles.label, { fontSize: appliedFontSize }]}>About</Text>
+          <Text style={{ fontSize: appliedFontSize - 2, color: '#333', marginBottom: 8 }}>
+            <Text style={{ fontWeight: 'bold', color: '#6c3fc7' }}>Artionary</Text> is a student-friendly visual art dictionary app. Discover and learn <Text style={{ fontWeight: 'bold', color: '#6c3fc7' }}>{words.length}</Text> art terms, techniques, and concepts. Perfect for art students, teachers, and enthusiasts.
+          </Text>
         </View>
       </View>
     </ScrollView>
