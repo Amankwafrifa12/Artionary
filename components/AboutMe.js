@@ -1,17 +1,20 @@
 import React from 'react';
-import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Linking } from 'react-native';
+import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Linking, Image } from 'react-native';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 
 const AboutMe = () => (
   <ScrollView contentContainerStyle={styles.container}>
-    <FontAwesome5 name="user" size={48} color="#6c3fc7" style={{ marginBottom: 16 }} />
+    <Image source={require('../assets/about.png')} style={styles.aboutImage} />
     <Text style={styles.title}>Kwame Amankwah Afrifa</Text>
     <Text style={styles.info}>Founder & Lead Developer, GenieHive Collective</Text>
     <View style={{ width: '100%' }}>
-      <Text style={[styles.bio, { textAlign: 'left', marginBottom: 12 }]}>Born on July 10, 1999 in the vibrant town of Opon-Valley, Western Region, I’m Kwame Amankwah Afrifa—a designer, developer, and educator with a story shaped by resilience and creativity.</Text>
-      <Text style={[styles.bio, { textAlign: 'left', marginBottom: 12 }]}>My journey began at Classic Brains Academy, Opon-Valley, and took me across regions and schools—from St. Mark International in Dunkwa-on-Offin to Wasa Saa D/A JHS "A" and Boa Amponsem SHS. Life threw its challenges, especially with final exams, but I never gave up. I rewrote my papers, faced setbacks head-on, and emerged stronger, earning a Diploma in Art with Distinction in 2024. Today, I’m pursuing a Bachelor of Arts in Art Education at the University of Education, Winneba.</Text>
-      <Text style={[styles.bio, { textAlign: 'left', marginBottom: 12 }]}>I’m the founder of GenieLab and GenieHive Foundation, and the creative mind behind Artionary. My passion for art, technology, and education drives me to make learning accessible and engaging for all. Every project I take on is a chance to empower, inspire, and build something extraordinary.</Text>
-      <Text style={[styles.bio, { textAlign: 'left' }]}>Let’s connect, collaborate, and turn challenges into triumphs. Together, we can create, innovate, and make a lasting impact!</Text>
+      <Text style={[styles.bio, { textAlign: 'left', marginBottom: 12 }]}>
+        I am <Text style={{ color: '#6c3fc7', fontWeight: 'bold' }}>Kwame Amankwah Afrifa</Text>, a Graphic Designer, UI/UX Designer, and Fullstack Web Developer. I hold a Diploma in Art (Distinction) from UEW and am currently pursuing a BA in Art Education.
+      </Text>
+      <Text style={[styles.bio, { textAlign: 'left', marginBottom: 12 }]}>
+  I am the founder of <Text style={{ color: '#6c3fc7', fontWeight: 'bold' }}>GenieLab</Text> and <Text style={{ color: '#6c3fc7', fontWeight: 'bold' }}>GenieHive Collective</Text>; Co-Lead of <Text style={{ color: '#6c3fc7', fontWeight: 'bold' }}>Google Developer Groups on Campus UEW</Text>, and creator of impactful projects like <Text style={{ color: '#6c3fc7', fontWeight: 'bold' }}>Artionary</Text>.
+      </Text>
+      <Text style={[styles.bio, { textAlign: 'left' }]}>I am passionate about making knowledge accessible and empowering communities through art and technology.</Text>
     </View>
     <View style={styles.card}>
       <Text style={[styles.label, { color: '#333', fontWeight: 'bold', fontSize: 18 }]}>Contact</Text>
@@ -23,6 +26,14 @@ const AboutMe = () => (
         <TouchableOpacity style={styles.contactIcon} onPress={() => Linking.openURL('mailto:amankwahfrifa12@gmail.com')}>
           <FontAwesome5 name="envelope" size={24} color="#6c3fc7" style={styles.icon} />
           <Text style={styles.contactText}>Email</Text>
+        </TouchableOpacity>
+        <TouchableOpacity style={styles.contactIcon} onPress={() => Linking.openURL('sms:0507808202')}>
+          <FontAwesome5 name="sms" size={24} color="#6c3fc7" style={styles.icon} />
+          <Text style={styles.contactText}>SMS</Text>
+        </TouchableOpacity>
+        <TouchableOpacity style={styles.contactIcon} onPress={() => Linking.openURL('https://wa.me/233507808202')}>
+          <FontAwesome5 name="whatsapp" size={24} color="#6c3fc7" style={styles.icon} />
+          <Text style={styles.contactText}>WhatsApp</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.contactIcon} onPress={() => Linking.openURL('https://www.linkedin.com/in/theartgenie')}>
           <FontAwesome5 name="linkedin" size={24} color="#6c3fc7" style={styles.icon} />
@@ -38,6 +49,12 @@ const AboutMe = () => (
 );
 
 const styles = StyleSheet.create({
+  aboutImage: {
+    width: 100,
+    height: 100,
+    marginBottom: 16,
+    alignSelf: 'center',
+  },
   container: {
     flexGrow: 1,
     alignItems: 'center',
@@ -97,10 +114,9 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
   bio: {
-    fontSize: 16,
-    color: '#444',
-    marginBottom: 16,
-    textAlign: 'center',
+  fontSize: 16,
+  color: '#444',
+  marginBottom: 16,
   },
   contact: {
     fontSize: 16,
