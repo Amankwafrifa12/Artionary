@@ -11,6 +11,7 @@ import GenieAIScreen from './components/GenieAIScreen';
 import SettingsScreen from './components/SettingsScreen';
 import AboutMe from './components/AboutMe';
 import FavoritesScreen from './components/FavoritesScreen';
+import History from './components/History';
 import { FontSizeProvider, HistoryProvider, FavoritesProvider } from './context/FontSizeContext';
 
 
@@ -61,6 +62,7 @@ const App = () => {
                   <Stack.Screen name="Settings" component={SettingsScreen} />
                   <Stack.Screen name="AboutMe" component={AboutMe} />
                   <Stack.Screen name="Favorites" component={FavoritesScreen} />
+                  <Stack.Screen name="History" component={History} />
                 </Stack.Navigator>
               </NavigationContainer>
             </>

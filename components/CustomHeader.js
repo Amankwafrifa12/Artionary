@@ -2,6 +2,13 @@ import React, { useContext, useState } from 'react';
 import { View, Text, Image, TouchableOpacity, StyleSheet, Modal, Pressable } from 'react-native';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 import { FontSizeContext } from '../context/FontSizeContext';
+import Linking from 'react-native/Libraries/Linking/Linking';
+import Share from 'react-native/Libraries/Share/Share';
+import appConfig from '../app.json';
+import words from '../words.json';
+
+const UPDATE_LINK = 'https://play.google.com/store/apps/details?id=com.genielab.Artionary';
+const SHARE_MESSAGE = `🎨 Discover Artionary – the must-have art dictionary app for students, teachers, and enthusiasts! Unlock ${words.length}+ art terms. Notable features: fast search, student-friendly definitions, offline access, and favorites. Download now and elevate your art journey: ${UPDATE_LINK}`;
 
 const CustomHeader = ({ navigation, title, showMenu = true }) => {
   const { appliedFontSize } = useContext(FontSizeContext);
@@ -51,6 +58,14 @@ const CustomHeader = ({ navigation, title, showMenu = true }) => {
             <TouchableOpacity style={styles.dropdownItem} onPress={() => handleNavigate('About')}>
               <FontAwesome5 name="info-circle" size={18} color="#6c3fc7" style={{ marginRight: 8 }} />
               <Text style={styles.dropdownText}>About</Text>
+            </TouchableOpacity>
+            <TouchableOpacity style={styles.dropdownItem} onPress={() => { Linking.openURL(UPDATE_LINK); setDropdownVisible(false); }}>
+              <FontAwesome5 name="sync-alt" size={18} color="#6c3fc7" style={{ marginRight: 8 }} />
+              <Text style={styles.dropdownText}>Check for Update</Text>
+            </TouchableOpacity>
+            <TouchableOpacity style={styles.dropdownItem} onPress={async () => { await Share.share({ message: SHARE_MESSAGE }); setDropdownVisible(false); }}>
+              <FontAwesome5 name="share-alt" size={18} color="#6c3fc7" style={{ marginRight: 8 }} />
+              <Text style={styles.dropdownText}>Share App</Text>
             </TouchableOpacity>
           </View>
         </Pressable>
@@ -106,7 +121,7 @@ const styles = StyleSheet.create({
   },
   modalOverlay: {
     flex: 1,
-    backgroundColor: 'rgba(0,0,0,0.15)',
+    backgroundColor: 'transparent',
     justifyContent: 'flex-start',
     alignItems: 'flex-end',
   },

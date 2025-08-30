@@ -4,7 +4,7 @@ import { FontSizeContext } from '../context/FontSizeContext';
 import { HistoryContext } from '../context/FontSizeContext';
 import words from '../words.json';
 
-const HistoryScreen = ({ navigation }) => {
+const History = ({ navigation }) => {
   const { appliedFontSize } = useContext(FontSizeContext);
   const { history, clearHistory } = useContext(HistoryContext);
 
@@ -82,4 +82,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default HistoryScreen;
+export default History;
