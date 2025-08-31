@@ -58,6 +58,7 @@ const App = () => {
                           navigation={navigation}
                           title={title}
                           showAboutIcon={showAboutIcon}
+                          key={props.route?.params?.favoritesKey || Math.random()}
                         />
                       ),
                     };

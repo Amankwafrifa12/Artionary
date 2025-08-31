@@ -1,6 +1,7 @@
 import React, { useContext, useState } from 'react';
 import { View, Text, Image, TouchableOpacity, StyleSheet, Modal, Pressable } from 'react-native';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
+import { FavoritesContext } from '../context/FontSizeContext';
 import { FontSizeContext } from '../context/FontSizeContext';
 import Linking from 'react-native/Libraries/Linking/Linking';
 import Share from 'react-native/Libraries/Share/Share';
@@ -12,6 +13,7 @@ const SHARE_MESSAGE = `🎨 Discover Artionary – the must-have art dictionary 
 
 const CustomHeader = ({ navigation, title, showMenu = true }) => {
   const { appliedFontSize } = useContext(FontSizeContext);
+  const { favorites } = useContext(FavoritesContext);
   const [dropdownVisible, setDropdownVisible] = useState(false);
 
   const handleNavigate = (screen) => {
@@ -37,6 +39,9 @@ const CustomHeader = ({ navigation, title, showMenu = true }) => {
         </Text>
       </View>
       <View style={styles.rightSection}>
+        <TouchableOpacity style={styles.actionButton} onPress={() => navigation.navigate('Favorites')}>
+          <FontAwesome5 name="heart" size={22} color="#fff" solid={favorites && favorites.length > 0} />
+        </TouchableOpacity>
         <TouchableOpacity style={styles.actionButton} onPress={() => setDropdownVisible(true)}>
           <FontAwesome5 name="ellipsis-v" size={22} color="#fff" />
         </TouchableOpacity>
@@ -49,10 +54,6 @@ const CustomHeader = ({ navigation, title, showMenu = true }) => {
       >
         <Pressable style={styles.modalOverlay} onPress={() => setDropdownVisible(false)}>
           <View style={styles.dropdownMenu}>
-            <TouchableOpacity style={styles.dropdownItem} onPress={() => handleNavigate('Favorites')}>
-              <FontAwesome5 name="heart" size={18} color="#6c3fc7" style={{ marginRight: 8 }} />
-              <Text style={[styles.dropdownText, { fontSize: appliedFontSize }]}>Favorites</Text>
-            </TouchableOpacity>
             <TouchableOpacity style={styles.dropdownItem} onPress={() => handleNavigate('Settings')}>
               <FontAwesome5 name="cog" size={18} color="#6c3fc7" style={{ marginRight: 8 }} />
               <Text style={[styles.dropdownText, { fontSize: appliedFontSize }]}>Settings</Text>
