@@ -103,13 +103,10 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   logo: {
-    width: 36,
-    height: 36,
-    marginRight: 12,
-    borderRadius: 10,
-    backgroundColor: '#fff',
-    borderWidth: 1,
-    borderColor: '#eee',
+  width: 36,
+  height: 36,
+  marginRight: 12,
+  borderRadius: 10,
   },
   title: {
   color: '#fff',
