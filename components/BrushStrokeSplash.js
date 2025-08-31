@@ -1,10 +1,12 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Animated, View, StyleSheet, Dimensions } from 'react-native';
-import Svg, { Defs, Mask, G, Path } from 'react-native-svg';
+import Svg, { Defs, Mask, G, Path, Rect } from 'react-native-svg';
 import Logo from '../assets/logo.svg';
 
 const { width } = Dimensions.get('window');
-const STROKE_LENGTH = 1200; // Adjust for your path
+// path length used for dash animation - derived from screen width for reliability
+// make it comfortably larger than the visible width so dash animation doesn't clip
+const STROKE_LENGTH = Math.ceil(width * 2);
 const ANIMATION_DURATION = 1600;
 
 const BrushStrokeSplash = ({ onFinish }) => {
@@ -82,14 +84,16 @@ const BrushStrokeSplash = ({ onFinish }) => {
     <View style={styles.container}>
       <Svg height={320} width={width} style={styles.svg}>
         <Defs>
-          <Mask id="revealMask" maskUnits="userSpaceOnUse">
-            {/* white path reveals the logo as it draws */}
+          <Mask id="revealMask" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse">
+            {/* base: black hides everything by default (use Rect for clarity) */}
+            <Rect x="0" y="0" width={width} height={320} fill="#000" />
+            {/* white path reveals the logo as it draws - widened and tuned for safety */}
             <Path
-              d={`M20 160 C${width*0.2} 120, ${width*0.5} 40, ${width-20} 140`}
+              d={`M12 ${120} C ${width * 0.22} ${80}, ${width * 0.58} ${40}, ${width - 12} ${120}`}
               stroke="#fff"
-              strokeWidth={70}
+              strokeWidth={140}
               strokeLinecap="round"
-              strokeDasharray={STROKE_LENGTH}
+              strokeDasharray={`${STROKE_LENGTH}`}
               strokeDashoffset={strokeOffset}
               fill="none"
             />
@@ -140,6 +144,20 @@ const styles = StyleSheet.create({
     left: 0,
     width: '100%',
     alignItems: 'center',
+  },
+  debugToggle: {
+    position: 'absolute',
+    top: 36,
+    right: 16,
+    backgroundColor: 'rgba(0,0,0,0.6)',
+    paddingVertical: 8,
+    paddingHorizontal: 10,
+    borderRadius: 8,
+    zIndex: 50,
+  },
+  debugText: {
+    color: '#fff',
+    fontSize: 12,
   },
   splatter: {
     position: 'absolute',
