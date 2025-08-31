@@ -13,6 +13,8 @@ const Splash = ({ onFinish }) => {
   const fadeAnim = useRef(new Animated.Value(0)).current;
   const scaleAnim = useRef(new Animated.Value(0.85)).current;
   const pulseAnim = useRef(new Animated.Value(1)).current;
+  const rotateAnim = useRef(new Animated.Value(0)).current;
+  const bounceAnim = useRef(new Animated.Value(0)).current;
   const bgFadeAnim = useRef(new Animated.Value(1)).current;
 
   useEffect(() => {
@@ -21,43 +23,77 @@ const Splash = ({ onFinish }) => {
     Animated.parallel([
       Animated.timing(fadeAnim, {
         toValue: 1,
-        duration: 700,
+        duration: 1000,
         useNativeDriver: true,
       }),
       Animated.timing(scaleAnim, {
         toValue: 1,
-        duration: 700,
+        duration: 1000,
         useNativeDriver: true,
       })
     ]).start(() => {
-      // Pulse effect
+      // Double pulse with rotation
       Animated.sequence([
-        Animated.timing(pulseAnim, {
-          toValue: 1.15,
-          duration: 350,
-          useNativeDriver: true,
-        }),
+        Animated.parallel([
+          Animated.timing(pulseAnim, {
+            toValue: 1.15,
+            duration: 300,
+            useNativeDriver: true,
+          }),
+          Animated.timing(rotateAnim, {
+            toValue: 10,
+            duration: 300,
+            useNativeDriver: true,
+          })
+        ]),
+        Animated.parallel([
+          Animated.timing(pulseAnim, {
+            toValue: 1,
+            duration: 300,
+            useNativeDriver: true,
+          }),
+          Animated.timing(rotateAnim, {
+            toValue: -10,
+            duration: 300,
+            useNativeDriver: true,
+          })
+        ]),
+        Animated.parallel([
+          Animated.timing(pulseAnim, {
+            toValue: 1.12,
+            duration: 250,
+            useNativeDriver: true,
+          }),
+          Animated.timing(rotateAnim, {
+            toValue: 0,
+            duration: 250,
+            useNativeDriver: true,
+          })
+        ]),
         Animated.timing(pulseAnim, {
           toValue: 1,
-          duration: 350,
+          duration: 200,
+          useNativeDriver: true,
+        }),
+        // Transition background to white
+        Animated.timing(bgFadeAnim, {
+          toValue: 0,
+          duration: 900,
+          useNativeDriver: false,
+        }),
+        // Bounce effect
+        Animated.timing(bounceAnim, {
+          toValue: 1,
+          duration: 400,
           useNativeDriver: true,
         })
       ]).start(() => {
-        // Transition gradient to white
+        setShowWhite(true);
+        setLogoColor(PRIMARY_COLOR);
+        setShowGlow(true);
         setTimeout(() => {
-          Animated.timing(bgFadeAnim, {
-            toValue: 0,
-            duration: 700,
-            useNativeDriver: false,
-          }).start(() => {
-            setShowWhite(true);
-            setLogoColor(PRIMARY_COLOR);
-            setShowGlow(true);
-            setTimeout(() => {
-              SplashScreen.hideAsync();
-              onFinish && onFinish();
-            }, 700);
-          });
+          SplashScreen.hideAsync();
+          onFinish && onFinish();
         }, 700);
       });
     });
@@ -72,7 +108,11 @@ const Splash = ({ onFinish }) => {
         <View style={styles.centeredContainer}>
           <Animated.View style={{
             opacity: fadeAnim,
-            transform: [{ scale: scaleAnim }, { scale: pulseAnim }],
+            transform: [
+              { scale: Animated.multiply(scaleAnim, pulseAnim) },
+              { rotate: rotateAnim.interpolate({ inputRange: [-10, 10], outputRange: ['-10deg', '10deg'] }) },
+              { translateY: bounceAnim.interpolate({ inputRange: [0, 1], outputRange: [0, -10] }) }
+            ],
             shadowColor: showGlow ? PRIMARY_COLOR : 'transparent',
             shadowOffset: { width: 0, height: 0 },
             shadowOpacity: showGlow ? 0.6 : 0,
