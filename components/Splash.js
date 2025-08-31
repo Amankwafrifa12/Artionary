@@ -100,37 +100,35 @@ const Splash = ({ onFinish }) => {
   }, []);
 
   return (
-    <SafeAreaView style={styles.safeArea}>
+    <View style={styles.fullScreen}>
       <StatusBar backgroundColor={showWhite ? '#fff' : PRIMARY_COLOR} barStyle={showWhite ? 'dark-content' : 'light-content'} translucent={true} />
-      <View style={styles.absoluteFill}>
-  <Animated.View style={[styles.absoluteFill, { backgroundColor: PRIMARY_COLOR, opacity: bgFadeAnim }]} />
-        {showWhite && <View style={[styles.absoluteFill, { backgroundColor: '#fff' }]} />}
-        <View style={styles.centeredContainer}>
-          <Animated.View style={{
-            opacity: fadeAnim,
-            transform: [
-              { scale: Animated.multiply(scaleAnim, pulseAnim) },
-              { rotate: rotateAnim.interpolate({ inputRange: [-10, 10], outputRange: ['-10deg', '10deg'] }) },
-              { translateY: bounceAnim.interpolate({ inputRange: [0, 1], outputRange: [0, -10] }) }
-            ],
-            shadowColor: showGlow ? PRIMARY_COLOR : 'transparent',
-            shadowOffset: { width: 0, height: 0 },
-            shadowOpacity: showGlow ? 0.6 : 0,
-            shadowRadius: showGlow ? 24 : 0,
-            elevation: showGlow ? 16 : 0,
-          }}>
-            <Logo width={180} height={180} fill={logoColor} />
-          </Animated.View>
-        </View>
+      <Animated.View style={[styles.absoluteFill, { backgroundColor: PRIMARY_COLOR, opacity: bgFadeAnim }]} />
+      {showWhite && <View style={[styles.absoluteFill, { backgroundColor: '#fff' }]} />}
+      <View style={styles.centeredContainer}>
+        <Animated.View style={{
+          opacity: fadeAnim,
+          transform: [
+            { scale: Animated.multiply(scaleAnim, pulseAnim) },
+            { rotate: rotateAnim.interpolate({ inputRange: [-10, 10], outputRange: ['-10deg', '10deg'] }) },
+            { translateY: bounceAnim.interpolate({ inputRange: [0, 1], outputRange: [0, -10] }) }
+          ],
+          shadowColor: showGlow ? PRIMARY_COLOR : 'transparent',
+          shadowOffset: { width: 0, height: 0 },
+          shadowOpacity: showGlow ? 0.6 : 0,
+          shadowRadius: showGlow ? 24 : 0,
+          elevation: showGlow ? 16 : 0,
+        }}>
+          <Logo width={180} height={180} fill={logoColor} />
+        </Animated.View>
       </View>
-    </SafeAreaView>
+    </View>
   );
 };
 
 const styles = StyleSheet.create({
-  safeArea: {
+  fullScreen: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: PRIMARY_COLOR,
   },
   absoluteFill: {
     ...StyleSheet.absoluteFillObject,
