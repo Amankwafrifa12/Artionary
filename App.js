@@ -1,4 +1,4 @@
-import Splash from './components/Splash';
+import BrushStrokeSplash from './components/BrushStrokeSplash';
 import React, { useState } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
@@ -26,7 +26,7 @@ const App = () => {
       <HistoryProvider>
         <FavoritesProvider>
           {showSplash ? (
-            <Splash onFinish={() => setShowSplash(false)} />
+            <BrushStrokeSplash onFinish={() => setShowSplash(false)} />
           ) : (
             <NavigationContainer ref={navigationRef}>
               <StatusBar backgroundColor="transparent" translucent={true} />
