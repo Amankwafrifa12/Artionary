@@ -2,11 +2,15 @@
   "expo": {
     "name": "Artionary",
     "slug": "Artionary",
-  "version": "1.9.0",
+    "version": "1.9.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-  // Splash screen handled by custom component (AnimatedSplash)
+    "splash": {
+      "image": "./assets/icon-purple.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
     "ios": {
       "supportsTablet": true
     },
@@ -16,7 +20,7 @@
         "backgroundColor": "#ffffff"
       },
       "package": "com.genielab.Artionary",
-  "versionCode": 10
+      "versionCode": 11
     },
     "web": {
       "favicon": "./assets/favicon.png"
